@@ -1,0 +1,200 @@
+{
+  "id": "driving_licence",
+  "category_id": "employment",
+  "jurisdiction": "national",
+  "priority": 78,
+  "names": { "en": "Driving Licence", "hi": "ड्राइविंग लाइसेंस" },
+  "tagline": {
+    "en": "Learner's licence and permanent licence, applied online.",
+    "hi": "लर्निंग लाइसेंस और स्थायी लाइसेंस, ऑनलाइन आवेदन।"
+  },
+  "description": {
+    "en": "Driving licences in India are issued by the Regional Transport Office (RTO) of your state. Applications are made through the national Parivahan Sewa portal, which routes you to your state's Sarathi system. You first get a Learner's Licence, then apply for a permanent licence after passing the driving test.",
+    "hi": "भारत में ड्राइविंग लाइसेंस आपके राज्य के क्षेत्रीय परिवहन कार्यालय (आरटीओ) जारी करते हैं। आवेदन राष्ट्रीय परिवहन सेवा पोर्टल के माध्यम से होता है, जो आपको आपके राज्य के सारथी सिस्टम पर ले जाता है। पहले लर्निंग लाइसेंस मिलता है, फिर ड्राइविंग टेस्ट पास करने के बाद स्थायी लाइसेंस के लिए आवेदन करते हैं।"
+  },
+  "aliases": {
+    "en": [
+      "driving licence", "driving license", "dl", "learners licence", "learner licence",
+      "parivahan", "sarathi", "rto", "licence apply", "license renewal", "vehicle licence"
+    ],
+    "hi": [
+      "ड्राइविंग लाइसेंस", "ड्राइविंग लाईसेंस", "डीएल", "लर्निंग लाइसेंस", "लर्नर लाइसेंस",
+      "परिवहन", "सारथी", "आरटीओ", "लाइसेंस बनवाना", "लाइसेंस नवीनीकरण", "गाड़ी का लाइसेंस"
+    ]
+  },
+  "keywords": {
+    "en": ["driving", "licence", "license", "dl", "rto", "vehicle", "parivahan", "sarathi", "test"],
+    "hi": ["ड्राइविंग", "लाइसेंस", "आरटीओ", "गाड़ी", "वाहन", "सारथी", "परिवहन", "टेस्ट"]
+  },
+  "eligibility": [
+    {
+      "en": "16 years or above for a motorcycle without gear up to 50 cc, with parental consent.",
+      "hi": "बिना गियर वाला 50 सीसी तक का मोटरसाइकिल चलाने के लिए 16 वर्ष या अधिक आयु, माता-पिता की सहमति के साथ।"
+    },
+    {
+      "en": "18 years or above for a light motor vehicle such as a car or a geared two-wheeler.",
+      "hi": "कार या गियर वाले दोपहिया वाहन जैसे हल्के मोटर वाहन के लिए 18 वर्ष या अधिक आयु।"
+    },
+    {
+      "en": "20 years or above for a transport or commercial vehicle licence, along with the required training.",
+      "hi": "परिवहन या वाणिज्यिक वाहन लाइसेंस के लिए 20 वर्ष या अधिक आयु, साथ में आवश्यक प्रशिक्षण।"
+    },
+    {
+      "en": "You must know the traffic rules and signs, since there is a written or computer test for the learner's licence.",
+      "hi": "आपको यातायात नियम और संकेत आने चाहिए, क्योंकि लर्निंग लाइसेंस के लिए लिखित या कंप्यूटर टेस्ट होता है।"
+    },
+    {
+      "en": "A permanent licence can be applied for 30 days to one year after the learner's licence is issued.",
+      "hi": "लर्निंग लाइसेंस जारी होने के 30 दिन से एक वर्ष के भीतर स्थायी लाइसेंस के लिए आवेदन किया जा सकता है।"
+    }
+  ],
+  "documents": [
+    {
+      "id": "age_proof",
+      "name": { "en": "Age proof (Form 2 related)", "hi": "आयु प्रमाण" },
+      "detail": {
+        "en": "Birth certificate, Class 10 marksheet, passport, PAN or Aadhaar.",
+        "hi": "जन्म प्रमाण पत्र, कक्षा 10 अंकसूची, पासपोर्ट, पैन या आधार।"
+      },
+      "required": true
+    },
+    {
+      "id": "address_proof",
+      "name": { "en": "Address proof (Form 1)", "hi": "पता प्रमाण (फॉर्म 1)" },
+      "detail": {
+        "en": "Aadhaar, passport, LIC policy, utility bill or a registered rent agreement for the RTO's jurisdiction.",
+        "hi": "आधार, पासपोर्ट, एलआईसी पॉलिसी, बिजली बिल या आरटीओ के अधिकार क्षेत्र का पंजीकृत किराया अनुबंध।"
+      },
+      "required": true
+    },
+    {
+      "id": "medical_form",
+      "name": { "en": "Medical certificate (Form 1A)", "hi": "चिकित्सा प्रमाण पत्र (फॉर्म 1A)" },
+      "detail": {
+        "en": "Signed by a registered medical practitioner. Required for transport vehicles and for applicants above 40 years in many states.",
+        "hi": "पंजीकृत चिकित्सक द्वारा हस्ताक्षरित। परिवहन वाहनों के लिए और कई राज्यों में 40 वर्ष से अधिक आयु के आवेदकों के लिए आवश्यक।"
+      },
+      "required": false
+    },
+    {
+      "id": "photograph_signature",
+      "name": { "en": "Passport size photograph and signature", "hi": "पासपोर्ट आकार फोटो और हस्ताक्षर" },
+      "detail": {
+        "en": "Scanned copies are uploaded; many states now capture the photo at the RTO instead.",
+        "hi": "स्कैन कॉपी अपलोड की जाती है; कई राज्य अब आरटीओ में ही फोटो लेते हैं।"
+      },
+      "required": true
+    },
+    {
+      "id": "learner_licence",
+      "name": { "en": "Learner's licence (for permanent licence)", "hi": "लर्निंग लाइसेंस (स्थायी लाइसेंस के लिए)" },
+      "detail": {
+        "en": "You must already hold a valid learner's licence to apply for the permanent licence.",
+        "hi": "स्थायी लाइसेंस के लिए आवेदन करने हेतु आपके पास वैध लर्निंग लाइसेंस होना चाहिए।"
+      },
+      "required": false
+    }
+  ],
+  "steps": [
+    {
+      "title": { "en": "Open the Parivahan portal and select your state", "hi": "परिवहन पोर्टल खोलें और अपना राज्य चुनें" },
+      "detail": {
+        "en": "Go to the Parivahan Sewa portal, choose Driving Licence Related Services, then select your state. You will be taken to your state's Sarathi system.",
+        "hi": "परिवहन सेवा पोर्टल पर जाएँ, ड्राइविंग लाइसेंस संबंधित सेवाएँ चुनें, फिर अपना राज्य चुनें। आप अपने राज्य के सारथी सिस्टम पर पहुँच जाएँगे।"
+      },
+      "tips": []
+    },
+    {
+      "title": { "en": "Apply for a Learner's Licence", "hi": "लर्निंग लाइसेंस के लिए आवेदन करें" },
+      "detail": {
+        "en": "Choose Apply for Learner Licence, fill the form, upload documents and pay the fee. Aadhaar-based faceless authentication is available in several states.",
+        "hi": "अप्लाई फॉर लर्नर लाइसेंस चुनें, फॉर्म भरें, दस्तावेज़ अपलोड करें और शुल्क भरें। कई राज्यों में आधार आधारित फेसलेस प्रमाणीकरण उपलब्ध है।"
+      },
+      "tips": []
+    },
+    {
+      "title": { "en": "Book and appear for the learner's test", "hi": "लर्नर टेस्ट के लिए समय बुक करें और उपस्थित हों" },
+      "detail": {
+        "en": "Book a test slot online. The test covers traffic signs and rules and is taken at the RTO or online in some states.",
+        "hi": "ऑनलाइन टेस्ट स्लॉट बुक करें। टेस्ट में यातायात संकेत और नियम पूछे जाते हैं, जो आरटीओ में या कुछ राज्यों में ऑनलाइन होता है।"
+      },
+      "tips": []
+    },
+    {
+      "title": { "en": "Download your Learner's Licence", "hi": "अपना लर्निंग लाइसेंस डाउनलोड करें" },
+      "detail": {
+        "en": "Once you pass, the learner's licence is generated and can be printed from the portal. Keep it with you whenever you practise driving.",
+        "hi": "पास होने पर लर्निंग लाइसेंस बन जाता है और पोर्टल से प्रिंट किया जा सकता है। ड्राइविंग अभ्यास करते समय इसे साथ रखें।"
+      },
+      "tips": []
+    },
+    {
+      "title": { "en": "Apply for the permanent licence", "hi": "स्थायी लाइसेंस के लिए आवेदन करें" },
+      "detail": {
+        "en": "After 30 days from the learner's licence, apply for the permanent licence and book a driving test slot at your RTO.",
+        "hi": "लर्निंग लाइसेंस के 30 दिन बाद स्थायी लाइसेंस के लिए आवेदन करें और अपने आरटीओ में ड्राइविंग टेस्ट का समय बुक करें।"
+      },
+      "tips": []
+    },
+    {
+      "title": { "en": "Take the driving test", "hi": "ड्राइविंग टेस्ट दें" },
+      "detail": {
+        "en": "The test checks your control of the vehicle, adherence to traffic rules and, for cars, usually a track test including reversing and an H-track.",
+        "hi": "टेस्ट में वाहन पर आपका नियंत्रण, यातायात नियमों का पालन जाँचा जाता है और कार के लिए आमतौर पर रिवर्स और एच-ट्रैक सहित ट्रैक टेस्ट होता है।"
+      },
+      "tips": []
+    },
+    {
+      "title": { "en": "Receive the smart card licence", "hi": "स्मार्ट कार्ड लाइसेंस प्राप्त करें" },
+      "detail": {
+        "en": "After passing, the licence is printed as a smart card and sent by post to your registered address. You can also download a digital copy meanwhile.",
+        "hi": "पास होने के बाद लाइसेंस स्मार्ट कार्ड के रूप में छपकर आपके पंजीकृत पते पर डाक से भेजा जाता है। इस दौरान आप डिजिटल कॉपी भी डाउनलोड कर सकते हैं।"
+      },
+      "tips": []
+    }
+  ],
+  "important_notes": [
+    {
+      "en": "Fees and rules are set by each state's transport department, so the exact amount and test procedure differ from state to state.",
+      "hi": "शुल्क और नियम प्रत्येक राज्य का परिवहन विभाग तय करता है, इसलिए सटीक राशि और टेस्ट प्रक्रिया राज्य अनुसार भिन्न होती है।"
+    },
+    {
+      "en": "Under the One Nation One Licence policy you can apply at any RTO, but you must have valid address proof for that RTO's jurisdiction.",
+      "hi": "वन नेशन वन लाइसेंस नीति के तहत आप किसी भी आरटीओ में आवेदन कर सकते हैं, पर उस आरटीओ के अधिकार क्षेत्र का वैध पता प्रमाण होना चाहिए।"
+    },
+    {
+      "en": "Driving with only a learner's licence requires displaying an 'L' board and, in most states, having a licensed driver alongside.",
+      "hi": "केवल लर्निंग लाइसेंस पर वाहन चलाने के लिए 'एल' बोर्ड लगाना ज़रूरी है और अधिकांश राज्यों में साथ में लाइसेंसधारी चालक होना चाहिए।"
+    }
+  ],
+  "official_source": {
+    "en": "Ministry of Road Transport and Highways, Government of India (with your State RTO)",
+    "hi": "सड़क परिवहन और राजमार्ग मंत्रालय, भारत सरकार (आपके राज्य आरटीओ के साथ)"
+  },
+  "official_url": "https://parivahan.gov.in/",
+  "portal_label": { "en": "Parivahan Sewa portal", "hi": "परिवहन सेवा पोर्टल" },
+  "extra_links": [
+    { "label": { "en": "Sarathi — licence services", "hi": "सारथी — लाइसेंस सेवाएँ" }, "url": "https://sarathi.parivahan.gov.in/" }
+  ],
+  "helpline": null,
+  "verification": {
+    "level": "general_guidance",
+    "last_verified": "2026-09-13",
+    "note": {
+      "en": "The Parivahan portal is national and verified, but licence fees, medical certificate requirements and test formats are decided by each state RTO. Confirm the current fee and procedure on the portal for your state.",
+      "hi": "परिवहन पोर्टल राष्ट्रीय और सत्यापित है, पर लाइसेंस शुल्क, चिकित्सा प्रमाण पत्र की आवश्यकता और टेस्ट प्रारूप प्रत्येक राज्य का आरटीओ तय करता है। अपने राज्य के लिए पोर्टल पर वर्तमान शुल्क और प्रक्रिया की पुष्टि करें।"
+    }
+  },
+  "state_portals": [],
+  "clarifiers": [],
+  "faq": [
+    {
+      "q": { "en": "How long is a licence valid?", "hi": "लाइसेंस कितने समय तक मान्य होता है?" },
+      "a": {
+        "en": "Generally 20 years from issue or until the holder turns 50, whichever comes first, after which it must be renewed. Transport vehicle licences have shorter validity.",
+        "hi": "आमतौर पर जारी होने से 20 वर्ष या धारक के 50 वर्ष पूरे होने तक, जो पहले हो, उसके बाद नवीनीकरण ज़रूरी है। परिवहन वाहन लाइसेंस की वैधता कम होती है।"
+      }
+    }
+  ],
+  "related_service_ids": ["aadhaar_enrolment", "job_registration"]
+}

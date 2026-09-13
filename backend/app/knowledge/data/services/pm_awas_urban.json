@@ -1,0 +1,258 @@
+{
+  "id": "pm_awas_urban",
+  "category_id": "housing",
+  "jurisdiction": "national",
+  "priority": 80,
+  "names": { "en": "PM Awas Yojana (Urban) — Housing Assistance", "hi": "प्रधानमंत्री आवास योजना (शहरी) — आवास सहायता" },
+  "tagline": {
+    "en": "Government financial help to own or build a house.",
+    "hi": "घर पाने या बनाने के लिए सरकारी आर्थिक मदद।"
+  },
+  "description": {
+    "en": "Pradhan Mantri Awas Yojana (Urban) provides financial assistance to eligible urban households for buying, constructing or improving a house. Assistance is delivered through the Urban Local Body — the municipal corporation, nagar palika or town panchayat — and the amount is credited directly to the beneficiary's bank account.",
+    "hi": "प्रधानमंत्री आवास योजना (शहरी) पात्र शहरी परिवारों को घर खरीदने, बनाने या सुधारने के लिए आर्थिक सहायता देती है। सहायता शहरी स्थानीय निकाय — नगर निगम, नगर पालिका या नगर पंचायत — के माध्यम से दी जाती है और राशि सीधे लाभार्थी के बैंक खाते में भेजी जाती है।"
+  },
+  "aliases": {
+    "en": [
+      "pmay", "pm awas yojana", "pradhan mantri awas yojana", "housing scheme",
+      "house scheme", "home loan subsidy", "awas yojana", "pmay urban", "pmay gramina",
+      "affordable housing", "housing assistance", "build a house", "house subsidy"
+    ],
+    "hi": [
+      "पीएमएवाई", "प्रधानमंत्री आवास योजना", "आवास योजना", "घर योजना",
+      "मकान योजना", "आवास सब्सिडी", "गृह ऋण सब्सिडी", "पीएम आवास",
+      "सस्ता आवास", "घर बनाने में मदद", "आवास सहायता", "मकान बनवाना"
+    ]
+  },
+  "keywords": {
+    "en": ["housing", "house", "home", "awas", "pmay", "property", "shelter", "construction", "subsidy"],
+    "hi": ["आवास", "घर", "मकान", "पीएमएवाई", "संपत्ति", "निर्माण", "सब्सिडी", "छत"]
+  },
+  "eligibility": [
+    {
+      "en": "The beneficiary family must not own a pucca house in their own name or in the name of any family member, anywhere in India.",
+      "hi": "लाभार्थी परिवार के पास भारत में कहीं भी स्वयं के या किसी परिवार के सदस्य के नाम पर पक्का मकान नहीं होना चाहिए।"
+    },
+    {
+      "en": "The household is classified into income groups — EWS, LIG and MIG — and assistance differs by group.",
+      "hi": "परिवार को आय वर्गों में बाँटा जाता है — ईडब्ल्यूएस, एलआईजी और एमआईजी — और सहायता वर्ग अनुसार भिन्न होती है।"
+    },
+    {
+      "en": "Preference is given to women, so the house is generally registered in the name of a female member, or jointly.",
+      "hi": "महिलाओं को प्राथमिकता दी जाती है, इसलिए घर आमतौर पर किसी महिला सदस्य के नाम पर या संयुक्त रूप से पंजीकृत होता है।"
+    },
+    {
+      "en": "Special priority for transgender persons, persons with disabilities, senior citizens, SC/ST/OBC and minority communities.",
+      "hi": "ट्रांसजेंडर व्यक्तियों, दिव्यांगजनों, वरिष्ठ नागरिकों, एससी/एसटी/ओबीसी और अल्पसंख्यक समुदायों को विशेष प्राथमिकता।"
+    },
+    {
+      "en": "The family must not have received central housing assistance under any other scheme.",
+      "hi": "परिवार को किसी अन्य योजना के तहत केंद्रीय आवास सहायता नहीं मिली होनी चाहिए।"
+    },
+    {
+      "en": "You must be a resident of the urban area whose Urban Local Body is implementing the scheme.",
+      "hi": "आपको उस शहरी क्षेत्र का निवासी होना चाहिए जिसका शहरी स्थानीय निकाय योजना लागू कर रहा है।"
+    }
+  ],
+  "documents": [
+    {
+      "id": "aadhaar",
+      "name": { "en": "Aadhaar card of all adult members", "hi": "सभी वयस्क सदस्यों का आधार कार्ड" },
+      "detail": {
+        "en": "Aadhaar is the primary identification for PMAY beneficiaries.",
+        "hi": "आधार पीएमएवाई लाभार्थियों की मुख्य पहचान है।"
+      },
+      "required": true
+    },
+    {
+      "id": "income_certificate",
+      "name": { "en": "Income certificate", "hi": "आय प्रमाण पत्र" },
+      "detail": {
+        "en": "To establish whether you fall in the EWS, LIG or MIG income group.",
+        "hi": "यह तय करने के लिए कि आप ईडब्ल्यूएस, एलआईजी या एमआईजी आय वर्ग में आते हैं।"
+      },
+      "required": true
+    },
+    {
+      "id": "address_proof",
+      "name": { "en": "Address proof", "hi": "पते का प्रमाण" },
+      "detail": {
+        "en": "Voter ID, ration card, utility bill or rent agreement showing your current urban address.",
+        "hi": "वर्तमान शहरी पता दिखाने वाला मतदाता पहचान पत्र, राशन कार्ड, बिजली बिल या किराया अनुबंध।"
+      },
+      "required": true
+    },
+    {
+      "id": "bank_passbook",
+      "name": { "en": "Bank account passbook", "hi": "बैंक खाता पासबुक" },
+      "detail": {
+        "en": "Assistance is transferred directly, so the account must be active and Aadhaar-seeded.",
+        "hi": "सहायता सीधे भेजी जाती है, इसलिए खाता सक्रिय और आधार-संबद्ध होना चाहिए।"
+      },
+      "required": true
+    },
+    {
+      "id": "land_or_property_papers",
+      "name": { "en": "Land or property papers", "hi": "भूमि या संपत्ति के कागज़ात" },
+      "detail": {
+        "en": "Needed if you are constructing or improving a house on a plot.",
+        "hi": "यदि आप किसी भूखंड पर घर बना या सुधार रहे हैं तो आवश्यक।"
+      },
+      "required": false
+    },
+    {
+      "id": "photograph",
+      "name": { "en": "Passport size photographs", "hi": "पासपोर्ट आकार फोटो" },
+      "detail": { "en": "Of all family members named in the application.", "hi": "आवेदन में नामित सभी परिवार के सदस्यों की।" },
+      "required": false
+    },
+    {
+      "id": "category_certificate",
+      "name": { "en": "Caste or disability certificate", "hi": "जाति या दिव्यांगता प्रमाण पत्र" },
+      "detail": {
+        "en": "Only if you are claiming priority under SC/ST/OBC, minority or disability categories.",
+        "hi": "केवल तभी जब आप एससी/एसटी/ओबीसी, अल्पसंख्यक या दिव्यांगता श्रेणी में प्राथमिकता का दावा कर रहे हों।"
+      },
+      "required": false
+    }
+  ],
+  "steps": [
+    {
+      "title": { "en": "Check whether your city is covered", "hi": "देखें कि आपका शहर शामिल है या नहीं" },
+      "detail": {
+        "en": "PMAY-U is implemented through Urban Local Bodies. Check the official portal or ask your municipal corporation or nagar palika whether your town is covered and whether applications are currently open.",
+        "hi": "पीएमएवाई-यू शहरी स्थानीय निकायों के माध्यम से लागू होती है। आधिकारिक पोर्टल पर देखें या अपने नगर निगम या नगर पालिका से पूछें कि आपका शहर शामिल है और आवेदन वर्तमान में खुले हैं या नहीं।"
+      },
+      "tips": [
+        {
+          "en": "Applications open in phases. If your city's window is closed, ask the municipal office when the next round starts.",
+          "hi": "आवेदन चरणों में खुलते हैं। यदि आपके शहर की अवधि बंद है तो नगर कार्यालय से अगला दौर कब शुरू होगा पूछें।"
+        }
+      ]
+    },
+    {
+      "title": { "en": "Apply online or through the municipal office", "hi": "ऑनलाइन या नगर कार्यालय से आवेदन करें" },
+      "detail": {
+        "en": "Use the citizen assessment option on the official PMAY-U portal, or submit the application at your Urban Local Body office or a Common Service Centre.",
+        "hi": "आधिकारिक पीएमएवाई-यू पोर्टल पर सिटीज़न असेसमेंट विकल्प उपयोग करें, या अपने शहरी स्थानीय निकाय कार्यालय या जन सेवा केंद्र में आवेदन जमा करें।"
+      },
+      "tips": []
+    },
+    {
+      "title": { "en": "Fill household and income details", "hi": "परिवार और आय का विवरण भरें" },
+      "detail": {
+        "en": "Enter family members, their Aadhaar numbers, total annual household income and your housing situation. Declare clearly that no family member owns a pucca house.",
+        "hi": "परिवार के सदस्य, उनके आधार नंबर, कुल वार्षिक पारिवारिक आय और अपनी आवास स्थिति भरें। स्पष्ट घोषणा करें कि किसी सदस्य के पास पक्का मकान नहीं है।"
+      },
+      "tips": []
+    },
+    {
+      "title": { "en": "Upload documents and submit", "hi": "दस्तावेज़ अपलोड करें और जमा करें" },
+      "detail": {
+        "en": "Upload Aadhaar, income certificate, address proof and bank details. Save the application reference number you receive.",
+        "hi": "आधार, आय प्रमाण पत्र, पता प्रमाण और बैंक विवरण अपलोड करें। मिली आवेदन संदर्भ संख्या सुरक्षित रखें।"
+      },
+      "tips": []
+    },
+    {
+      "title": { "en": "Verification and survey", "hi": "सत्यापन और सर्वेक्षण" },
+      "detail": {
+        "en": "The Urban Local Body verifies your documents and may send a field officer to inspect your current dwelling and plot.",
+        "hi": "शहरी स्थानीय निकाय आपके दस्तावेज़ सत्यापित करता है और आपके वर्तमान आवास व भूखंड की जाँच के लिए क्षेत्र अधिकारी भेज सकता है।"
+      },
+      "tips": []
+    },
+    {
+      "title": { "en": "Selection and beneficiary list", "hi": "चयन और लाभार्थी सूची" },
+      "detail": {
+        "en": "Approved applications are placed on the beneficiary list published by the Urban Local Body. Search your name or Aadhaar on the portal to confirm.",
+        "hi": "स्वीकृत आवेदन शहरी स्थानीय निकाय द्वारा प्रकाशित लाभार्थी सूची में रखे जाते हैं। पोर्टल पर अपना नाम या आधार खोजकर पुष्टि करें।"
+      },
+      "tips": []
+    },
+    {
+      "title": { "en": "Receive assistance in instalments", "hi": "सहायता किश्तों में प्राप्त करें" },
+      "detail": {
+        "en": "Money is released in instalments linked to construction milestones. You must submit photographs or a completion certificate after each stage to get the next instalment.",
+        "hi": "राशि निर्माण चरणों से जुड़ी किश्तों में दी जाती है। अगली किश्त पाने के लिए हर चरण के बाद फोटो या पूर्णता प्रमाण पत्र जमा करना होता है।"
+      },
+      "tips": []
+    },
+    {
+      "title": { "en": "Track your application", "hi": "अपने आवेदन की स्थिति देखें" },
+      "detail": {
+        "en": "Use the 'Track Application Status' or beneficiary search on the official portal with your Aadhaar or application number.",
+        "hi": "आधिकारिक पोर्टल पर 'ट्रैक एप्लिकेशन स्टेटस' या लाभार्थी खोज में आधार या आवेदन संख्या से स्थिति देखें।"
+      },
+      "tips": []
+    }
+  ],
+  "important_notes": [
+    {
+      "en": "PMAY-U and PMAY-Gramin (rural) are two separate schemes with different portals and rules. Rural households should approach their Gram Panchayat, not the urban portal.",
+      "hi": "पीएमएवाई-यू और पीएमएवाई-ग्रामीण दो अलग योजनाएँ हैं, जिनके पोर्टल और नियम भिन्न हैं। ग्रामीण परिवारों को शहरी पोर्टल के बजाय अपनी ग्राम पंचायत से संपर्क करना चाहिए।"
+    },
+    {
+      "en": "Being on the list does not mean you get a house immediately. Assistance depends on funds released in phases.",
+      "hi": "सूची में होने का अर्थ तुरंत घर मिलना नहीं है। सहायता चरणों में जारी की गई निधि पर निर्भर करती है।"
+    },
+    {
+      "en": "Never pay an agent who promises to 'get your name added'. Beneficiary selection follows a published survey and list.",
+      "hi": "'नाम जुड़वाने' का वादा करने वाले एजेंट को कभी पैसे न दें। लाभार्थी चयन प्रकाशित सर्वेक्षण और सूची के अनुसार होता है।"
+    },
+    {
+      "en": "Assistance amounts, income group ceilings and application windows change with each programme revision. Always confirm the current figures on the official portal.",
+      "hi": "सहायता राशि, आय वर्ग सीमाएँ और आवेदन अवधि हर कार्यक्रम पुनरीक्षण में बदलती हैं। वर्तमान आँकड़े हमेशा आधिकारिक पोर्टल पर देखें।"
+    }
+  ],
+  "official_source": {
+    "en": "Ministry of Housing and Urban Affairs, Government of India",
+    "hi": "आवास और शहरी कार्य मंत्रालय, भारत सरकार"
+  },
+  "official_url": "https://pmay-urban.gov.in/",
+  "portal_label": { "en": "PMAY-Urban official portal", "hi": "पीएमएवाई-शहरी आधिकारिक पोर्टल" },
+  "extra_links": [
+    { "label": { "en": "PMAY (Gramin) — rural housing", "hi": "पीएमएवाई (ग्रामीण) — ग्रामीण आवास" }, "url": "https://pmayg.nic.in/" }
+  ],
+  "helpline": null,
+  "verification": {
+    "level": "general_guidance",
+    "last_verified": "2026-09-13",
+    "note": {
+      "en": "Scheme guidelines, assistance amounts and eligible income groups are revised by the Ministry of Housing and Urban Affairs and implemented by each Urban Local Body. Confirm current terms with your municipal corporation before applying.",
+      "hi": "योजना दिशानिर्देश, सहायता राशि और पात्र आय वर्ग आवास और शहरी कार्य मंत्रालय संशोधित करता है और प्रत्येक शहरी स्थानीय निकाय लागू करता है। आवेदन से पहले अपने नगर निगम से वर्तमान शर्तों की पुष्टि करें।"
+    }
+  },
+  "state_portals": [],
+  "clarifiers": [
+    {
+      "id": "area_type",
+      "question": {
+        "en": "Do you live in a city or a village? The scheme is different for each.",
+        "hi": "आप शहर में रहते हैं या गाँव में? दोनों के लिए योजना अलग है।"
+      },
+      "options": [
+        { "id": "urban", "label": { "en": "City / town", "hi": "शहर / कस्बा" } },
+        { "id": "rural", "label": { "en": "Village", "hi": "गाँव" } },
+        { "id": "unsure", "label": { "en": "I am not sure", "hi": "मुझे पता नहीं" } }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": { "en": "I already have a kutcha house. Am I eligible?", "hi": "मेरे पास पहले से कच्चा मकान है। क्या मैं पात्र हूँ?" },
+      "a": {
+        "en": "Usually yes — the main condition is that no family member owns a pucca house. A kutcha house can qualify you for construction assistance.",
+        "hi": "आमतौर पर हाँ — मुख्य शर्त यह है कि किसी परिवार के सदस्य के पास पक्का मकान न हो। कच्चा मकान होने पर आपको निर्माण सहायता मिल सकती है।"
+      }
+    },
+    {
+      "q": { "en": "Can the house be in a woman's name?", "hi": "क्या घर महिला के नाम पर हो सकता है?" },
+      "a": {
+        "en": "Yes, and it is preferred. PMAY gives priority to women beneficiaries, usually as the sole or joint owner.",
+        "hi": "हाँ, और इसे प्राथमिकता दी जाती है। पीएमएवाई महिला लाभार्थियों को प्राथमिकता देता है, आमतौर पर एकल या संयुक्त स्वामी के रूप में।"
+      }
+    }
+  ],
+  "related_service_ids": ["income_certificate", "aadhaar_enrolment", "caste_certificate"]
+}

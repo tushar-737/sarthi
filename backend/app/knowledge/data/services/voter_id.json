@@ -1,0 +1,176 @@
+{
+  "id": "voter_id",
+  "category_id": "identity",
+  "jurisdiction": "national",
+  "priority": 85,
+  "names": { "en": "Voter ID (EPIC) — Register & Correct", "hi": "मतदाता पहचान पत्र (एपिक) — नाम दर्ज कराना और सुधार" },
+  "tagline": {
+    "en": "Get on the electoral roll and receive your voter card.",
+    "hi": "मतदाता सूची में नाम दर्ज कराएँ और अपना मतदाता कार्ड पाएँ।"
+  },
+  "description": {
+    "en": "The Voter ID card, officially called EPIC (Electoral Photo Identity Card), is issued by the Election Commission of India. You can apply for a new voter card, correct details, shift your address to a new constituency, or get a duplicate card — all online through the Voters' Service Portal.",
+    "hi": "मतदाता पहचान पत्र, जिसका आधिकारिक नाम एपिक (इलेक्टोरल फोटो आइडेंटिटी कार्ड) है, भारत निर्वाचन आयोग जारी करता है। आप नया मतदाता कार्ड बनवा सकते हैं, विवरण सुधार सकते हैं, नए निर्वाचन क्षेत्र में पता बदल सकते हैं, या डुप्लीकेट कार्ड पा सकते हैं — सब कुछ वोटर सेवा पोर्टल से ऑनलाइन।"
+  },
+  "aliases": {
+    "en": [
+      "voter id", "voter card", "voterid", "epic", "election card", "electoral photo identity card",
+      "vote card", "voting card", "new voter registration", "form 6", "voter list",
+      "correct voter card", "duplicate voter card", "vote register"
+    ],
+    "hi": [
+      "वोटर आईडी", "मतदाता पहचान पत्र", "वोटर कार्ड", "चुनाव कार्ड", "एपिक",
+      "वोट कार्ड", "मतदान कार्ड", "नया वोटर रजिस्ट्रेशन", "फॉर्म 6", "मतदाता सूची",
+      "वोटर कार्ड सुधार", "डुप्लीकेट वोटर कार्ड", "वोट बनवाना", "नाम मतदाता सूची में जोड़ना"
+    ]
+  },
+  "keywords": {
+    "en": ["voter", "vote", "epic", "election", "electoral", "form 6", "constituency", "ballot"],
+    "hi": ["मतदाता", "वोटर", "चुनाव", "एपिक", "मतदान", "फॉर्म", "निर्वाचन", "वोट"]
+  },
+  "eligibility": [
+    {
+      "en": "You must be a citizen of India.",
+      "hi": "आपको भारत का नागरिक होना चाहिए।"
+    },
+    {
+      "en": "You must be 18 years or older on the qualifying date specified by the Election Commission.",
+      "hi": "निर्वाचन आयोग द्वारा बताई गई निर्धारित तिथि को आपकी आयु 18 वर्ष या अधिक होनी चाहिए।"
+    },
+    {
+      "en": "You must be an ordinary resident of the constituency where you want to be enrolled.",
+      "hi": "आपको उस निर्वाचन क्षेत्र का सामान्य निवासी होना चाहिए जहाँ नाम दर्ज कराना चाहते हैं।"
+    },
+    {
+      "en": "You cannot be enrolled in more than one constituency, and you cannot be registered in two places at the same time.",
+      "hi": "आप एक से अधिक निर्वाचन क्षेत्र में नाम दर्ज नहीं करा सकते और एक साथ दो जगह पंजीकृत नहीं हो सकते।"
+    }
+  ],
+  "documents": [
+    {
+      "id": "photo",
+      "name": { "en": "Recent passport size photograph", "hi": "हालिया पासपोर्ट आकार फोटो" },
+      "detail": { "en": "Front-facing photo with a plain background.", "hi": "सादे बैकग्राउंड पर सामने की ओर फोटो।" },
+      "required": true
+    },
+    {
+      "id": "identity_proof",
+      "name": { "en": "Identity proof", "hi": "पहचान प्रमाण" },
+      "detail": { "en": "Aadhaar, passport, driving licence, PAN or student ID.", "hi": "आधार, पासपोर्ट, ड्राइविंग लाइसेंस, पैन या छात्र पहचान पत्र।" },
+      "required": true
+    },
+    {
+      "id": "address_proof",
+      "name": { "en": "Address proof", "hi": "पते का प्रमाण" },
+      "detail": {
+        "en": "Aadhaar, utility bill, bank passbook, ration card or rent agreement for your current residence.",
+        "hi": "आधार, बिजली/पानी बिल, बैंक पासबुक, राशन कार्ड या वर्तमान निवास का किराया अनुबंध।"
+      },
+      "required": true
+    },
+    {
+      "id": "age_proof",
+      "name": { "en": "Date of birth proof", "hi": "जन्म तिथि प्रमाण" },
+      "detail": { "en": "Birth certificate, Class 10 marksheet, passport or PAN.", "hi": "जन्म प्रमाण पत्र, कक्षा 10 अंकसूची, पासपोर्ट या पैन।" },
+      "required": false
+    }
+  ],
+  "steps": [
+    {
+      "title": { "en": "Open the Voters' Service Portal", "hi": "वोटर सेवा पोर्टल खोलें" },
+      "detail": {
+        "en": "Register with your mobile number and email, then verify with an OTP.",
+        "hi": "मोबाइल नंबर और ईमेल से रजिस्टर करें, फिर ओटीपी से सत्यापित करें।"
+      },
+      "tips": []
+    },
+    {
+      "title": { "en": "Choose the right form", "hi": "सही फॉर्म चुनें" },
+      "detail": {
+        "en": "Form 6 is for a new voter registration. Form 8 is for correcting details or getting a duplicate. Form 8A is for shifting your address within the same constituency.",
+        "hi": "फॉर्म 6 नए मतदाता पंजीकरण के लिए है। फॉर्म 8 विवरण सुधार या डुप्लीकेट कार्ड के लिए। फॉर्म 8A उसी निर्वाचन क्षेत्र में पता बदलने के लिए।"
+      },
+      "tips": [
+        {
+          "en": "Choosing the wrong form is the most common mistake — it leads to rejection.",
+          "hi": "गलत फॉर्म चुनना सबसे आम गलती है — इससे आवेदन अस्वीकार हो जाता है।"
+        }
+      ]
+    },
+    {
+      "title": { "en": "Fill the form and upload documents", "hi": "फॉर्म भरें और दस्तावेज़ अपलोड करें" },
+      "detail": {
+        "en": "Enter your name, relatives' names, date of birth, gender and full address with PIN code. Upload your photo and proofs.",
+        "hi": "नाम, संबंधी का नाम, जन्म तिथि, लिंग और पिन कोड सहित पूरा पता भरें। फोटो और प्रमाण अपलोड करें।"
+      },
+      "tips": []
+    },
+    {
+      "title": { "en": "Submit and save the reference number", "hi": "जमा करें और संदर्भ संख्या सुरक्षित रखें" },
+      "detail": {
+        "en": "You receive a reference or BLO serial number after submission. Keep it to track the application.",
+        "hi": "जमा करने के बाद आपको संदर्भ या बीएलओ क्रम संख्या मिलती है। आवेदन देखने के लिए इसे रखें।"
+      },
+      "tips": []
+    },
+    {
+      "title": { "en": "Field verification by the BLO", "hi": "बीएलओ द्वारा क्षेत्र सत्यापन" },
+      "detail": {
+        "en": "A Booth Level Officer verifies your residence, sometimes by visiting your address or calling you. Answer their call — a missed verification delays everything.",
+        "hi": "बूथ स्तरीय अधिकारी आपके निवास का सत्यापन करते हैं, कभी पते पर आकर या फोन करके। उनका फोन उठाएँ — सत्यापन न होने से सब देर से होता है।"
+      },
+      "tips": []
+    },
+    {
+      "title": { "en": "Check your name and download e-EPIC", "hi": "अपना नाम देखें और ई-एपिक डाउनलोड करें" },
+      "detail": {
+        "en": "Search your name in the electoral roll, then download the e-EPIC card from the portal. It is legally valid as a voter identity document.",
+        "hi": "मतदाता सूची में अपना नाम खोजें, फिर पोर्टल से ई-एपिक कार्ड डाउनलोड करें। यह मतदाता पहचान दस्तावेज़ के रूप में कानूनी रूप से मान्य है।"
+      },
+      "tips": []
+    }
+  ],
+  "important_notes": [
+    {
+      "en": "Voter registration is completely free. Anyone charging money for it is committing fraud.",
+      "hi": "मतदाता पंजीकरण पूरी तरह नि:शुल्क है। इसके लिए पैसे लेने वाला कोई भी व्यक्ति धोखाधड़ी कर रहा है।"
+    },
+    {
+      "en": "Special summary revisions run periodically. Outside those windows, continuous registration is available but may take longer.",
+      "hi": "विशेष संक्षिप्त पुनरीक्षण समय-समय पर चलते हैं। उन अवधियों के बाहर सतत पंजीकरण उपलब्ध है पर अधिक समय लग सकता है।"
+    }
+  ],
+  "official_source": {
+    "en": "Election Commission of India",
+    "hi": "भारत निर्वाचन आयोग"
+  },
+  "official_url": "https://voters.eci.gov.in/",
+  "portal_label": { "en": "Voters' Service Portal", "hi": "वोटर सेवा पोर्टल" },
+  "extra_links": [
+    { "label": { "en": "Election Commission of India", "hi": "भारत निर्वाचन आयोग" }, "url": "https://www.eci.gov.in/" }
+  ],
+  "helpline": {
+    "label": { "en": "Voter helpline (toll free)", "hi": "मतदाता हेल्पलाइन (टोल फ्री)" },
+    "value": "1950"
+  },
+  "verification": {
+    "level": "verified_official",
+    "last_verified": "2026-09-13",
+    "note": {
+      "en": "Voter services are national and uniform. Qualifying dates for the 18-year age rule change with each revision cycle — check the current notification on the Election Commission website.",
+      "hi": "मतदाता सेवाएँ राष्ट्रीय और एकसमान हैं। 18 वर्ष आयु नियम की निर्धारित तिथियाँ हर पुनरीक्षण चक्र में बदलती हैं — निर्वाचन आयोग की वेबसाइट पर वर्तमान अधिसूचना देखें।"
+    }
+  },
+  "state_portals": [],
+  "clarifiers": [],
+  "faq": [
+    {
+      "q": { "en": "I have moved to a new city. What should I do?", "hi": "मैं नए शहर में आ गया हूँ। मुझे क्या करना चाहिए?" },
+      "a": {
+        "en": "If your new address is in a different constituency, apply for transposition or a fresh Form 6 for the new constituency and request deletion from the old one.",
+        "hi": "यदि नया पता दूसरे निर्वाचन क्षेत्र में है तो स्थानांतरण या नए क्षेत्र के लिए नया फॉर्म 6 भरें और पुराने क्षेत्र से नाम हटाने का अनुरोध करें।"
+      }
+    }
+  ],
+  "related_service_ids": ["aadhaar_enrolment", "pan_card"]
+}

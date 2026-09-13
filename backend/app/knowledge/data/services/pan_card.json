@@ -1,0 +1,207 @@
+{
+  "id": "pan_card",
+  "category_id": "identity",
+  "jurisdiction": "national",
+  "priority": 88,
+  "names": { "en": "PAN Card — Apply & Link Aadhaar", "hi": "पैन कार्ड — आवेदन और आधार से जोड़ना" },
+  "tagline": {
+    "en": "Your 10-digit permanent tax identity number.",
+    "hi": "आपकी 10 अंकों की स्थायी कर पहचान संख्या।"
+  },
+  "description": {
+    "en": "PAN (Permanent Account Number) is a 10-digit alphanumeric number issued by the Income Tax Department. You need it for filing income tax, opening a bank account, buying property or a vehicle, and many financial transactions. Linking PAN with Aadhaar is mandatory for most individual taxpayers.",
+    "hi": "पैन (स्थायी खाता संख्या) आयकर विभाग द्वारा जारी 10 अंकों की अल्फा-न्यूमेरिक संख्या है। यह आयकर रिटर्न भरने, बैंक खाता खोलने, संपत्ति या वाहन खरीदने और कई वित्तीय लेनदेन के लिए ज़रूरी है। अधिकांश व्यक्तिगत करदाताओं के लिए पैन को आधार से जोड़ना अनिवार्य है।"
+  },
+  "aliases": {
+    "en": [
+      "pan", "pan card", "permanent account number", "tax card", "income tax pan",
+      "new pan apply", "pan correction", "pan aadhaar link", "tin number", "e pan"
+    ],
+    "hi": [
+      "पैन", "पैन कार्ड", "स्थायी खाता संख्या", "टैक्स कार्ड", "आयकर पैन",
+      "नया पैन बनवाना", "पैन सुधार", "पैन आधार लिंक", "ई पैन", "पैन आवेदन"
+    ]
+  },
+  "keywords": {
+    "en": ["pan", "tax", "income tax", "permanent account", "nsdl", "utiitsl", "aadhaar link", "tin"],
+    "hi": ["पैन", "कर", "आयकर", "स्थायी", "टैक्स", "आधार", "लिंक"]
+  },
+  "eligibility": [
+    {
+      "en": "Any Indian citizen aged 18 or above can apply for a PAN in their own name.",
+      "hi": "18 वर्ष या अधिक आयु का कोई भी भारतीय नागरिक अपने नाम पर पैन के लिए आवेदन कर सकता है।"
+    },
+    {
+      "en": "Minors can hold a PAN, applied for by a parent or guardian.",
+      "hi": "नाबालिग भी पैन रख सकते हैं, जिसके लिए माता-पिता या अभिभावक आवेदन करते हैं।"
+    },
+    {
+      "en": "One person can legally hold only one PAN. Duplicate PAN attracts a penalty.",
+      "hi": "एक व्यक्ति कानूनी रूप से केवल एक पैन रख सकता है। डुप्लीकेट पैन पर जुर्माना लगता है।"
+    },
+    {
+      "en": "NRIs and foreign citizens can also apply through a separate form.",
+      "hi": "एनआरआई और विदेशी नागरिक भी अलग फॉर्म के माध्यम से आवेदन कर सकते हैं।"
+    }
+  ],
+  "documents": [
+    {
+      "id": "aadhaar",
+      "name": { "en": "Aadhaar card (simplest option)", "hi": "आधार कार्ड (सबसे आसान विकल्प)" },
+      "detail": {
+        "en": "Aadhaar acts as identity proof, address proof and date of birth proof together, and enables e-KYC based instant e-PAN.",
+        "hi": "आधार पहचान, पता और जन्म तिथि — तीनों प्रमाण एक साथ है, और ई-केवाईसी आधारित तुरंत ई-पैन की सुविधा देता है।"
+      },
+      "required": true
+    },
+    {
+      "id": "identity_proof_alt",
+      "name": { "en": "Or: another identity proof", "hi": "या: कोई अन्य पहचान प्रमाण" },
+      "detail": {
+        "en": "Passport, Voter ID, driving licence or a photo ID issued by the Central or State government.",
+        "hi": "पासपोर्ट, मतदाता पहचान पत्र, ड्राइविंग लाइसेंस या केंद्र/राज्य सरकार द्वारा जारी फोटो पहचान पत्र।"
+      },
+      "required": false
+    },
+    {
+      "id": "dob_proof",
+      "name": { "en": "Date of birth proof", "hi": "जन्म तिथि प्रमाण" },
+      "detail": {
+        "en": "Birth certificate, school leaving certificate, passport or a pension payment order.",
+        "hi": "जन्म प्रमाण पत्र, स्कूल छोड़ने का प्रमाण पत्र, पासपोर्ट या पेंशन भुगतान आदेश।"
+      },
+      "required": false
+    },
+    {
+      "id": "photograph_signature",
+      "name": { "en": "Photograph and signature", "hi": "फोटो और हस्ताक्षर" },
+      "detail": {
+        "en": "A recent passport-size photo and your signature are needed for the physical card. For instant e-PAN these come from Aadhaar.",
+        "hi": "भौतिक कार्ड के लिए हालिया पासपोर्ट आकार फोटो और हस्ताक्षर चाहिए। तुरंत ई-पैन में ये आधार से आते हैं।"
+      },
+      "required": false
+    },
+    {
+      "id": "linked_mobile",
+      "name": { "en": "Mobile number linked to Aadhaar", "hi": "आधार से जुड़ा मोबाइल नंबर" },
+      "detail": {
+        "en": "Required for OTP-based e-KYC when you apply for instant e-PAN.",
+        "hi": "तुरंत ई-पैन के लिए ओटीपी आधारित ई-केवाईसी में आवश्यक।"
+      },
+      "required": true
+    }
+  ],
+  "steps": [
+    {
+      "title": { "en": "Choose instant e-PAN or a physical card", "hi": "तुरंत ई-पैन या भौतिक कार्ड चुनें" },
+      "detail": {
+        "en": "Instant e-PAN through the Income Tax portal is free and needs only Aadhaar with a linked mobile number. A physical PAN card requires a form and a small fee.",
+        "hi": "आयकर पोर्टल से तुरंत ई-पैन नि:शुल्क है और केवल आधार व जुड़े मोबाइल नंबर की ज़रूरत है। भौतिक पैन कार्ड के लिए फॉर्म और छोटा शुल्क लगता है।"
+      },
+      "tips": []
+    },
+    {
+      "title": { "en": "Open the official portal", "hi": "आधिकारिक पोर्टल खोलें" },
+      "detail": {
+        "en": "Use the Income Tax e-Filing portal for instant e-PAN and PAN-Aadhaar linking. For new physical PAN or corrections, use the authorised PAN service providers, NSDL (Protean) or UTIITSL.",
+        "hi": "तुरंत ई-पैन और पैन-आधार लिंकिंग के लिए आयकर ई-फाइलिंग पोर्टल उपयोग करें। नए भौतिक पैन या सुधार के लिए अधिकृत पैन सेवा प्रदाता एनएसडीएल (प्रोटीन) या यूटीआईआईटीएसएल उपयोग करें।"
+      },
+      "tips": [
+        {
+          "en": "Watch out for private websites that look official and charge high fees for a free service.",
+          "hi": "ऐसी निजी वेबसाइटों से सावधान रहें जो आधिकारिक दिखती हैं और मुफ्त सेवा के लिए अधिक शुल्क लेती हैं।"
+        }
+      ]
+    },
+    {
+      "title": { "en": "Fill the form", "hi": "फॉर्म भरें" },
+      "detail": {
+        "en": "Enter your name, father's name, date of birth, address and contact details exactly as in your documents. For e-KYC applications your details are auto-filled from Aadhaar.",
+        "hi": "नाम, पिता का नाम, जन्म तिथि, पता और संपर्क विवरण बिल्कुल दस्तावेज़ों के अनुसार भरें। ई-केवाईसी आवेदन में विवरण आधार से स्वतः भर जाते हैं।"
+      },
+      "tips": []
+    },
+    {
+      "title": { "en": "Verify with OTP and pay the fee", "hi": "ओटीपी से सत्यापित करें और शुल्क भरें" },
+      "detail": {
+        "en": "Verify your Aadhaar-linked mobile number with an OTP. Instant e-PAN is free; a physical card costs a few hundred rupees.",
+        "hi": "आधार से जुड़े मोबाइल नंबर को ओटीपी से सत्यापित करें। तुरंत ई-पैन नि:शुल्क है; भौतिक कार्ड पर कुछ सौ रुपये लगते हैं।"
+      },
+      "tips": []
+    },
+    {
+      "title": { "en": "Receive your PAN", "hi": "अपना पैन प्राप्त करें" },
+      "detail": {
+        "en": "Instant e-PAN is usually available within a few minutes to a few days as a digitally signed PDF. A physical card is dispatched by post and commonly takes a few weeks.",
+        "hi": "तुरंत ई-पैन आमतौर पर कुछ मिनट से कुछ दिनों में डिजिटल हस्ताक्षरित पीडीएफ के रूप में मिल जाता है। भौतिक कार्ड डाक से आता है और प्रायः कुछ सप्ताह लगते हैं।"
+      },
+      "tips": []
+    },
+    {
+      "title": { "en": "Link PAN with Aadhaar", "hi": "पैन को आधार से जोड़ें" },
+      "detail": {
+        "en": "On the Income Tax portal use 'Link Aadhaar' and enter both numbers. Names and date of birth should match closely, or the link will fail.",
+        "hi": "आयकर पोर्टल पर 'लिंक आधार' में दोनों नंबर भरें। नाम और जन्म तिथि लगभग समान होने चाहिए, अन्यथा लिंक विफल होगा।"
+      },
+      "tips": []
+    }
+  ],
+  "important_notes": [
+    {
+      "en": "An unlinked PAN becomes inoperative, and a higher tax rate may be applied to your transactions. Keep it linked.",
+      "hi": "न जुड़ा पैन निष्क्रिय हो जाता है और आपके लेनदेन पर अधिक कर दर लग सकती है। इसे जुड़ा रखें।"
+    },
+    {
+      "en": "Only the Income Tax Department or its authorised providers issue PAN. No agent can 'arrange' one illegally.",
+      "hi": "पैन केवल आयकर विभाग या उसके अधिकृत प्रदाता जारी करते हैं। कोई एजेंट अवैध रूप से पैन 'दिला' नहीं सकता।"
+    },
+    {
+      "en": "SAARTHI will never ask for your PAN, Aadhaar or bank details.",
+      "hi": "सारथी कभी आपका पैन, आधार या बैंक विवरण नहीं माँगेगा।"
+    }
+  ],
+  "official_source": {
+    "en": "Income Tax Department, Government of India",
+    "hi": "आयकर विभाग, भारत सरकार"
+  },
+  "official_url": "https://www.incometax.gov.in/",
+  "portal_label": {
+    "en": "Income Tax e-Filing portal",
+    "hi": "आयकर ई-फाइलिंग पोर्टल"
+  },
+  "extra_links": [
+    { "label": { "en": "PAN application — Protean (NSDL)", "hi": "पैन आवेदन — प्रोटीन (एनएसडीएल)" }, "url": "https://www.onlineservices.nsdl.com/paam/endUserRegisterContact.html" },
+    { "label": { "en": "PAN application — UTIITSL", "hi": "पैन आवेदन — यूटीआईआईटीएसएल" }, "url": "https://www.utiitsl.com/" }
+  ],
+  "helpline": {
+    "label": { "en": "Income Tax e-Filing helpline", "hi": "आयकर ई-फाइलिंग हेल्पलाइन" },
+    "value": "1800-103-0025"
+  },
+  "verification": {
+    "level": "verified_official",
+    "last_verified": "2026-09-13",
+    "note": {
+      "en": "PAN is a national service. Current fee amounts, linking deadlines and processing times are published by the Income Tax Department and change periodically — confirm on incometax.gov.in.",
+      "hi": "पैन एक राष्ट्रीय सेवा है। वर्तमान शुल्क, लिंकिंग समय-सीमा और प्रसंस्करण समय आयकर विभाग प्रकाशित करता है और समय-समय पर बदलते हैं — incometax.gov.in पर पुष्टि करें।"
+    }
+  },
+  "state_portals": [],
+  "clarifiers": [],
+  "faq": [
+    {
+      "q": { "en": "Is instant e-PAN valid everywhere?", "hi": "क्या तुरंत ई-पैन हर जगह मान्य है?" },
+      "a": {
+        "en": "Yes. The digitally signed e-PAN PDF is legally valid for the same purposes as a physical card.",
+        "hi": "हाँ। डिजिटल हस्ताक्षरित ई-पैन पीडीएफ भौतिक कार्ड के समान उद्देश्यों के लिए कानूनी रूप से मान्य है।"
+      }
+    },
+    {
+      "q": { "en": "What if my name differs in Aadhaar and PAN?", "hi": "आधार और पैन में नाम अलग हो तो?" },
+      "a": {
+        "en": "Correct one of them first through a PAN correction or Aadhaar update, then link. Minor differences like initials may still need correction.",
+        "hi": "पहले पैन सुधार या आधार अपडेट से एक को ठीक करें, फिर लिंक करें। प्रारंभिक अक्षर जैसे छोटे अंतर में भी सुधार ज़रूरी हो सकता है।"
+      }
+    }
+  ],
+  "related_service_ids": ["aadhaar_enrolment", "income_certificate"]
+}

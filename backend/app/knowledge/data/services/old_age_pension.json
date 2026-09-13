@@ -1,0 +1,236 @@
+{
+  "id": "old_age_pension",
+  "category_id": "social_welfare",
+  "jurisdiction": "national",
+  "priority": 90,
+  "names": { "en": "Old Age & Social Pension", "hi": "वृद्धावस्था एवं सामाजिक पेंशन" },
+  "tagline": {
+    "en": "Monthly pension for senior citizens, widows and persons with disabilities.",
+    "hi": "वरिष्ठ नागरिकों, विधवाओं और दिव्यांगजनों के लिए मासिक पेंशन।"
+  },
+  "description": {
+    "en": "The National Social Assistance Programme (NSAP) is a Central scheme that provides monthly social pensions to poor households: old age pension (Indira Gandhi National Old Age Pension Scheme), widow pension and disability pension. States add their own top-up amounts and often run wider state pension schemes on top of it.",
+    "hi": "राष्ट्रीय सामाजिक सहायता कार्यक्रम (एनएसएपी) एक केंद्रीय योजना है जो गरीब परिवारों को मासिक सामाजिक पेंशन देती है: वृद्धावस्था पेंशन (इंदिरा गांधी राष्ट्रीय वृद्धावस्था पेंशन योजना), विधवा पेंशन और दिव्यांगता पेंशन। राज्य इसमें अपनी अतिरिक्त राशि जोड़ते हैं और अक्सर इसके ऊपर व्यापक राज्य पेंशन योजनाएँ भी चलाते हैं।"
+  },
+  "aliases": {
+    "en": [
+      "pension", "old age pension", "oldage pension", "widow pension", "disability pension",
+      "nsap", "social pension", "senior citizen pension", "vridha pension", "budhapa pension",
+      "monthly pension", "handicapped pension", "single woman pension"
+    ],
+    "hi": [
+      "पेंशन", "वृद्धावस्था पेंशन", "बुढ़ापा पेंशन", "बुढ़ापे की पेंशन", "विधवा पेंशन",
+      "दिव्यांग पेंशन", "एनएसएपी", "सामाजिक पेंशन", "वरिष्ठ नागरिक पेंशन",
+      "मासिक पेंशन", "वृद्ध पेंशन", "अकेली महिला पेंशन", "पेंशन आवेदन", "पेंशन बनवाना"
+    ]
+  },
+  "keywords": {
+    "en": ["pension", "old age", "senior", "elderly", "widow", "disability", "nsap", "monthly", "allowance"],
+    "hi": ["पेंशन", "वृद्धावस्था", "बुज़ुर्ग", "बुजुर्ग", "विधवा", "दिव्यांग", "मासिक", "वृद्ध", "सहायता"]
+  },
+  "eligibility": [
+    {
+      "en": "Old age pension: 60 years or above, and the household must be below the poverty line as per state criteria.",
+      "hi": "वृद्धावस्था पेंशन: 60 वर्ष या अधिक आयु, और परिवार राज्य मानदंड अनुसार गरीबी रेखा से नीचे होना चाहिए।"
+    },
+    {
+      "en": "Widow pension: women aged 40 years or above who are widowed and belong to a BPL household.",
+      "hi": "विधवा पेंशन: 40 वर्ष या अधिक आयु की विधवा महिलाएँ जो बीपीएल परिवार से हों।"
+    },
+    {
+      "en": "Disability pension: persons aged 18 to 79 with severe or multiple disabilities, generally 40% or more disability, from a BPL household.",
+      "hi": "दिव्यांगता पेंशन: 18 से 79 वर्ष आयु के गंभीर या बहु दिव्यांगता वाले व्यक्ति, आमतौर पर 40% या अधिक दिव्यांगता, बीपीएल परिवार से।"
+    },
+    {
+      "en": "Higher pension amounts apply to beneficiaries aged 80 years and above.",
+      "hi": "80 वर्ष और अधिक आयु के लाभार्थियों को अधिक पेंशन राशि मिलती है।"
+    },
+    {
+      "en": "You must be a permanent resident of the state where you apply.",
+      "hi": "आपको उस राज्य का स्थायी निवासी होना चाहिए जहाँ आवेदन करते हैं।"
+    },
+    {
+      "en": "Many states run their own pension schemes with lower age limits or higher amounts, so check your state rules too.",
+      "hi": "कई राज्य अपनी पेंशन योजनाएँ कम आयु सीमा या अधिक राशि के साथ चलाते हैं, इसलिए अपने राज्य के नियम भी देखें।"
+    }
+  ],
+  "documents": [
+    {
+      "id": "age_proof",
+      "name": { "en": "Age proof", "hi": "आयु प्रमाण" },
+      "detail": {
+        "en": "Aadhaar, birth certificate, voter ID, school certificate or a medical certificate from a government doctor where permitted.",
+        "hi": "आधार, जन्म प्रमाण पत्र, मतदाता पहचान पत्र, स्कूल प्रमाण पत्र या जहाँ अनुमति हो वहाँ सरकारी चिकित्सक का आयु प्रमाण पत्र।"
+      },
+      "required": true
+    },
+    {
+      "id": "identity_proof",
+      "name": { "en": "Identity proof", "hi": "पहचान प्रमाण" },
+      "detail": { "en": "Aadhaar card is most commonly used.", "hi": "आधार कार्ड सबसे आम रूप से उपयोग होता है।" },
+      "required": true
+    },
+    {
+      "id": "bpl_income_proof",
+      "name": { "en": "BPL / income proof", "hi": "बीपीएल / आय प्रमाण" },
+      "detail": {
+        "en": "Ration card showing BPL status, or an income certificate from your state revenue authority.",
+        "hi": "बीपीएल स्थिति दर्शाने वाला राशन कार्ड, या राज्य राजस्व प्राधिकरण से आय प्रमाण पत्र।"
+      },
+      "required": true
+    },
+    {
+      "id": "residence_proof",
+      "name": { "en": "Residence proof", "hi": "निवास प्रमाण" },
+      "detail": { "en": "Domicile certificate or any local address document.", "hi": "निवास प्रमाण पत्र या कोई स्थानीय पता दस्तावेज़।" },
+      "required": true
+    },
+    {
+      "id": "bank_passbook",
+      "name": { "en": "Bank or post office account", "hi": "बैंक या डाकघर खाता" },
+      "detail": {
+        "en": "Pension is paid by Direct Benefit Transfer, so the account should be Aadhaar-seeded where possible.",
+        "hi": "पेंशन डीबीटी से भेजी जाती है, इसलिए खाता जहाँ संभव हो आधार-संबद्ध होना चाहिए।"
+      },
+      "required": true
+    },
+    {
+      "id": "widow_or_disability_proof",
+      "name": { "en": "Widow or disability certificate", "hi": "विधवा या दिव्यांगता प्रमाण पत्र" },
+      "detail": {
+        "en": "Death certificate of the spouse for widow pension; a disability certificate from a government medical board for disability pension.",
+        "hi": "विधवा पेंशन के लिए पति का मृत्यु प्रमाण पत्र; दिव्यांगता पेंशन के लिए सरकारी चिकित्सा बोर्ड का दिव्यांगता प्रमाण पत्र।"
+      },
+      "required": false
+    },
+    {
+      "id": "photograph",
+      "name": { "en": "Passport size photographs", "hi": "पासपोर्ट आकार फोटो" },
+      "detail": { "en": "Usually two, for offline applications.", "hi": "आमतौर पर दो, ऑफलाइन आवेदन के लिए।" },
+      "required": false
+    }
+  ],
+  "steps": [
+    {
+      "title": { "en": "Find the scheme that applies to you", "hi": "आप पर लागू होने वाली योजना खोजें" },
+      "detail": {
+        "en": "Decide whether you are applying under the Central NSAP scheme, your state's own pension scheme, or both. State schemes often pay more and have simpler rules.",
+        "hi": "तय करें कि आप केंद्रीय एनएसएपी योजना, अपने राज्य की पेंशन योजना, या दोनों में आवेदन कर रहे हैं। राज्य योजनाएँ अक्सर अधिक राशि देती हैं और उनके नियम सरल होते हैं।"
+      },
+      "tips": []
+    },
+    {
+      "title": { "en": "Apply online or through your local office", "hi": "ऑनलाइन या स्थानीय कार्यालय से आवेदन करें" },
+      "detail": {
+        "en": "Applications go through your state social welfare or pension portal, the Gram Panchayat, the Tehsildar / SDM office, or a Common Service Centre. In rural areas the Panchayat is usually the starting point.",
+        "hi": "आवेदन आपके राज्य के समाज कल्याण या पेंशन पोर्टल, ग्राम पंचायत, तहसीलदार/एसडीएम कार्यालय या जन सेवा केंद्र के माध्यम से होते हैं। ग्रामीण क्षेत्रों में आमतौर पर पंचायत पहला स्थान है।"
+      },
+      "tips": [
+        {
+          "en": "If an elderly person cannot travel, many states allow a family member or the Panchayat secretary to submit on their behalf.",
+          "hi": "यदि वृद्ध व्यक्ति यात्रा नहीं कर सकता तो कई राज्य परिवार के सदस्य या पंचायत सचिव को उनकी ओर से आवेदन जमा करने देते हैं।"
+        }
+      ]
+    },
+    {
+      "title": { "en": "Fill the form and attach documents", "hi": "फॉर्म भरें और दस्तावेज़ लगाएँ" },
+      "detail": {
+        "en": "Enter personal details, age, family income, bank account number and IFSC. Attach age proof, identity proof, BPL or income proof and residence proof.",
+        "hi": "व्यक्तिगत विवरण, आयु, पारिवारिक आय, बैंक खाता संख्या और आईएफएससी भरें। आयु प्रमाण, पहचान प्रमाण, बीपीएल या आय प्रमाण और निवास प्रमाण लगाएँ।"
+      },
+      "tips": []
+    },
+    {
+      "title": { "en": "Submit and get an acknowledgement", "hi": "जमा करें और पावती लें" },
+      "detail": {
+        "en": "Save the application or registration number. In offline applications insist on a stamped receipt.",
+        "hi": "आवेदन या पंजीकरण संख्या सुरक्षित रखें। ऑफलाइन आवेदन में मुहर लगी रसीद अवश्य लें।"
+      },
+      "tips": []
+    },
+    {
+      "title": { "en": "Verification and approval", "hi": "सत्यापन और स्वीकृति" },
+      "detail": {
+        "en": "Local revenue or social welfare officials verify your age, residence and income. Once approved, your name is added to the pension sanction list.",
+        "hi": "स्थानीय राजस्व या समाज कल्याण अधिकारी आपकी आयु, निवास और आय सत्यापित करते हैं। स्वीकृति के बाद आपका नाम पेंशन स्वीकृति सूची में जुड़ जाता है।"
+      },
+      "tips": []
+    },
+    {
+      "title": { "en": "Receive pension and complete the life certificate", "hi": "पेंशन पाएँ और जीवन प्रमाण पत्र पूरा करें" },
+      "detail": {
+        "en": "Pension is credited monthly to your bank account. Many states require an annual life certificate or physical verification to continue payment.",
+        "hi": "पेंशन हर माह आपके बैंक खाते में आती है। कई राज्यों में भुगतान जारी रखने के लिए वार्षिक जीवन प्रमाण पत्र या प्रत्यक्ष सत्यापन ज़रूरी है।"
+      },
+      "tips": [
+        {
+          "en": "A missed life certificate is the most common reason pension stops. Note the due date on your calendar.",
+          "hi": "जीवन प्रमाण पत्र न देना पेंशन रुकने का सबसे आम कारण है। इसकी अंतिम तिथि कैलेंडर में लिख लें।"
+        }
+      ]
+    }
+  ],
+  "important_notes": [
+    {
+      "en": "Central NSAP pension amounts are modest, and states add their own contribution. The total you actually receive depends on your state.",
+      "hi": "केंद्रीय एनएसएपी पेंशन राशि कम होती है और राज्य अपना हिस्सा जोड़ते हैं। आपको वास्तव में मिलने वाली कुल राशि आपके राज्य पर निर्भर करती है।"
+    },
+    {
+      "en": "Never pay an agent to 'arrange' a pension. Applications are free at the Panchayat or government office.",
+      "hi": "पेंशन 'दिलवाने' के लिए कभी एजेंट को पैसे न दें। पंचायत या सरकारी कार्यालय में आवेदन नि:शुल्क है।"
+    },
+    {
+      "en": "You cannot receive the same pension from both the Central scheme and a duplicate state scheme for the same person — one beneficiary, one pension.",
+      "hi": "एक ही व्यक्ति के लिए केंद्रीय योजना और दोहरी राज्य योजना से एक जैसी पेंशन नहीं मिल सकती — एक लाभार्थी, एक पेंशन।"
+    }
+  ],
+  "official_source": {
+    "en": "Ministry of Rural Development (NSAP), Government of India, together with your State Social Welfare Department",
+    "hi": "ग्रामीण विकास मंत्रालय (एनएसएपी), भारत सरकार, तथा आपके राज्य का समाज कल्याण विभाग"
+  },
+  "official_url": "https://nsap.nic.in/",
+  "portal_label": { "en": "NSAP — nsap.nic.in", "hi": "एनएसएपी — nsap.nic.in" },
+  "extra_links": [],
+  "helpline": null,
+  "verification": {
+    "level": "general_guidance",
+    "last_verified": "2026-09-13",
+    "note": {
+      "en": "NSAP is the Central framework, but pension amounts, age limits and application routes are largely decided by each state. Always confirm the current amount and rules with your state social welfare department or Gram Panchayat.",
+      "hi": "एनएसएपी केंद्रीय ढाँचा है, पर पेंशन राशि, आयु सीमा और आवेदन का तरीका मुख्यतः प्रत्येक राज्य तय करता है। वर्तमान राशि और नियमों की पुष्टि हमेशा अपने राज्य समाज कल्याण विभाग या ग्राम पंचायत से करें।"
+    }
+  },
+  "state_portals": [],
+  "clarifiers": [
+    {
+      "id": "pension_type",
+      "question": {
+        "en": "Which pension are you asking about?",
+        "hi": "आप किस पेंशन के बारे में पूछ रहे हैं?"
+      },
+      "options": [
+        { "id": "old_age", "label": { "en": "Old age pension", "hi": "वृद्धावस्था पेंशन" } },
+        { "id": "widow", "label": { "en": "Widow pension", "hi": "विधवा पेंशन" } },
+        { "id": "disability", "label": { "en": "Disability pension", "hi": "दिव्यांगता पेंशन" } },
+        { "id": "status", "label": { "en": "Check my pension status", "hi": "मेरी पेंशन की स्थिति देखना" } }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": { "en": "My pension has stopped. What should I do?", "hi": "मेरी पेंशन रुक गई है। क्या करूँ?" },
+      "a": {
+        "en": "First check whether the annual life certificate was submitted and whether your bank account is still Aadhaar-seeded and active. Then contact the Panchayat or the district social welfare office with your pension order number.",
+        "hi": "पहले देखें कि वार्षिक जीवन प्रमाण पत्र जमा हुआ या नहीं, और आपका बैंक खाता आधार-संबद्ध व सक्रिय है या नहीं। फिर पेंशन आदेश संख्या लेकर पंचायत या ज़िला समाज कल्याण कार्यालय से संपर्क करें।"
+      }
+    },
+    {
+      "q": { "en": "What exactly is a life certificate?", "hi": "जीवन प्रमाण पत्र क्या होता है?" },
+      "a": {
+        "en": "It is an annual confirmation that the pensioner is alive, submitted at a bank, Panchayat or through a digital life certificate. Without it, payment is suspended.",
+        "hi": "यह वार्षिक पुष्टि है कि पेंशनभोगी जीवित है, जो बैंक, पंचायत में या डिजिटल जीवन प्रमाण पत्र से जमा की जाती है। इसके बिना भुगतान रोक दिया जाता है।"
+      }
+    }
+  ],
+  "related_service_ids": ["income_certificate", "ayushman_card", "aadhaar_enrolment"]
+}

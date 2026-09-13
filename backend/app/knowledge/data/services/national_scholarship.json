@@ -1,0 +1,284 @@
+{
+  "id": "national_scholarship",
+  "category_id": "education",
+  "jurisdiction": "national",
+  "priority": 97,
+  "names": { "en": "Scholarships — National Scholarship Portal", "hi": "छात्रवृत्ति — राष्ट्रीय छात्रवृत्ति पोर्टल" },
+  "tagline": {
+    "en": "Government financial help for your studies.",
+    "hi": "आपकी पढ़ाई के लिए सरकारी आर्थिक मदद।"
+  },
+  "description": {
+    "en": "The National Scholarship Portal (NSP) is the single government platform where you apply for Central, State, UGC and AICTE scholarships — from Class 1 up to PhD. It covers pre-matric and post-matric scholarships for SC, ST, OBC, minority, EWS and merit-based schemes. You register once (OTR) and then apply for the schemes you are eligible for.",
+    "hi": "राष्ट्रीय छात्रवृत्ति पोर्टल (एनएसपी) वह एकमात्र सरकारी मंच है जहाँ आप कक्षा 1 से पीएचडी तक की केंद्रीय, राज्य, यूजीसी और एआईसीटीई छात्रवृत्तियों के लिए आवेदन करते हैं। इसमें एससी, एसटी, ओबीसी, अल्पसंख्यक, ईडब्ल्यूएस और मेधा आधारित योजनाओं की प्री-मैट्रिक और पोस्ट-मैट्रिक छात्रवृत्तियाँ शामिल हैं। आप एक बार पंजीकरण (ओटीआर) करते हैं और फिर पात्र योजनाओं के लिए आवेदन करते हैं।"
+  },
+  "aliases": {
+    "en": [
+      "scholarship", "scholarships", "student scholarship", "nsp",
+      "national scholarship portal", "post matric scholarship", "pre matric scholarship",
+      "financial help for study", "financial aid education", "study fund", "fee reimbursement",
+      "education loan help", "minority scholarship", "merit scholarship"
+    ],
+    "hi": [
+      "छात्रवृत्ति", "स्कॉलरशिप", "स्कोलरशिप", "छात्रवृत्ति आवेदन", "एनएसपी",
+      "राष्ट्रीय छात्रवृत्ति पोर्टल", "पोस्ट मैट्रिक छात्रवृत्ति", "प्री मैट्रिक छात्रवृत्ति",
+      "पढ़ाई के लिए आर्थिक मदद", "पढ़ाई में मदद", "फीस में छूट", "शिक्षा सहायता",
+      "विद्यार्थी छात्रवृत्ति", "अल्पसंख्यक छात्रवृत्ति", "मेधावी छात्रवृत्ति"
+    ]
+  },
+  "keywords": {
+    "en": ["scholarship", "student", "education", "study", "college", "school", "fees", "nsp", "financial", "aid"],
+    "hi": ["छात्रवृत्ति", "स्कॉलरशिप", "विद्यार्थी", "छात्र", "शिक्षा", "पढ़ाई", "कॉलेज", "स्कूल", "फीस", "मदद"]
+  },
+  "eligibility": [
+    {
+      "en": "You must be an Indian citizen studying in a recognised institution in India.",
+      "hi": "आपको भारत में मान्यता प्राप्त संस्थान में पढ़ने वाला भारतीय नागरिक होना चाहिए।"
+    },
+    {
+      "en": "Each scheme has its own income limit, category, course and minimum marks requirement. Most need a family income certificate.",
+      "hi": "हर योजना की अपनी आय सीमा, श्रेणी, कोर्स और न्यूनतम अंक की शर्त है। अधिकांश में पारिवारिक आय प्रमाण पत्र चाहिए।"
+    },
+    {
+      "en": "Pre-matric schemes cover school students; post-matric schemes cover Class 11 and above, including college, diploma and research.",
+      "hi": "प्री-मैट्रिक योजनाएँ स्कूली छात्रों के लिए हैं; पोस्ट-मैट्रिक योजनाएँ कक्षा 11 और उसके बाद, जिसमें कॉलेज, डिप्लोमा और शोध शामिल हैं।"
+    },
+    {
+      "en": "You must have a bank account, preferably in your own name and linked to Aadhaar, to receive the scholarship.",
+      "hi": "छात्रवृत्ति पाने के लिए आपके पास बैंक खाता होना चाहिए, अधिमानतः आपके नाम पर और आधार से जुड़ा हुआ।"
+    }
+  ],
+  "documents": [
+    {
+      "id": "aadhaar",
+      "name": { "en": "Aadhaar number", "hi": "आधार संख्या" },
+      "detail": {
+        "en": "Used for One Time Registration (OTR) and face authentication through the NSP OTR app.",
+        "hi": "वन टाइम रजिस्ट्रेशन (ओटीआर) और एनएसपी ओटीआर ऐप से फेस ऑथेंटिकेशन के लिए उपयोग होता है।"
+      },
+      "required": true
+    },
+    {
+      "id": "income_certificate",
+      "name": { "en": "Family income certificate", "hi": "पारिवारिक आय प्रमाण पत्र" },
+      "detail": {
+        "en": "Issued by your state revenue authority. Most schemes have a specific annual income ceiling.",
+        "hi": "आपके राज्य के राजस्व प्राधिकरण द्वारा जारी। अधिकांश योजनाओं में सालाना आय की विशेष सीमा होती है।"
+      },
+      "required": true
+    },
+    {
+      "id": "caste_certificate",
+      "name": { "en": "Caste certificate (SC/ST/OBC)", "hi": "जाति प्रमाण पत्र (एससी/एसटी/ओबीसी)" },
+      "detail": {
+        "en": "Needed for category-based schemes.",
+        "hi": "श्रेणी आधारित योजनाओं के लिए आवश्यक।"
+      },
+      "required": false
+    },
+    {
+      "id": "domicile_certificate",
+      "name": { "en": "Domicile / residence certificate", "hi": "निवास / डोमिसाइल प्रमाण पत्र" },
+      "detail": {
+        "en": "Required for most State Government schemes on NSP.",
+        "hi": "एनएसपी पर अधिकांश राज्य सरकार योजनाओं के लिए आवश्यक।"
+      },
+      "required": false
+    },
+    {
+      "id": "marksheets",
+      "name": { "en": "Previous exam marksheet", "hi": "पिछली परीक्षा की अंकसूची" },
+      "detail": {
+        "en": "Last passed examination result, and admission or fee receipt of the current course.",
+        "hi": "पिछली उत्तीर्ण परीक्षा का परिणाम, तथा वर्तमान कोर्स का प्रवेश या फीस रसीद।"
+      },
+      "required": true
+    },
+    {
+      "id": "bank_passbook",
+      "name": { "en": "Bank account details", "hi": "बैंक खाता विवरण" },
+      "detail": {
+        "en": "Account number and IFSC. Aadhaar-seeded accounts receive money through Direct Benefit Transfer.",
+        "hi": "खाता संख्या और आईएफएससी। आधार-संबद्ध खातों में डीबीटी से राशि आती है।"
+      },
+      "required": true
+    },
+    {
+      "id": "disability_certificate",
+      "name": { "en": "Disability certificate", "hi": "दिव्यांगता प्रमाण पत्र" },
+      "detail": {
+        "en": "Required only if you are applying under a scheme for students with disabilities.",
+        "hi": "केवल तभी आवश्यक जब आप दिव्यांग छात्रों की योजना में आवेदन कर रहे हों।"
+      },
+      "required": false
+    }
+  ],
+  "steps": [
+    {
+      "title": { "en": "Complete One Time Registration (OTR)", "hi": "वन टाइम रजिस्ट्रेशन (ओटीआर) पूरा करें" },
+      "detail": {
+        "en": "On the NSP portal choose New Registration, enter your Aadhaar number, and complete face authentication with the NSP OTR app. You get an OTR number that stays valid through your whole academic career.",
+        "hi": "एनएसपी पोर्टल पर न्यू रजिस्ट्रेशन चुनें, आधार संख्या भरें और एनएसपी ओटीआर ऐप से फेस ऑथेंटिकेशन पूरा करें। आपको ओटीआर संख्या मिलती है जो पूरी पढ़ाई के दौरान मान्य रहती है।"
+      },
+      "tips": [
+        {
+          "en": "Save the OTR number somewhere safe. Losing it is the biggest reason students get stuck.",
+          "hi": "ओटीआर संख्या सुरक्षित रखें। इसे खोना छात्रों के अटकने का सबसे बड़ा कारण है।"
+        }
+      ]
+    },
+    {
+      "title": { "en": "Check which schemes you are eligible for", "hi": "देखें कि आप किन योजनाओं के पात्र हैं" },
+      "detail": {
+        "en": "NSP has a Scholarship Eligibility Checker. Enter your state, category, course level and family income to see matching schemes.",
+        "hi": "एनएसपी पर छात्रवृत्ति पात्रता जाँच उपकरण है। राज्य, श्रेणी, कोर्स स्तर और पारिवारिक आय भरकर मेल खाती योजनाएँ देखें।"
+      },
+      "tips": []
+    },
+    {
+      "title": { "en": "Log in and start a new application", "hi": "लॉगिन करें और नया आवेदन शुरू करें" },
+      "detail": {
+        "en": "Go to Applicant Corner, choose New Application, and log in with your OTR number.",
+        "hi": "एप्लिकेंट कॉर्नर में जाएँ, न्यू एप्लिकेशन चुनें और ओटीआर संख्या से लॉगिन करें।"
+      },
+      "tips": []
+    },
+    {
+      "title": { "en": "Fill personal and academic details", "hi": "व्यक्तिगत और शैक्षणिक विवरण भरें" },
+      "detail": {
+        "en": "Add your course, institution, previous results, family income and bank details. Save as draft as you go so nothing is lost.",
+        "hi": "अपना कोर्स, संस्थान, पिछले परिणाम, पारिवारिक आय और बैंक विवरण जोड़ें। काम चलते-चलते ड्राफ्ट सेव करें ताकि कुछ न खोए।"
+      },
+      "tips": [
+        {
+          "en": "Your bank account name should match your application name, otherwise DBT payment fails.",
+          "hi": "बैंक खाते का नाम आवेदन के नाम से मिलना चाहिए, अन्यथा डीबीटी भुगतान विफल होता है।"
+        }
+      ]
+    },
+    {
+      "title": { "en": "Upload documents", "hi": "दस्तावेज़ अपलोड करें" },
+      "detail": {
+        "en": "Upload clear scanned copies within the size limit, usually under 200 KB per file in PDF or JPEG.",
+        "hi": "साफ स्कैन कॉपी आकार सीमा में अपलोड करें, आमतौर पर प्रति फाइल 200 केबी से कम, पीडीएफ या जेपीईजी में।"
+      },
+      "tips": []
+    },
+    {
+      "title": { "en": "Final submit and note the application ID", "hi": "अंतिम सबमिट करें और आवेदन आईडी नोट करें" },
+      "detail": {
+        "en": "Review everything, then click Final Submit. A draft application is not considered submitted. Save the application ID and take a printout.",
+        "hi": "सब कुछ देखकर अंतिम सबमिट दबाएँ। ड्राफ्ट आवेदन जमा नहीं माना जाता। आवेदन आईडी सुरक्षित रखें और प्रिंटआउट लें।"
+      },
+      "tips": []
+    },
+    {
+      "title": { "en": "Institute verification", "hi": "संस्थान सत्यापन" },
+      "detail": {
+        "en": "Your school or college must verify the application online within its deadline. Follow up with the scholarship or accounts section if it is pending.",
+        "hi": "आपके स्कूल या कॉलेज को निर्धारित समय में आवेदन ऑनलाइन सत्यापित करना होता है। लंबित हो तो छात्रवृत्ति या लेखा अनुभाग से संपर्क करें।"
+      },
+      "tips": []
+    },
+    {
+      "title": { "en": "Track status and renewal", "hi": "स्थिति देखें और नवीनीकरण करें" },
+      "detail": {
+        "en": "Check status with your application ID on NSP. For the next academic year, use Renewal Application instead of a fresh application.",
+        "hi": "एनएसपी पर आवेदन आईडी से स्थिति देखें। अगले शैक्षणिक वर्ष के लिए नए आवेदन के बजाय नवीनीकरण आवेदन उपयोग करें।"
+      },
+      "tips": []
+    }
+  ],
+  "important_notes": [
+    {
+      "en": "Application windows are time-bound and usually close once a year. Check the current cycle dates on NSP before planning.",
+      "hi": "आवेदन अवधि समय-बद्ध होती है और आमतौर पर वर्ष में एक बार बंद होती है। योजना बनाने से पहले एनएसपी पर वर्तमान चक्र की तिथियाँ देखें।"
+    },
+    {
+      "en": "A missing institute verification is the most common reason a scholarship is not paid. Track it every few days.",
+      "hi": "संस्थान सत्यापन न होना छात्रवृत्ति न मिलने का सबसे आम कारण है। हर कुछ दिन में स्थिति देखें।"
+    },
+    {
+      "en": "Never pay anyone who claims they can 'guarantee' a scholarship. The NSP application process is free.",
+      "hi": "कभी भी ऐसे व्यक्ति को पैसे न दें जो छात्रवृत्ति 'पक्की' कराने का दावा करे। एनएसपी आवेदन प्रक्रिया नि:शुल्क है।"
+    },
+    {
+      "en": "Many states also run their own scholarship portals outside NSP. Ask your institution which one applies to you.",
+      "hi": "कई राज्य एनएसपी के बाहर अपना छात्रवृत्ति पोर्टल भी चलाते हैं। अपने संस्थान से पूछें कि कौन सा आप पर लागू होता है।"
+    }
+  ],
+  "official_source": {
+    "en": "National Scholarship Portal — Ministry of Education, Government of India",
+    "hi": "राष्ट्रीय छात्रवृत्ति पोर्टल — शिक्षा मंत्रालय, भारत सरकार"
+  },
+  "official_url": "https://scholarships.gov.in/",
+  "portal_label": { "en": "Visit scholarships.gov.in", "hi": "scholarships.gov.in पर जाएँ" },
+  "extra_links": [
+    { "label": { "en": "Scholarship eligibility checker", "hi": "छात्रवृत्ति पात्रता जाँच" }, "url": "https://scholarships.gov.in/scholarshipEligibility" }
+  ],
+  "helpline": {
+    "label": { "en": "NSP helpline", "hi": "एनएसपी हेल्पलाइन" },
+    "value": "0120-6619540"
+  },
+  "verification": {
+    "level": "verified_official",
+    "last_verified": "2026-09-13",
+    "note": {
+      "en": "The portal and process are national and verified. However, individual scheme names, income ceilings, marks requirements and deadlines differ every academic cycle — always read the scheme guidelines on NSP for your year.",
+      "hi": "पोर्टल और प्रक्रिया राष्ट्रीय और सत्यापित है। पर प्रत्येक योजना का नाम, आय सीमा, अंक की शर्त और अंतिम तिथि हर शैक्षणिक चक्र में बदलती है — हमेशा अपने वर्ष के लिए एनएसपी पर योजना दिशानिर्देश पढ़ें।"
+    }
+  },
+  "state_portals": [],
+  "clarifiers": [
+    {
+      "id": "study_level",
+      "question": {
+        "en": "Which level are you studying at? This decides the scheme you can apply for.",
+        "hi": "आप किस स्तर की पढ़ाई कर रहे हैं? इससे तय होता है कि आप किस योजना के लिए आवेदन कर सकते हैं।"
+      },
+      "options": [
+        { "id": "school", "label": { "en": "School (up to Class 10)", "hi": "स्कूल (कक्षा 10 तक)" } },
+        { "id": "higher_secondary", "label": { "en": "Class 11–12", "hi": "कक्षा 11–12" } },
+        { "id": "college", "label": { "en": "College / Degree / Diploma", "hi": "कॉलेज / डिग्री / डिप्लोमा" } },
+        { "id": "higher", "label": { "en": "PG / Professional / PhD", "hi": "पीजी / प्रोफेशनल / पीएचडी" } }
+      ]
+    },
+    {
+      "id": "help_type",
+      "question": {
+        "en": "What kind of help do you need most?",
+        "hi": "आपको किस प्रकार की मदद सबसे ज़्यादा चाहिए?"
+      },
+      "options": [
+        { "id": "fees", "label": { "en": "Fee support", "hi": "फीस में मदद" } },
+        { "id": "living", "label": { "en": "Maintenance / living costs", "hi": "निर्वाह / रहन-सहन खर्च" } },
+        { "id": "hostel", "label": { "en": "Hostel or books", "hi": "हॉस्टल या किताबें" } },
+        { "id": "unsure", "label": { "en": "Not sure", "hi": "पता नहीं" } }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": { "en": "Can I apply for more than one scholarship?", "hi": "क्या मैं एक से ज़्यादा छात्रवृत्ति के लिए आवेदन कर सकता हूँ?" },
+      "a": {
+        "en": "You can apply for several schemes, but many rules prevent receiving the same type of benefit twice. Read each scheme's guidelines carefully.",
+        "hi": "आप कई योजनाओं में आवेदन कर सकते हैं, पर अनेक नियम एक ही प्रकार का लाभ दो बार लेने से रोकते हैं। हर योजना के दिशानिर्देश ध्यान से पढ़ें।"
+      }
+    },
+    {
+      "q": { "en": "My family income is slightly above the limit. Can I still apply?", "hi": "मेरे परिवार की आय सीमा से थोड़ी अधिक है। क्या फिर भी आवेदन कर सकता हूँ?" },
+      "a": {
+        "en": "Income limits are strict for income-based schemes. But merit-based and some category-based schemes have different or no income limits — use the eligibility checker to see all options.",
+        "hi": "आय आधारित योजनाओं में आय सीमा सख्त होती है। पर मेधा आधारित और कुछ श्रेणी आधारित योजनाओं में आय सीमा अलग या नहीं होती — सभी विकल्प देखने के लिए पात्रता जाँच उपकरण उपयोग करें।"
+      }
+    },
+    {
+      "q": { "en": "What is OTR?", "hi": "ओटीआर क्या है?" },
+      "a": {
+        "en": "One Time Registration. You register once on NSP with Aadhaar and reuse that OTR number every year, including for renewals.",
+        "hi": "वन टाइम रजिस्ट्रेशन। आप एनएसपी पर एक बार आधार से पंजीकरण करते हैं और उस ओटीआर संख्या का उपयोग हर वर्ष, नवीनीकरण सहित, करते हैं।"
+      }
+    }
+  ],
+  "related_service_ids": ["income_certificate", "caste_certificate", "domicile_certificate"]
+}

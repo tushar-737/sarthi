@@ -1,0 +1,228 @@
+{
+  "id": "ayushman_card",
+  "category_id": "health",
+  "jurisdiction": "national",
+  "priority": 92,
+  "names": { "en": "Ayushman Bharat Card (PM-JAY)", "hi": "आयुष्मान भारत कार्ड (पीएम-जय)" },
+  "tagline": {
+    "en": "Free health cover of Rs 5 lakh per family per year.",
+    "hi": "प्रति परिवार प्रति वर्ष 5 लाख रुपये का नि:शुल्क स्वास्थ्य बीमा।"
+  },
+  "description": {
+    "en": "Pradhan Mantri Jan Arogya Yojana (PM-JAY), popularly called Ayushman Bharat, gives eligible families health cover of Rs 5 lakh per family per year for secondary and tertiary hospitalisation at empanelled public and private hospitals, on a family-floater basis with no cap on family size or age.",
+    "hi": "प्रधानमंत्री जन आरोग्य योजना (पीएम-जय), जिसे आयुष्मान भारत कहा जाता है, पात्र परिवारों को प्रति परिवार प्रति वर्ष 5 लाख रुपये का स्वास्थ्य बीमा देती है। यह सूचीबद्ध सरकारी और निजी अस्पतालों में द्वितीयक और तृतीयक भर्ती के लिए है, पारिवारिक फ्लोटर आधार पर, परिवार के आकार या आयु की कोई सीमा नहीं।"
+  },
+  "aliases": {
+    "en": [
+      "ayushman", "ayushman bharat", "ayushman card", "pmjay", "pm-jay", "health card",
+      "health insurance", "free treatment", "hospital cover", "ayushman bharat card",
+      "5 lakh health cover", "golden card", "abha card"
+    ],
+    "hi": [
+      "आयुष्मान", "आयुष्मान भारत", "आयुष्मान कार्ड", "पीएम जय", "स्वास्थ्य कार्ड",
+      "मुफ्त इलाज", "नि:शुल्क इलाज", "अस्पताल बीमा", "स्वास्थ्य बीमा", "आयुष्मान भारत कार्ड",
+      "पाँच लाख का इलाज", "गोल्डन कार्ड", "इलाज में मदद"
+    ]
+  },
+  "keywords": {
+    "en": ["ayushman", "health", "hospital", "treatment", "medical", "insurance", "pmjay", "surgery", "cover"],
+    "hi": ["आयुष्मान", "स्वास्थ्य", "इलाज", "अस्पताल", "बीमा", "दवा", "ऑपरेशन", "चिकित्सा", "बिमारी"]
+  },
+  "eligibility": [
+    {
+      "en": "Eligibility is based on deprivation and occupational criteria drawn from the Socio-Economic and Caste Census (SECC) 2011 data.",
+      "hi": "पात्रता सामाजिक-आर्थिक एवं जाति जनगणना (एसईसीसी) 2011 के वंचित और व्यवसाय आधारित मानदंडों पर तय होती है।"
+    },
+    {
+      "en": "Rural criteria include families with no adult member aged 16 to 59, landless households dependent on manual labour, single-room kucha houses, and SC/ST households.",
+      "hi": "ग्रामीण मानदंडों में 16 से 59 वर्ष का कोई वयस्क सदस्य न होना, भूमिहीन परिवार जो मज़दूरी पर निर्भर हों, एक कमरे का कच्चा मकान, तथा एससी/एसटी परिवार शामिल हैं।"
+    },
+    {
+      "en": "Urban criteria include street vendors, construction workers, domestic workers, sanitation workers, ragpickers, drivers, electricians, tailors and similar informal occupations.",
+      "hi": "शहरी मानदंडों में ठेले वालों, निर्माण श्रमिकों, घरेलू सहायकों, सफाई कर्मियों, कबाड़ चुनने वालों, चालकों, बिजली मिस्त्रियों, दर्जियों और ऐसे ही अनौपचारिक व्यवसाय वाले शामिल हैं।"
+    },
+    {
+      "en": "All senior citizens aged 70 and above are eligible regardless of income, under the separately announced senior citizen cover.",
+      "hi": "70 वर्ष और अधिक आयु के सभी वरिष्ठ नागरिक, अलग से घोषित वरिष्ठ नागरिक कवरेज के तहत, आय की परवाह किए बिना पात्र हैं।"
+    },
+    {
+      "en": "The cover is on a family-floater basis with no restriction on family size, age or gender, and no cap on the number of family members.",
+      "hi": "कवरेज पारिवारिक फ्लोटर आधार पर है, परिवार के आकार, आयु या लिंग पर कोई प्रतिबंध नहीं और सदस्यों की संख्या की कोई सीमा नहीं।"
+    },
+    {
+      "en": "Some states run their own version of the scheme with a wider beneficiary list. Check your state health department too.",
+      "hi": "कुछ राज्य इस योजना का अपना संस्करण अधिक विस्तृत लाभार्थी सूची के साथ चलाते हैं। अपने राज्य स्वास्थ्य विभाग से भी जाँच करें।"
+    }
+  ],
+  "documents": [
+    {
+      "id": "aadhaar",
+      "name": { "en": "Aadhaar card", "hi": "आधार कार्ड" },
+      "detail": {
+        "en": "The primary identity document used for verification at the hospital or CSC.",
+        "hi": "अस्पताल या सीएससी में सत्यापन के लिए मुख्य पहचान दस्तावेज़।"
+      },
+      "required": true
+    },
+    {
+      "id": "ration_card",
+      "name": { "en": "Ration card", "hi": "राशन कार्ड" },
+      "detail": {
+        "en": "Helps confirm household composition when your name is checked against the beneficiary list.",
+        "hi": "लाभार्थी सूची से नाम मिलान करते समय परिवार की पुष्टि में मदद करता है।"
+      },
+      "required": false
+    },
+    {
+      "id": "mobile_number",
+      "name": { "en": "Mobile number", "hi": "मोबाइल नंबर" },
+      "detail": {
+        "en": "Needed for OTP verification when creating or downloading your card.",
+        "hi": "कार्ड बनाने या डाउनलोड करते समय ओटीपी सत्यापन के लिए ज़रूरी।"
+      },
+      "required": true
+    },
+    {
+      "id": "photograph",
+      "name": { "en": "Passport size photograph", "hi": "पासपोर्ट आकार फोटो" },
+      "detail": {
+        "en": "May be requested at a Common Service Centre or Ayushman Mitra desk.",
+        "hi": "जन सेवा केंद्र या आयुष्मान मित्र डेस्क पर माँगी जा सकती है।"
+      },
+      "required": false
+    }
+  ],
+  "steps": [
+    {
+      "title": { "en": "First check whether you are eligible", "hi": "पहले देखें कि आप पात्र हैं या नहीं" },
+      "detail": {
+        "en": "On the PM-JAY website use the 'Am I Eligible' option and search by your mobile number, ration card number or name. This is the fastest way to confirm your status.",
+        "hi": "पीएम-जय वेबसाइट पर 'एएम आई एलिजिबल' विकल्प से मोबाइल नंबर, राशन कार्ड संख्या या नाम से खोजें। अपनी स्थिति पुष्ट करने का यह सबसे तेज़ तरीका है।"
+      },
+      "tips": [
+        {
+          "en": "Do this before travelling anywhere. If your name is not on the list, a card cannot be issued.",
+          "hi": "कहीं जाने से पहले यह कर लें। नाम सूची में नहीं है तो कार्ड नहीं बन सकता।"
+        }
+      ]
+    },
+    {
+      "title": { "en": "Create your card online or at a centre", "hi": "अपना कार्ड ऑनलाइन या केंद्र पर बनवाएँ" },
+      "detail": {
+        "en": "Eligible beneficiaries can create the Ayushman card online on the beneficiary portal using mobile OTP and Aadhaar-based verification, or visit a Common Service Centre or an empanelled hospital's Ayushman Mitra desk.",
+        "hi": "पात्र लाभार्थी मोबाइल ओटीपी और आधार आधारित सत्यापन से लाभार्थी पोर्टल पर आयुष्मान कार्ड ऑनलाइन बना सकते हैं, या जन सेवा केंद्र या सूचीबद्ध अस्पताल के आयुष्मान मित्र डेस्क पर जा सकते हैं।"
+      },
+      "tips": []
+    },
+    {
+      "title": { "en": "Verify your details", "hi": "अपना विवरण सत्यापित करें" },
+      "detail": {
+        "en": "Check your name, photograph, family members and address on the card. Report any mistake immediately — errors cause rejection at the hospital counter.",
+        "hi": "कार्ड पर नाम, फोटो, परिवार के सदस्य और पता जाँचें। गलती हो तो तुरंत बताएँ — गलतियों के कारण अस्पताल में कार्ड अस्वीकार होता है।"
+      },
+      "tips": []
+    },
+    {
+      "title": { "en": "Download or collect the card", "hi": "कार्ड डाउनलोड करें या प्राप्त करें" },
+      "detail": {
+        "en": "Download the card as a PDF and keep a printout and a copy on your phone. Carry it to any empanelled hospital.",
+        "hi": "कार्ड पीडीएफ में डाउनलोड करें और प्रिंटआउट तथा फोन में कॉपी रखें। किसी भी सूचीबद्ध अस्पताल में इसे साथ ले जाएँ।"
+      },
+      "tips": []
+    },
+    {
+      "title": { "en": "Find an empanelled hospital", "hi": "सूचीबद्ध अस्पताल खोजें" },
+      "detail": {
+        "en": "Use the hospital search on the PM-JAY website to filter by state, district, speciality and whether the hospital is public or private.",
+        "hi": "पीएम-जय वेबसाइट पर अस्पताल खोज में राज्य, ज़िला, विशेषता और सरकारी या निजी के अनुसार छानें।"
+      },
+      "tips": []
+    },
+    {
+      "title": { "en": "Get cashless treatment", "hi": "कैशलेस इलाज पाएँ" },
+      "detail": {
+        "en": "At the hospital go to the Ayushman Mitra desk, show your card and Aadhaar. The desk raises a pre-authorisation request, and after approval treatment proceeds without you paying the covered amount.",
+        "hi": "अस्पताल में आयुष्मान मित्र डेस्क पर जाएँ, कार्ड और आधार दिखाएँ। डेस्क पूर्व-अनुमति का अनुरोध भेजती है और स्वीकृति के बाद कवर की गई राशि के लिए आपको भुगतान किए बिना इलाज चलता है।"
+      },
+      "tips": [
+        {
+          "en": "Only the packages listed under the scheme are covered. Ask the Ayushman Mitra which parts of your treatment are covered before agreeing to anything.",
+          "hi": "केवल योजना में सूचीबद्ध पैकेज कवर होते हैं। किसी बात पर सहमत होने से पहले आयुष्मान मित्र से पूछें कि आपके इलाज के कौन से भाग कवर हैं।"
+        }
+      ]
+    }
+  ],
+  "important_notes": [
+    {
+      "en": "PM-JAY covers hospitalisation packages, not routine outpatient costs like medicines from a pharmacy or regular OPD visits.",
+      "hi": "पीएम-जय भर्ती के पैकेज कवर करता है, सामान्य बाह्य रोगी खर्च जैसे फार्मेसी की दवाइयाँ या नियमित ओपीडी नहीं।"
+    },
+    {
+      "en": "Creating the Ayushman card is free. Never pay an agent for it.",
+      "hi": "आयुष्मान कार्ड बनवाना नि:शुल्क है। इसके लिए कभी किसी एजेंट को पैसे न दें।"
+    },
+    {
+      "en": "Do not confuse the Ayushman card with an ABHA health ID. ABHA is a separate digital health record number under the Ayushman Bharat Digital Mission.",
+      "hi": "आयुष्मान कार्ड को एबीएचए स्वास्थ्य आईडी से न मिलाएँ। एबीएचए आयुष्मान भारत डिजिटल मिशन के तहत अलग डिजिटल स्वास्थ्य रिकॉर्ड संख्या है।"
+    },
+    {
+      "en": "If a hospital asks for money for a covered package, complain to the PM-JAY helpline immediately.",
+      "hi": "यदि अस्पताल कवर किए पैकेज के लिए पैसे माँगे तो तुरंत पीएम-जय हेल्पलाइन पर शिकायत करें।"
+    }
+  ],
+  "official_source": {
+    "en": "National Health Authority, Government of India",
+    "hi": "राष्ट्रीय स्वास्थ्य प्राधिकरण, भारत सरकार"
+  },
+  "official_url": "https://pmjay.gov.in/",
+  "portal_label": { "en": "PM-JAY — pmjay.gov.in", "hi": "पीएम-जय — pmjay.gov.in" },
+  "extra_links": [
+    { "label": { "en": "Ayushman card / beneficiary portal", "hi": "आयुष्मान कार्ड / लाभार्थी पोर्टल" }, "url": "https://beneficiary.nha.gov.in/" },
+    { "label": { "en": "ABHA health ID (separate service)", "hi": "एबीएचए स्वास्थ्य आईडी (अलग सेवा)" }, "url": "https://abha.abdm.gov.in/" }
+  ],
+  "helpline": {
+    "label": { "en": "PM-JAY helpline (toll free)", "hi": "पीएम-जय हेल्पलाइन (टोल फ्री)" },
+    "value": "14555 / 1800-111-555"
+  },
+  "verification": {
+    "level": "verified_official",
+    "last_verified": "2026-09-13",
+    "note": {
+      "en": "PM-JAY is a national scheme run by the National Health Authority. The covered package list and state-level extensions are revised regularly — confirm the current package list on pmjay.gov.in before treatment.",
+      "hi": "पीएम-जय राष्ट्रीय स्वास्थ्य प्राधिकरण द्वारा संचालित राष्ट्रीय योजना है। कवर किए गए पैकेज की सूची और राज्य-स्तरीय विस्तार नियमित रूप से बदलते हैं — इलाज से पहले pmjay.gov.in पर वर्तमान सूची देखें।"
+    }
+  },
+  "state_portals": [],
+  "clarifiers": [
+    {
+      "id": "health_need",
+      "question": {
+        "en": "What do you need help with?",
+        "hi": "आपको किसमें मदद चाहिए?"
+      },
+      "options": [
+        { "id": "check_eligible", "label": { "en": "Check if I am eligible", "hi": "देखना कि मैं पात्र हूँ या नहीं" } },
+        { "id": "make_card", "label": { "en": "Get the Ayushman card", "hi": "आयुष्मान कार्ड बनवाना" } },
+        { "id": "find_hospital", "label": { "en": "Find a hospital", "hi": "अस्पताल खोजना" } },
+        { "id": "claim_problem", "label": { "en": "Problem with a claim", "hi": "दावे में समस्या" } }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": { "en": "Is there an age limit?", "hi": "क्या कोई आयु सीमा है?" },
+      "a": {
+        "en": "No. There is no cap on family size or age under PM-JAY, and senior citizens aged 70 and above are covered regardless of income.",
+        "hi": "नहीं। पीएम-जय में परिवार के आकार या आयु की कोई सीमा नहीं है, और 70 वर्ष से अधिक आयु के वरिष्ठ नागरिक आय की परवाह किए बिना कवर हैं।"
+      }
+    },
+    {
+      "q": { "en": "Can I use it in another state?", "hi": "क्या मैं इसे दूसरे राज्य में उपयोग कर सकता हूँ?" },
+      "a": {
+        "en": "Yes. The card is portable across India at empanelled hospitals, which is a major benefit for migrant workers.",
+        "hi": "हाँ। यह कार्ड पूरे भारत में सूचीबद्ध अस्पतालों में मान्य है, जो प्रवासी श्रमिकों के लिए बड़ा लाभ है।"
+      }
+    }
+  ],
+  "related_service_ids": ["aadhaar_enrolment", "old_age_pension"]
+}

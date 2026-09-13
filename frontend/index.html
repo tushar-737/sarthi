@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="hi" data-contrast="normal" data-motion="auto" data-text="medium">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <meta name="theme-color" content="#0B1B33" />
+    <title>SAARTHI AI — Your Voice Companion for Digital Public Services</title>
+    <meta
+      name="description"
+      content="SAARTHI AI helps citizens understand government services in Hindi and English — eligibility, documents, application steps and official portals. Voice-first and accessible."
+    />
+    <!--
+      Accessibility defaults are applied before first paint so that a returning
+      user's text size, contrast and motion preferences never flash.
+    -->
+    <script>
+      ;(function () {
+        try {
+          var raw = localStorage.getItem('sarthi.settings')
+          if (!raw) return
+          var s = JSON.parse(raw)
+          var root = document.documentElement
+          if (s.textSize) root.setAttribute('data-text', s.textSize)
+          if (s.highContrast) root.setAttribute('data-contrast', 'high')
+          if (s.reducedMotion) root.setAttribute('data-motion', 'reduced')
+          if (s.language) root.setAttribute('lang', s.language === 'hi' ? 'hi' : 'en')
+        } catch (e) {
+          /* settings are a convenience, never a hard requirement */
+        }
+      })()
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <noscript>
+      <div style="padding: 2rem; font-family: system-ui, sans-serif; line-height: 1.6">
+        <h1>SAARTHI AI</h1>
+        <p>
+          SAARTHI AI needs JavaScript to run. If you cannot enable it, please visit the
+          official National Portal of India at
+          <a href="https://www.india.gov.in/">india.gov.in</a> for government service
+          information.
+        </p>
+        <p>सारथी एआई के लिए JavaScript आवश्यक है।</p>
+      </div>
+    </noscript>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
