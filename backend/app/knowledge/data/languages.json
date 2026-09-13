@@ -1,0 +1,148 @@
+{
+  "version": "1.0.0",
+  "languages": [
+    {
+      "code": "hi",
+      "bcp47": "hi-IN",
+      "name_en": "Hindi",
+      "name_local": "हिन्दी",
+      "speech_locale": "hi-IN",
+      "tts_voice_hint": "hi-IN",
+      "status": "available",
+      "order": 1,
+      "rtl": false
+    },
+    {
+      "code": "en",
+      "bcp47": "en-IN",
+      "name_en": "English",
+      "name_local": "English",
+      "speech_locale": "en-IN",
+      "tts_voice_hint": "en-IN",
+      "status": "available",
+      "order": 2,
+      "rtl": false
+    },
+    {
+      "code": "bn",
+      "bcp47": "bn-IN",
+      "name_en": "Bengali",
+      "name_local": "বাংলা",
+      "speech_locale": "bn-IN",
+      "tts_voice_hint": "bn-IN",
+      "status": "planned",
+      "order": 3,
+      "rtl": false
+    },
+    {
+      "code": "mr",
+      "bcp47": "mr-IN",
+      "name_en": "Marathi",
+      "name_local": "मराठी",
+      "speech_locale": "mr-IN",
+      "tts_voice_hint": "mr-IN",
+      "status": "planned",
+      "order": 4,
+      "rtl": false
+    },
+    {
+      "code": "ta",
+      "bcp47": "ta-IN",
+      "name_en": "Tamil",
+      "name_local": "தமிழ்",
+      "speech_locale": "ta-IN",
+      "tts_voice_hint": "ta-IN",
+      "status": "planned",
+      "order": 5,
+      "rtl": false
+    },
+    {
+      "code": "te",
+      "bcp47": "te-IN",
+      "name_en": "Telugu",
+      "name_local": "తెలుగు",
+      "speech_locale": "te-IN",
+      "tts_voice_hint": "te-IN",
+      "status": "planned",
+      "order": 6,
+      "rtl": false
+    },
+    {
+      "code": "gu",
+      "bcp47": "gu-IN",
+      "name_en": "Gujarati",
+      "name_local": "ગુજરાતી",
+      "speech_locale": "gu-IN",
+      "tts_voice_hint": "gu-IN",
+      "status": "planned",
+      "order": 7,
+      "rtl": false
+    },
+    {
+      "code": "kn",
+      "bcp47": "kn-IN",
+      "name_en": "Kannada",
+      "name_local": "ಕನ್ನಡ",
+      "speech_locale": "kn-IN",
+      "tts_voice_hint": "kn-IN",
+      "status": "planned",
+      "order": 8,
+      "rtl": false
+    },
+    {
+      "code": "ml",
+      "bcp47": "ml-IN",
+      "name_en": "Malayalam",
+      "name_local": "മലയാളം",
+      "speech_locale": "ml-IN",
+      "tts_voice_hint": "ml-IN",
+      "status": "planned",
+      "order": 9,
+      "rtl": false
+    },
+    {
+      "code": "pa",
+      "bcp47": "pa-IN",
+      "name_en": "Punjabi",
+      "name_local": "ਪੰਜਾਬੀ",
+      "speech_locale": "pa-IN",
+      "tts_voice_hint": "pa-IN",
+      "status": "planned",
+      "order": 10,
+      "rtl": false
+    },
+    {
+      "code": "or",
+      "bcp47": "or-IN",
+      "name_en": "Odia",
+      "name_local": "ଓଡ଼ିଆ",
+      "speech_locale": "or-IN",
+      "tts_voice_hint": "or-IN",
+      "status": "planned",
+      "order": 11,
+      "rtl": false
+    },
+    {
+      "code": "as",
+      "bcp47": "as-IN",
+      "name_en": "Assamese",
+      "name_local": "অসমীয়া",
+      "speech_locale": "as-IN",
+      "tts_voice_hint": "as-IN",
+      "status": "planned",
+      "order": 12,
+      "rtl": false
+    },
+    {
+      "code": "ur",
+      "bcp47": "ur-IN",
+      "name_en": "Urdu",
+      "name_local": "اردو",
+      "speech_locale": "ur-IN",
+      "tts_voice_hint": "ur-IN",
+      "status": "planned",
+      "order": 13,
+      "rtl": true
+    }
+  ]
+}

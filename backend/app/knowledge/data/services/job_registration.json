@@ -1,0 +1,201 @@
+{
+  "id": "job_registration",
+  "category_id": "employment",
+  "jurisdiction": "national",
+  "priority": 87,
+  "names": { "en": "Job Search & Career Registration (NCS)", "hi": "नौकरी खोज और पंजीकरण (एनसीएस)" },
+  "tagline": {
+    "en": "Free government job portal, skill training and career counselling.",
+    "hi": "नि:शुल्क सरकारी रोज़गार पोर्टल, कौशल प्रशिक्षण और करियर सलाह।"
+  },
+  "description": {
+    "en": "The National Career Service (NCS) portal is run by the Ministry of Labour and Employment. Registration is free and gives you job matching and alerts, online applications to vacancies, career counselling at Model Career Centres, and access to free skill training courses.",
+    "hi": "राष्ट्रीय करियर सेवा (एनसीएस) पोर्टल श्रम एवं रोज़गार मंत्रालय चलाता है। पंजीकरण नि:शुल्क है और इससे आपको नौकरी मिलान और अलर्ट, रिक्तियों पर ऑनलाइन आवेदन, मॉडल करियर केंद्रों में करियर सलाह, तथा नि:शुल्क कौशल प्रशिक्षण पाठ्यक्रम मिलते हैं।"
+  },
+  "aliases": {
+    "en": [
+      "job", "jobs", "job search", "employment", "employment registration", "ncs",
+      "national career service", "career", "vacancy", "apply for job", "find work",
+      "govt job portal", "skill training", "unemployed", "looking for work", "rozgar"
+    ],
+    "hi": [
+      "नौकरी", "रोज़गार", "रोजगार", "रोज़गार पंजीकरण", "एनसीएस", "राष्ट्रीय करियर सेवा",
+      "करियर", "भर्ती", "नौकरी खोजना", "काम", "बेरोज़गार", "बेरोजगार", "नौकरी चाहिए",
+      "कौशल प्रशिक्षण", "रोज़गार कार्यालय", "नौकरी पाना"
+    ]
+  },
+  "keywords": {
+    "en": ["job", "employment", "career", "work", "vacancy", "unemployed", "recruitment", "ncs", "training"],
+    "hi": ["नौकरी", "रोज़गार", "रोजगार", "करियर", "काम", "भर्ती", "बेरोज़गार", "प्रशिक्षण"]
+  },
+  "eligibility": [
+    {
+      "en": "Anyone aged 14 years or above can register as a job seeker.",
+      "hi": "14 वर्ष या अधिक आयु का कोई भी व्यक्ति नौकरी खोजने वाले के रूप में पंजीकरण कर सकता है।"
+    },
+    {
+      "en": "There is no minimum educational qualification required to register.",
+      "hi": "पंजीकरण के लिए किसी न्यूनतम शैक्षणिक योग्यता की आवश्यकता नहीं है।"
+    },
+    {
+      "en": "Registration is free of cost for all job seekers.",
+      "hi": "सभी नौकरी खोजने वालों के लिए पंजीकरण नि:शुल्क है।"
+    },
+    {
+      "en": "You need one valid identity number — Aadhaar, PAN, Voter ID, passport, driving licence, UAN or an MGNREGA job card number.",
+      "hi": "आपके पास एक वैध पहचान संख्या होनी चाहिए — आधार, पैन, मतदाता पहचान पत्र, पासपोर्ट, ड्राइविंग लाइसेंस, यूएएन या मनरेगा जॉब कार्ड संख्या।"
+    }
+  ],
+  "documents": [
+    {
+      "id": "identity_number",
+      "name": { "en": "One identity document number", "hi": "किसी एक पहचान दस्तावेज़ की संख्या" },
+      "detail": {
+        "en": "Aadhaar, PAN, Voter ID, passport, driving licence, UAN or MGNREGA job card number, with your date of birth.",
+        "hi": "आधार, पैन, मतदाता पहचान पत्र, पासपोर्ट, ड्राइविंग लाइसेंस, यूएएन या मनरेगा जॉब कार्ड संख्या, साथ में जन्म तिथि।"
+      },
+      "required": true
+    },
+    {
+      "id": "contact_details",
+      "name": { "en": "Mobile number and email", "hi": "मोबाइल नंबर और ईमेल" },
+      "detail": {
+        "en": "Your mobile number receives the OTP and all job alerts.",
+        "hi": "आपके मोबाइल नंबर पर ओटीपी और सभी नौकरी अलर्ट आते हैं।"
+      },
+      "required": true
+    },
+    {
+      "id": "education_details",
+      "name": { "en": "Qualification details", "hi": "योग्यता का विवरण" },
+      "detail": {
+        "en": "Your highest qualification, year of passing and any technical or vocational training.",
+        "hi": "आपकी उच्चतम योग्यता, उत्तीर्ण वर्ष और कोई तकनीकी या व्यावसायिक प्रशिक्षण।"
+      },
+      "required": true
+    },
+    {
+      "id": "resume",
+      "name": { "en": "Resume or CV", "hi": "बायोडाटा या सीवी" },
+      "detail": {
+        "en": "A PDF copy of your resume and a recent photograph. Optional, but it makes your profile stronger.",
+        "hi": "आपके बायोडाटा की पीडीएफ कॉपी और हालिया फोटो। वैकल्पिक, पर इससे प्रोफाइल मज़बूत होती है।"
+      },
+      "required": false
+    }
+  ],
+  "steps": [
+    {
+      "title": { "en": "Register as a job seeker", "hi": "नौकरी खोजने वाले के रूप में पंजीकरण करें" },
+      "detail": {
+        "en": "On the NCS portal click Register and select Job Seeker. Enter your mobile number, verify the OTP, then choose your identity document type and number.",
+        "hi": "एनसीएस पोर्टल पर रजिस्टर दबाएँ और जॉब सीकर चुनें। मोबाइल नंबर भरें, ओटीपी सत्यापित करें, फिर पहचान दस्तावेज़ का प्रकार और संख्या चुनें।"
+      },
+      "tips": []
+    },
+    {
+      "title": { "en": "Build a complete profile", "hi": "पूरा प्रोफाइल बनाएँ" },
+      "detail": {
+        "en": "Add your education, skills, languages you know, work experience, expected salary and the locations you are willing to work in.",
+        "hi": "अपनी शिक्षा, कौशल, आती हुई भाषाएँ, कार्य अनुभव, अपेक्षित वेतन और जिन स्थानों पर काम करना चाहते हैं वे जोड़ें।"
+      },
+      "tips": [
+        {
+          "en": "A complete profile gets many more job matches. Fill every section you can.",
+          "hi": "पूरा प्रोफाइल होने पर नौकरी के मेल बहुत ज़्यादा मिलते हैं। जितना हो सके हर भाग भरें।"
+        }
+      ]
+    },
+    {
+      "title": { "en": "Upload your resume", "hi": "अपना बायोडाटा अपलोड करें" },
+      "detail": {
+        "en": "Upload a PDF resume and a photograph, then download your NCS Registration Card from your dashboard.",
+        "hi": "पीडीएफ बायोडाटा और फोटो अपलोड करें, फिर अपने डैशबोर्ड से एनसीएस पंजीकरण कार्ड डाउनलोड करें।"
+      },
+      "tips": []
+    },
+    {
+      "title": { "en": "Search and apply for jobs", "hi": "नौकरियाँ खोजें और आवेदन करें" },
+      "detail": {
+        "en": "Use the Jobs section to filter by sector, location, qualification and salary. Apply online and you will also get SMS and email alerts for matching vacancies.",
+        "hi": "जॉब्स अनुभाग में क्षेत्र, स्थान, योग्यता और वेतन से छानें। ऑनलाइन आवेदन करें और मेल खाती रिक्तियों के लिए एसएमएस व ईमेल अलर्ट भी मिलेंगे।"
+      },
+      "tips": []
+    },
+    {
+      "title": { "en": "Take free skill training", "hi": "नि:शुल्क कौशल प्रशिक्षण लें" },
+      "detail": {
+        "en": "The Training section lists free courses in partnership with training providers. Completing one improves your chances of getting shortlisted.",
+        "hi": "प्रशिक्षण अनुभाग में प्रशिक्षण प्रदाताओं के साथ नि:शुल्क पाठ्यक्रम सूचीबद्ध हैं। एक पूरा करने से चुने जाने की संभावना बढ़ती है।"
+      },
+      "tips": []
+    },
+    {
+      "title": { "en": "Visit a Model Career Centre", "hi": "मॉडल करियर केंद्र जाएँ" },
+      "detail": {
+        "en": "Model Career Centres across India offer free career counselling, aptitude testing, job fairs and placement drives. You can find your nearest centre on the portal.",
+        "hi": "भर में फैले मॉडल करियर केंद्र नि:शुल्क करियर सलाह, रुझान परीक्षण, रोज़गार मेले और नियुक्ति अभियान देते हैं। पोर्टल पर नज़दीकी केंद्र खोज सकते हैं।"
+      },
+      "tips": []
+    }
+  ],
+  "important_notes": [
+    {
+      "en": "NCS registration does not guarantee a job. It matches you to vacancies and helps you apply.",
+      "hi": "एनसीएस पंजीकरण नौकरी की गारंटी नहीं देता। यह आपको रिक्तियों से मिलाता है और आवेदन में मदद करता है।"
+    },
+    {
+      "en": "Government recruitment for most posts happens through separate exams — SSC, UPSC, Railways, state PSCs. NCS is an additional channel, not a replacement.",
+      "hi": "अधिकांश पदों पर सरकारी भर्ती अलग परीक्षाओं से होती है — एसएससी, यूपीएससी, रेलवे, राज्य पीएससी। एनसीएस एक अतिरिक्त माध्यम है, विकल्प नहीं।"
+    },
+    {
+      "en": "Never pay anyone who promises a government job. Such offers are always fraud.",
+      "hi": "सरकारी नौकरी दिलाने का वादा करने वाले को कभी पैसे न दें। ऐसे प्रस्ताव हमेशा धोखाधड़ी होते हैं।"
+    }
+  ],
+  "official_source": {
+    "en": "Ministry of Labour and Employment, Government of India",
+    "hi": "श्रम एवं रोज़गार मंत्रालय, भारत सरकार"
+  },
+  "official_url": "https://www.ncs.gov.in/",
+  "portal_label": { "en": "National Career Service portal", "hi": "राष्ट्रीय करियर सेवा पोर्टल" },
+  "extra_links": [],
+  "helpline": {
+    "label": { "en": "NCS toll-free helpline", "hi": "एनसीएस टोल-फ्री हेल्पलाइन" },
+    "value": "1800-425-1514"
+  },
+  "verification": {
+    "level": "verified_official",
+    "last_verified": "2026-09-13",
+    "note": {
+      "en": "Portal and process verified as national. The list of live vacancies changes continuously — always check the portal directly for current openings.",
+      "hi": "पोर्टल और प्रक्रिया राष्ट्रीय रूप से सत्यापित। उपलब्ध रिक्तियों की सूची लगातार बदलती है — वर्तमान अवसरों के लिए हमेशा सीधे पोर्टल देखें।"
+    }
+  },
+  "state_portals": [],
+  "clarifiers": [
+    {
+      "id": "job_need",
+      "question": {
+        "en": "What kind of help do you need with work?",
+        "hi": "काम के संबंध में आपको किस प्रकार की मदद चाहिए?"
+      },
+      "options": [
+        { "id": "find_job", "label": { "en": "Find a job", "hi": "नौकरी खोजना" } },
+        { "id": "rural_work", "label": { "en": "Village wage work (MGNREGA)", "hi": "गाँव में मज़दूरी का काम (मनरेगा)" } },
+        { "id": "training", "label": { "en": "Skill training", "hi": "कौशल प्रशिक्षण" } },
+        { "id": "govt_exam", "label": { "en": "Government exam / recruitment", "hi": "सरकारी परीक्षा / भर्ती" } }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": { "en": "I have no documents. Can I still register?", "hi": "मेरे पास दस्तावेज़ नहीं हैं। क्या फिर भी पंजीकरण हो सकता है?" },
+      "a": {
+        "en": "You need at least one identity number. If you have none, get an Aadhaar first — it is free and accepted everywhere.",
+        "hi": "कम से कम एक पहचान संख्या ज़रूरी है। कुछ भी नहीं है तो पहले आधार बनवाएँ — यह नि:शुल्क है और हर जगह स्वीकार होता है।"
+      }
+    }
+  ],
+  "related_service_ids": ["mgnrega_job_card", "aadhaar_enrolment", "driving_licence"]
+}

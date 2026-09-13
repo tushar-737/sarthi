@@ -1,0 +1,176 @@
+{
+  "id": "domicile_certificate",
+  "category_id": "certificates",
+  "jurisdiction": "state",
+  "priority": 90,
+  "names": { "en": "Domicile / Residence Certificate", "hi": "निवास / डोमिसाइल प्रमाण पत्र" },
+  "tagline": {
+    "en": "Official proof that you live in a particular state.",
+    "hi": "आप किसी विशेष राज्य में रहते हैं, इसका सरकारी प्रमाण।"
+  },
+  "description": {
+    "en": "A Domicile Certificate (also called a Residence Certificate or Niwas Praman Patra) proves that you are a permanent resident of a state. It is asked for in state government jobs, admission quotas, scholarships, land purchases in some states and several welfare schemes.",
+    "hi": "निवास प्रमाण पत्र (इसे डोमिसाइल सर्टिफिकेट या निवास प्रमाण पत्र भी कहते हैं) यह सिद्ध करता है कि आप किसी राज्य के स्थायी निवासी हैं। यह राज्य सरकार की नौकरियों, प्रवेश कोटा, छात्रवृत्ति, कुछ राज्यों में ज़मीन खरीद और कई कल्याणकारी योजनाओं में माँगा जाता है।"
+  },
+  "aliases": {
+    "en": [
+      "domicile certificate", "residence certificate", "resident certificate",
+      "domicile proof", "state residence proof", "niwas praman patra", "bonafide resident"
+    ],
+    "hi": [
+      "निवास प्रमाण पत्र", "डोमिसाइल प्रमाण पत्र", "डोमिसाइल सर्टिफिकेट",
+      "आवास प्रमाण पत्र", "निवास प्रमाणपत्र", "मूल निवास प्रमाण पत्र", "स्थायी निवास प्रमाण पत्र"
+    ]
+  },
+  "keywords": {
+    "en": ["domicile", "residence", "resident", "niwas", "permanent", "state", "address"],
+    "hi": ["निवास", "डोमिसाइल", "स्थायी", "पता", "मूल", "राज्य", "रहने"]
+  },
+  "eligibility": [
+    {
+      "en": "You must be a permanent resident of the state, or your parents must be.",
+      "hi": "आपको उस राज्य का स्थायी निवासी होना चाहिए, या आपके माता-पिता को।"
+    },
+    {
+      "en": "Many states ask for a minimum period of continuous residence — often 5 to 15 years. Some states also have separate rules for women who marry into the state.",
+      "hi": "कई राज्यों में लगातार निवास की न्यूनतम अवधि माँगी जाती है — अक्सर 5 से 15 वर्ष। कुछ राज्यों में राज्य में विवाह करके आने वाली महिलाओं के लिए अलग नियम हैं।"
+    },
+    {
+      "en": "Women who marry a resident of another state may apply in their husband's state as per that state's rules.",
+      "hi": "जो महिलाएँ दूसरे राज्य के निवासी से विवाह करती हैं, वे उस राज्य के नियमानुसार पति के राज्य में आवेदन कर सकती हैं।"
+    }
+  ],
+  "documents": [
+    {
+      "id": "identity_proof",
+      "name": { "en": "Identity proof", "hi": "पहचान प्रमाण" },
+      "detail": { "en": "Aadhaar card is most commonly accepted.", "hi": "आधार कार्ड सबसे आम रूप से स्वीकार होता है।" },
+      "required": true
+    },
+    {
+      "id": "address_proof",
+      "name": { "en": "Address proof", "hi": "पते का प्रमाण" },
+      "detail": {
+        "en": "Aadhaar, ration card, electricity or water bill, property papers or a registered rent agreement.",
+        "hi": "आधार, राशन कार्ड, बिजली या पानी का बिल, संपत्ति के कागज़ात या पंजीकृत किराया अनुबंध।"
+      },
+      "required": true
+    },
+    {
+      "id": "residence_proof",
+      "name": { "en": "Proof of how long you have lived there", "hi": "कितने समय से रह रहे हैं, इसका प्रमाण" },
+      "detail": {
+        "en": "Old school certificates, land records, a parent's domicile certificate or voter list entry.",
+        "hi": "पुराने स्कूल प्रमाण पत्र, भूमि रिकॉर्ड, माता-पिता का निवास प्रमाण पत्र या मतदाता सूची में नाम।"
+      },
+      "required": false
+    },
+    {
+      "id": "photograph",
+      "name": { "en": "Passport size photograph", "hi": "पासपोर्ट आकार फोटो" },
+      "detail": { "en": "Needed mainly for offline applications.", "hi": "मुख्यतः ऑफलाइन आवेदन के लिए ज़रूरी।" },
+      "required": false
+    }
+  ],
+  "steps": [
+    {
+      "title": { "en": "Check your state's residence rule", "hi": "अपने राज्य का निवास नियम देखें" },
+      "detail": {
+        "en": "Find out how many years of residence your state requires before you apply.",
+        "hi": "आवेदन से पहले पता करें कि आपके राज्य में कितने वर्ष के निवास की शर्त है।"
+      },
+      "tips": []
+    },
+    {
+      "title": { "en": "Apply on your state portal", "hi": "अपने राज्य के पोर्टल पर आवेदन करें" },
+      "detail": {
+        "en": "Register with your mobile number, choose Revenue Department, then Domicile / Residence Certificate.",
+        "hi": "मोबाइल नंबर से रजिस्टर करें, राजस्व विभाग चुनें, फिर निवास / डोमिसाइल प्रमाण पत्र चुनें।"
+      },
+      "tips": []
+    },
+    {
+      "title": { "en": "Fill the form and upload documents", "hi": "फॉर्म भरें और दस्तावेज़ अपलोड करें" },
+      "detail": {
+        "en": "Enter your current and permanent address, how many years you have lived there, and upload the proofs. Save your application number.",
+        "hi": "अपना वर्तमान और स्थायी पता तथा कितने वर्ष से रह रहे हैं भरें और प्रमाण अपलोड करें। आवेदन संख्या सुरक्षित रखें।"
+      },
+      "tips": []
+    },
+    {
+      "title": { "en": "Field verification", "hi": "क्षेत्र सत्यापन" },
+      "detail": {
+        "en": "A patwari, lekhpal or local revenue officer verifies your residence, sometimes by visiting your address or asking neighbours.",
+        "hi": "पटवारी, लेखपाल या स्थानीय राजस्व अधिकारी आपके निवास की जाँच करते हैं, कभी आपके पते पर आकर या पड़ोसियों से पूछकर।"
+      },
+      "tips": []
+    },
+    {
+      "title": { "en": "Download the certificate", "hi": "प्रमाण पत्र डाउनलोड करें" },
+      "detail": {
+        "en": "Track your application and download the digitally signed certificate once approved.",
+        "hi": "आवेदन की स्थिति देखें और स्वीकृत होने पर डिजिटल हस्ताक्षरित प्रमाण पत्र डाउनलोड करें।"
+      },
+      "tips": []
+    }
+  ],
+  "important_notes": [
+    {
+      "en": "Domicile rules are different in every state. Never assume another state's rule applies to you.",
+      "hi": "निवास नियम हर राज्य में अलग हैं। यह कभी न मानें कि दूसरे राज्य का नियम आप पर लागू होगा।"
+    },
+    {
+      "en": "A domicile certificate is usually valid for a long period or permanently, but the authority you submit it to may ask for a recent one.",
+      "hi": "निवास प्रमाण पत्र आमतौर पर लंबी अवधि या स्थायी रूप से मान्य होता है, पर जिस संस्था में जमा करें वे नया प्रमाण पत्र माँग सकते हैं।"
+    }
+  ],
+  "official_source": {
+    "en": "Revenue Department of your State Government (via the state e-District / citizen services portal).",
+    "hi": "आपके राज्य सरकार का राजस्व विभाग (राज्य ई-डिस्ट्रिक्ट / नागरिक सेवा पोर्टल के माध्यम से)।"
+  },
+  "official_url": "https://www.india.gov.in/",
+  "portal_label": {
+    "en": "National Portal of India — find your state portal",
+    "hi": "भारत पोर्टल — अपना राज्य पोर्टल खोजें"
+  },
+  "helpline": null,
+  "verification": {
+    "level": "general_guidance",
+    "last_verified": "2026-09-13",
+    "note": {
+      "en": "Residence duration requirements and eligible applicants are defined separately by each state. Confirm on your own state's portal.",
+      "hi": "निवास अवधि की शर्तें और पात्र आवेदक हर राज्य अलग-अलग तय करते हैं। अपने राज्य के पोर्टल पर पुष्टि करें।"
+    }
+  },
+  "state_portals": [
+    {
+      "state_id": "up",
+      "state_name": { "en": "Uttar Pradesh", "hi": "उत्तर प्रदेश" },
+      "portal_url": "https://edistrict.up.gov.in/",
+      "note": { "en": "e-District Uttar Pradesh", "hi": "ई-डिस्ट्रिक्ट उत्तर प्रदेश" }
+    },
+    {
+      "state_id": "dl",
+      "state_name": { "en": "Delhi", "hi": "दिल्ली" },
+      "portal_url": "https://edistrict.delhigovt.nic.in/",
+      "note": { "en": "e-District Delhi", "hi": "ई-डिस्ट्रिक्ट दिल्ली" }
+    },
+    {
+      "state_id": "tn",
+      "state_name": { "en": "Tamil Nadu", "hi": "तमिलनाडु" },
+      "portal_url": "https://tnesevai.tn.gov.in/",
+      "note": { "en": "TN e-Sevai", "hi": "टीएन ई-सेवाई" }
+    }
+  ],
+  "clarifiers": [],
+  "faq": [
+    {
+      "q": { "en": "Is domicile the same as an address proof?", "hi": "क्या निवास प्रमाण पत्र और पते का प्रमाण एक ही है?" },
+      "a": {
+        "en": "No. An address proof only shows where you live now. A domicile certificate officially declares you a permanent resident of that state.",
+        "hi": "नहीं। पते का प्रमाण केवल बताता है कि आप अभी कहाँ रहते हैं। निवास प्रमाण पत्र आधिकारिक रूप से घोषित करता है कि आप उस राज्य के स्थायी निवासी हैं।"
+      }
+    }
+  ],
+  "related_service_ids": ["income_certificate", "caste_certificate"]
+}

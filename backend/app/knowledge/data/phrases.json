@@ -1,0 +1,357 @@
+{
+  "version": "1.0.0",
+  "disclaimer": {
+    "en": "SAARTHI AI provides guidance based on available verified information. Please confirm final requirements through the relevant official authority or portal.",
+    "hi": "सारथी एआई उपलब्ध सत्यापित जानकारी के आधार पर मार्गदर्शन देता है। अंतिम आवश्यकताओं की पुष्टि संबंधित आधिकारिक प्राधिकरण या पोर्टल से करें।"
+  },
+  "prototype_notice": {
+    "en": "SAARTHI AI is a hackathon prototype. It is not affiliated with, endorsed by, or operated by the Government of India or any State Government.",
+    "hi": "सारथी एआई एक हैकाथॉन प्रोटोटाइप है। यह भारत सरकार या किसी राज्य सरकार से संबद्ध, अनुमोदित या संचालित नहीं है।"
+  },
+  "privacy_notice": {
+    "en": "SAARTHI never asks for your Aadhaar number, password, OTP, bank PIN or card details. Do not share these with anyone — including anyone claiming to be from a government office.",
+    "hi": "सारथी कभी आपका आधार नंबर, पासवर्ड, ओटीपी, बैंक पिन या कार्ड विवरण नहीं माँगता। ये किसी को न दें — ख़ुद को सरकारी कार्यालय से बता रहे व्यक्ति को भी नहीं।"
+  },
+  "greeting": {
+    "en": "Namaste! I am SAARTHI, your guide to government services. Tell me what you need — you can speak or type, in Hindi or English.",
+    "hi": "नमस्ते! मैं सारथी हूँ, सरकारी सेवाओं में आपका मार्गदर्शक। बताइए आपको क्या चाहिए — आप हिन्दी या अंग्रेज़ी में बोल या लिख सकते हैं।"
+  },
+  "stage_understanding": {
+    "en": "SAARTHI is understanding your request…",
+    "hi": "सारथी आपका अनुरोध समझ रहा है…"
+  },
+  "stage_retrieving": {
+    "en": "Finding verified information…",
+    "hi": "सत्यापित जानकारी खोजी जा रही है…"
+  },
+  "stage_composing": {
+    "en": "Preparing your guidance…",
+    "hi": "आपके लिए मार्गदर्शन तैयार हो रहा है…"
+  },
+  "verification_labels": {
+    "verified_official": {
+      "en": "Verified official source",
+      "hi": "सत्यापित आधिकारिक स्रोत"
+    },
+    "general_guidance": {
+      "en": "General guidance — confirm with your authority",
+      "hi": "सामान्य मार्गदर्शन — अपने प्राधिकरण से पुष्टि करें"
+    },
+    "confirm_with_authority": {
+      "en": "Needs confirmation — please check the official source",
+      "hi": "पुष्टि आवश्यक — कृपया आधिकारिक स्रोत देखें"
+    }
+  },
+  "last_verified": {
+    "en": "Last verified",
+    "hi": "अंतिम सत्यापन"
+  },
+  "source_label": {
+    "en": "Source",
+    "hi": "स्रोत"
+  },
+  "section_headings": {
+    "about": {
+      "en": "About this service",
+      "hi": "इस सेवा के बारे में"
+    },
+    "eligibility": {
+      "en": "Who may be eligible",
+      "hi": "कौन पात्र हो सकता है"
+    },
+    "documents": {
+      "en": "Documents required",
+      "hi": "आवश्यक दस्तावेज़"
+    },
+    "steps": {
+      "en": "How to apply",
+      "hi": "आवेदन कैसे करें"
+    },
+    "notes": {
+      "en": "Important information",
+      "hi": "ज़रूरी बातें"
+    },
+    "source": {
+      "en": "Verified information",
+      "hi": "सत्यापित जानकारी"
+    },
+    "faq": {
+      "en": "Common questions",
+      "hi": "आम सवाल"
+    },
+    "state_portals": {
+      "en": "State portals",
+      "hi": "राज्य पोर्टल"
+    },
+    "helpline": {
+      "en": "Helpline",
+      "hi": "हेल्पलाइन"
+    }
+  },
+  "required": {
+    "en": "Required",
+    "hi": "ज़रूरी"
+  },
+  "optional": {
+    "en": "Optional",
+    "hi": "वैकल्पिक"
+  },
+  "visit_portal": {
+    "en": "Visit Official Portal",
+    "hi": "आधिकारिक पोर्टल पर जाएँ"
+  },
+  "listen": {
+    "en": "Listen",
+    "hi": "सुनें"
+  },
+  "start_journey": {
+    "en": "Start Guided Journey",
+    "hi": "निर्देशित यात्रा शुरू करें"
+  },
+  "service_found": {
+    "en": "I found the service you are looking for.",
+    "hi": "मुझे आपकी ज़रूरत की सेवा मिल गई।"
+  },
+  "service_found_prefix": {
+    "en": "It looks like you need:",
+    "hi": "लगता है आपको यह चाहिए:"
+  },
+  "low_confidence": {
+    "en": "I want to make sure I understood you correctly.",
+    "hi": "मैं यह पक्का करना चाहता हूँ कि मैंने आपकी बात सही समझी।"
+  },
+  "low_confidence_options_title": {
+    "en": "Did you mean one of these?",
+    "hi": "क्या आप इनमें से किसी के बारे में पूछ रहे हैं?"
+  },
+  "not_found": {
+    "en": "I could not verify this information. I do not want to guess about a government service, because a wrong answer can waste your time and money. Please check the official source, or try asking in a different way.",
+    "hi": "मैं इस जानकारी की पुष्टि नहीं कर सका। सरकारी सेवा के बारे में मैं अनुमान नहीं लगाना चाहता, क्योंकि गलत जवाब से आपका समय और पैसा दोनों बर्बाद हो सकते हैं। कृपया आधिकारिक स्रोत देखें, या दूसरे तरीके से पूछने की कोशिश करें।"
+  },
+  "confused_user": {
+    "en": "No problem at all. I am here to help you work this out together. What do you need the certificate or service for?",
+    "hi": "कोई बात नहीं। मैं आपकी मदद करने के लिए ही यहाँ हूँ। आपको प्रमाण पत्र या सेवा किस काम के लिए चाहिए?"
+  },
+  "confused_options_title": {
+    "en": "Choose the closest reason:",
+    "hi": "सबसे नज़दीकी कारण चुनें:"
+  },
+  "confused_options": {
+    "scholarship": {
+      "en": "Scholarship or studies",
+      "hi": "छात्रवृत्ति या पढ़ाई"
+    },
+    "job": {
+      "en": "Job or work",
+      "hi": "नौकरी या काम"
+    },
+    "bank": {
+      "en": "Bank account or loan",
+      "hi": "बैंक खाता या ऋण"
+    },
+    "govt_service": {
+      "en": "Government job or exam",
+      "hi": "सरकारी नौकरी या परीक्षा"
+    },
+    "medical": {
+      "en": "Medical treatment",
+      "hi": "इलाज"
+    },
+    "housing": {
+      "en": "House or shelter",
+      "hi": "घर या आवास"
+    },
+    "pension": {
+      "en": "Pension for an elder",
+      "hi": "बुज़ुर्ग के लिए पेंशन"
+    },
+    "other": {
+      "en": "Something else",
+      "hi": "कुछ और"
+    }
+  },
+  "ask_state": {
+    "en": "Which state are you in? Some rules are different in each state.",
+    "hi": "आप किस राज्य में हैं? कुछ नियम हर राज्य में अलग होते हैं।"
+  },
+  "next_step": {
+    "en": "Your next step",
+    "hi": "आपका अगला कदम"
+  },
+  "journey_intro": {
+    "en": "I have made a simple step-by-step journey for this service. You can tick off each step as you complete it.",
+    "hi": "मैंने इस सेवा के लिए एक आसान चरण-दर-चरण यात्रा बनाई है। हर चरण पूरा होने पर उसे टिक कर सकते हैं।"
+  },
+  "journey_steps": {
+    "check_eligibility": {
+      "en": "Check Eligibility",
+      "hi": "पात्रता जाँचें"
+    },
+    "prepare_documents": {
+      "en": "Prepare Documents",
+      "hi": "दस्तावेज़ तैयार करें"
+    },
+    "visit_portal": {
+      "en": "Visit Official Portal",
+      "hi": "आधिकारिक पोर्टल पर जाएँ"
+    },
+    "complete_form": {
+      "en": "Complete Application",
+      "hi": "आवेदन भरें"
+    },
+    "submit": {
+      "en": "Submit Application",
+      "hi": "आवेदन जमा करें"
+    },
+    "track_status": {
+      "en": "Track Status",
+      "hi": "स्थिति देखें"
+    }
+  },
+  "followup_prompt": {
+    "en": "Would you like to know anything else about this service?",
+    "hi": "क्या आप इस सेवा के बारे में कुछ और जानना चाहेंगे?"
+  },
+  "quick_actions": {
+    "documents": {
+      "en": "What documents do I need?",
+      "hi": "मुझे कौन से दस्तावेज़ चाहिए?"
+    },
+    "eligibility": {
+      "en": "Am I eligible?",
+      "hi": "क्या मैं पात्र हूँ?"
+    },
+    "steps": {
+      "en": "How do I apply?",
+      "hi": "आवेदन कैसे करूँ?"
+    },
+    "portal": {
+      "en": "Give me the official link",
+      "hi": "आधिकारिक लिंक दीजिए"
+    },
+    "journey": {
+      "en": "Start guided journey",
+      "hi": "निर्देशित यात्रा शुरू करें"
+    },
+    "another_service": {
+      "en": "Ask about another service",
+      "hi": "किसी दूसरी सेवा के बारे में पूछें"
+    },
+    "time_fee": {
+      "en": "How long does it take?",
+      "hi": "इसमें कितना समय लगता है?"
+    }
+  },
+  "suggested_prompts": [
+    {
+      "id": "income",
+      "en": "I want to apply for an income certificate.",
+      "hi": "मुझे आय प्रमाण पत्र बनवाना है।"
+    },
+    {
+      "id": "scholarship",
+      "en": "I need financial help for my college education.",
+      "hi": "मुझे पढ़ाई के लिए सरकारी मदद चाहिए।"
+    },
+    {
+      "id": "confused",
+      "en": "I don't know which certificate I need.",
+      "hi": "मुझे समझ नहीं आ रहा कि मुझे कौन सा certificate चाहिए।"
+    },
+    {
+      "id": "aadhaar",
+      "en": "How do I get a new Aadhaar card?",
+      "hi": "नया आधार कार्ड कैसे बनवाऊँ?"
+    },
+    {
+      "id": "ayushman",
+      "en": "Am I eligible for free hospital treatment?",
+      "hi": "क्या मुझे मुफ्त इलाज मिल सकता है?"
+    },
+    {
+      "id": "pension",
+      "en": "My father is 65. Can he get a pension?",
+      "hi": "मेरे पिता 65 वर्ष के हैं। क्या उन्हें पेंशन मिलेगी?"
+    },
+    {
+      "id": "job",
+      "en": "I am looking for a job.",
+      "hi": "मुझे नौकरी चाहिए।"
+    },
+    {
+      "id": "pan",
+      "en": "How do I link my PAN with Aadhaar?",
+      "hi": "पैन को आधार से कैसे जोड़ूँ?"
+    }
+  ],
+  "errors": {
+    "empty_input": {
+      "en": "It looks like your message was empty. Please speak again or type your question.",
+      "hi": "लगता है आपका संदेश खाली था। कृपया फिर से बोलें या अपना सवाल लिखें।"
+    },
+    "too_long": {
+      "en": "That message was a little too long. Please ask in one short sentence.",
+      "hi": "यह संदेश थोड़ा बहुत लंबा है। कृपया एक छोटे वाक्य में पूछें।"
+    },
+    "speech_unsupported": {
+      "en": "This browser does not support voice input. You can still type your question below.",
+      "hi": "यह ब्राउज़र आवाज़ से इनपुट का समर्थन नहीं करता। आप नीचे अपना सवाल लिख सकते हैं।"
+    },
+    "speech_denied": {
+      "en": "Microphone permission was not given. Allow the microphone, or type your question instead.",
+      "hi": "माइक्रोफोन की अनुमति नहीं मिली। माइक्रोफोन की अनुमति दें, या इसके बजाय अपना सवाल लिखें।"
+    },
+    "speech_failed": {
+      "en": "Sorry, I could not hear you clearly. You can try speaking again or type your question.",
+      "hi": "क्षमा करें, मैं आपकी आवाज़ साफ नहीं सुन सका। फिर से बोलने की कोशिश करें या अपना सवाल लिखें।"
+    },
+    "speech_no_result": {
+      "en": "I did not catch that. Please try speaking again, closer to the microphone.",
+      "hi": "मैं समझ नहीं पाया। कृपया माइक्रोफोन के पास होकर फिर से बोलें।"
+    },
+    "ai_unavailable": {
+      "en": "The AI service is not responding right now. I am showing you information directly from the verified knowledge base instead.",
+      "hi": "एआई सेवा अभी जवाब नहीं दे रही। इसके बजाय मैं आपको सत्यापित जानकारी भंडार से सीधे जानकारी दिखा रहा हूँ।"
+    },
+    "service_not_found": {
+      "en": "I could not find that service in my verified knowledge base.",
+      "hi": "मुझे वह सेवा अपने सत्यापित जानकारी भंडार में नहीं मिली।"
+    },
+    "unsupported_language": {
+      "en": "That language is coming soon. Right now I understand Hindi and English.",
+      "hi": "वह भाषा जल्द ही आ रही है। अभी मैं हिन्दी और अंग्रेज़ी समझता हूँ।"
+    },
+    "offline": {
+      "en": "You seem to be offline. Please check your internet connection and try again.",
+      "hi": "लगता है आप ऑफलाइन हैं। कृपया इंटरनेट कनेक्शन जाँचें और फिर कोशिश करें।"
+    },
+    "rate_limited": {
+      "en": "You have asked many questions quickly. Please wait a moment and try again.",
+      "hi": "आपने बहुत तेज़ी से कई सवाल पूछे हैं। कृपया एक क्षण रुककर फिर कोशिश करें।"
+    },
+    "server_error": {
+      "en": "Something went wrong on my side. Please try again in a moment.",
+      "hi": "मेरी ओर से कुछ गड़बड़ हो गई। कृपया एक क्षण बाद फिर कोशिश करें।"
+    },
+    "audio_invalid": {
+      "en": "I could not read that recording. Please try recording again.",
+      "hi": "मैं वह रिकॉर्डिंग पढ़ नहीं सका। कृपया दोबारा रिकॉर्ड करें।"
+    }
+  },
+  "demo_mode_banner": {
+    "en": "Demo Mode is on — answers come from SAARTHI's built-in verified knowledge base, with no external AI service.",
+    "hi": "डेमो मोड चालू है — जवाब सारथी के अंतर्निर्मित सत्यापित जानकारी भंडार से आ रहे हैं, किसी बाहरी एआई सेवा के बिना।"
+  },
+  "confidence_low_banner": {
+    "en": "I am not fully sure about this answer.",
+    "hi": "मुझे इस जवाब पर पूरा भरोसा नहीं है।"
+  },
+  "ask_more": {
+    "en": "Ask me anything else — about documents, eligibility, fees or how long it takes.",
+    "hi": "मुझसे कुछ और पूछें — दस्तावेज़, पात्रता, शुल्क या कितना समय लगेगा, किसी बारे में।"
+  },
+  "related_title": {
+    "en": "You might be looking for one of these:",
+    "hi": "शायद आप इनमें से कुछ ढूँढ रहे हैं:"
+  }
+}

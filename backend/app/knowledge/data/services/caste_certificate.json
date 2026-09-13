@@ -1,0 +1,232 @@
+{
+  "id": "caste_certificate",
+  "category_id": "certificates",
+  "jurisdiction": "state",
+  "priority": 95,
+  "names": { "en": "Caste Certificate (SC / ST / OBC)", "hi": "जाति प्रमाण पत्र (अनुसूचित जाति / जनजाति / ओबीसी)" },
+  "tagline": {
+    "en": "Official proof of your caste or tribe category.",
+    "hi": "आपकी जाति या जनजाति श्रेणी का सरकारी प्रमाण।"
+  },
+  "description": {
+    "en": "A Caste Certificate confirms whether you belong to a Scheduled Caste (SC), Scheduled Tribe (ST) or Other Backward Class (OBC). It is needed for reservation in education and government jobs, fee concessions and several welfare schemes. It is issued by the revenue department of your state.",
+    "hi": "जाति प्रमाण पत्र यह पुष्टि करता है कि आप अनुसूचित जाति (एससी), अनुसूचित जनजाति (एसटी) या अन्य पिछड़ा वर्ग (ओबीसी) में आते हैं या नहीं। यह शिक्षा और सरकारी नौकरियों में आरक्षण, फीस में छूट और कई कल्याणकारी योजनाओं के लिए ज़रूरी है। इसे आपके राज्य का राजस्व विभाग जारी करता है।"
+  },
+  "aliases": {
+    "en": [
+      "caste certificate", "sc certificate", "st certificate", "obc certificate",
+      "scheduled caste certificate", "scheduled tribe certificate", "obc ncl certificate",
+      "category certificate", "caste proof", "jat praman patra"
+    ],
+    "hi": [
+      "जाति प्रमाण पत्र", "जाति प्रमाणपत्र", "जात प्रमाण पत्र", "अनुसूचित जाति प्रमाण पत्र",
+      "अनुसूचित जनजाति प्रमाण पत्र", "ओबीसी प्रमाण पत्र", "पिछड़ा वर्ग प्रमाण पत्र",
+      "एससी सर्टिफिकेट", "एसटी सर्टिफिकेट", "ओबीसी एनसीएल", "श्रेणी प्रमाण पत्र"
+    ]
+  },
+  "keywords": {
+    "en": ["caste", "sc", "st", "obc", "ncl", "scheduled", "tribe", "category", "reservation"],
+    "hi": ["जाति", "अनुसूचित", "जनजाति", "ओबीसी", "पिछड़ा", "आरक्षण", "श्रेणी", "प्रमाण"]
+  },
+  "eligibility": [
+    {
+      "en": "Your caste or tribe must appear in the official Central or State list for SC, ST or OBC.",
+      "hi": "आपकी जाति या जनजाति एससी, एसटी या ओबीसी की आधिकारिक केंद्रीय या राज्य सूची में होनी चाहिए।"
+    },
+    {
+      "en": "You must be a permanent resident of the state where you apply.",
+      "hi": "आपको उस राज्य का स्थायी निवासी होना चाहिए जहाँ आवेदन कर रहे हैं।"
+    },
+    {
+      "en": "For OBC-NCL benefits you must fall in the Non-Creamy Layer, which is decided by your parents' income and status.",
+      "hi": "ओबीसी-एनसीएल लाभ के लिए आपको नॉन-क्रीमी लेयर में होना चाहिए, जो आपके माता-पिता की आय और स्थिति से तय होती है।"
+    },
+    {
+      "en": "An SC/ST certificate issued in one state is generally not automatically valid for benefits in another state.",
+      "hi": "एक राज्य में बना एससी/एसटी प्रमाण पत्र आमतौर पर दूसरे राज्य के लाभों के लिए अपने आप मान्य नहीं होता।"
+    }
+  ],
+  "documents": [
+    {
+      "id": "identity_proof",
+      "name": { "en": "Identity proof", "hi": "पहचान प्रमाण" },
+      "detail": { "en": "Aadhaar card, Voter ID or passport.", "hi": "आधार कार्ड, मतदाता पहचान पत्र या पासपोर्ट।" },
+      "required": true
+    },
+    {
+      "id": "address_proof",
+      "name": { "en": "Address proof", "hi": "पते का प्रमाण" },
+      "detail": { "en": "Aadhaar, ration card, electricity bill or rent agreement.", "hi": "आधार, राशन कार्ड, बिजली बिल या किराये का अनुबंध।" },
+      "required": true
+    },
+    {
+      "id": "caste_proof_of_relative",
+      "name": { "en": "Caste proof of a blood relative", "hi": "रक्त संबंधी का जाति प्रमाण" },
+      "detail": {
+        "en": "Many states accept an existing SC/ST certificate of your father, brother, sister or paternal relative to establish your caste.",
+        "hi": "कई राज्य आपकी जाति सिद्ध करने के लिए पिता, भाई, बहन या पितृपक्षीय संबंधी का मौजूदा एससी/एसटी प्रमाण पत्र स्वीकार करते हैं।"
+      },
+      "required": false
+    },
+    {
+      "id": "income_certificate",
+      "name": { "en": "Income certificate (for OBC-NCL)", "hi": "आय प्रमाण पत्र (ओबीसी-एनसीएल के लिए)" },
+      "detail": {
+        "en": "Required to prove you are in the Non-Creamy Layer.",
+        "hi": "नॉन-क्रीमी लेयर में होने का प्रमाण देने के लिए आवश्यक।"
+      },
+      "required": false
+    },
+    {
+      "id": "photograph",
+      "name": { "en": "Passport size photograph", "hi": "पासपोर्ट आकार फोटो" },
+      "detail": { "en": "Usually needed for offline applications only.", "hi": "आमतौर पर केवल ऑफलाइन आवेदन के लिए।" },
+      "required": false
+    }
+  ],
+  "steps": [
+    {
+      "title": { "en": "Confirm your caste is on the official list", "hi": "पुष्टि करें कि आपकी जाति आधिकारिक सूची में है" },
+      "detail": {
+        "en": "Check the Central list of SC/ST or the state OBC list before applying. If your caste is not listed, the application will be rejected.",
+        "hi": "आवेदन से पहले एससी/एसटी की केंद्रीय सूची या राज्य ओबीसी सूची देख लें। जाति सूची में नहीं है तो आवेदन अस्वीकार हो जाएगा।"
+      },
+      "tips": []
+    },
+    {
+      "title": { "en": "Open your state's certificate portal", "hi": "अपने राज्य का प्रमाण पत्र पोर्टल खोलें" },
+      "detail": {
+        "en": "Register with your mobile number, then select Revenue Department and choose Caste Certificate (SC/ST or OBC as applicable).",
+        "hi": "मोबाइल नंबर से रजिस्टर करें, फिर राजस्व विभाग चुनें और जाति प्रमाण पत्र (लागू होने पर एससी/एसटी या ओबीसी) चुनें।"
+      },
+      "tips": []
+    },
+    {
+      "title": { "en": "Fill caste and family details", "hi": "जाति और पारिवारिक विवरण भरें" },
+      "detail": {
+        "en": "Write your caste and sub-caste exactly as they appear in official records. Add your parents' details and your address.",
+        "hi": "अपनी जाति और उपजाति बिल्कुल वैसे लिखें जैसे आधिकारिक रिकॉर्ड में हैं। माता-पिता का विवरण और पता जोड़ें।"
+      },
+      "tips": [
+        {
+          "en": "Spelling differences in the sub-caste are the most common cause of delay.",
+          "hi": "उपजाति की वर्तनी में अंतर देरी का सबसे आम कारण है।"
+        }
+      ]
+    },
+    {
+      "title": { "en": "Upload documents and submit", "hi": "दस्तावेज़ अपलोड करें और जमा करें" },
+      "detail": {
+        "en": "Upload identity and address proof, plus any relative's caste certificate or income certificate. Save the application number you receive.",
+        "hi": "पहचान और पते का प्रमाण, तथा किसी संबंधी का जाति प्रमाण पत्र या आय प्रमाण पत्र अपलोड करें। मिली आवेदन संख्या सुरक्षित रखें।"
+      },
+      "tips": []
+    },
+    {
+      "title": { "en": "Local verification", "hi": "स्थानीय सत्यापन" },
+      "detail": {
+        "en": "A patwari or revenue inspector verifies your caste and address, often using village or ward records and sometimes by visiting your home.",
+        "hi": "पटवारी या राजस्व निरीक्षक आपकी जाति और पते का सत्यापन करते हैं, अक्सर गाँव या वार्ड के रिकॉर्ड से और कभी-कभी आपके घर आकर।"
+      },
+      "tips": []
+    },
+    {
+      "title": { "en": "Download your certificate", "hi": "अपना प्रमाण पत्र डाउनलोड करें" },
+      "detail": {
+        "en": "Track the application with your number, then download the digitally signed certificate from the same portal.",
+        "hi": "अपनी आवेदन संख्या से स्थिति देखें, फिर उसी पोर्टल से डिजिटल हस्ताक्षरित प्रमाण पत्र डाउनलोड करें।"
+      },
+      "tips": []
+    }
+  ],
+  "important_notes": [
+    {
+      "en": "An OBC-NCL certificate is often valid for only one financial year for central purposes. Check the validity printed on it.",
+      "hi": "ओबीसी-एनसीएल प्रमाण पत्र केंद्रीय उद्देश्यों के लिए अक्सर केवल एक वित्त वर्ष तक मान्य होता है। उस पर छपी वैधता देख लें।"
+    },
+    {
+      "en": "For central government jobs and exams, you usually need the certificate in the Central list format.",
+      "hi": "केंद्रीय सरकारी नौकरियों और परीक्षाओं के लिए आमतौर पर केंद्रीय सूची प्रारूप में प्रमाण पत्र चाहिए होता है।"
+    },
+    {
+      "en": "A false caste certificate can lead to cancellation of admission or job and legal action.",
+      "hi": "झूठा जाति प्रमाण पत्र देने पर प्रवेश या नौकरी रद्द हो सकती है और कानूनी कार्रवाई हो सकती है।"
+    }
+  ],
+  "official_source": {
+    "en": "Revenue Department of your State Government. Central SC/ST lists: Ministry of Social Justice and Empowerment / Ministry of Tribal Affairs.",
+    "hi": "आपके राज्य सरकार का राजस्व विभाग। केंद्रीय एससी/एसटी सूचियाँ: सामाजिक न्याय एवं अधिकारिता मंत्रालय / जनजातीय कार्य मंत्रालय।"
+  },
+  "official_url": "https://www.india.gov.in/",
+  "portal_label": {
+    "en": "National Portal of India — find your state portal",
+    "hi": "भारत पोर्टल — अपना राज्य पोर्टल खोजें"
+  },
+  "helpline": null,
+  "verification": {
+    "level": "general_guidance",
+    "last_verified": "2026-09-13",
+    "note": {
+      "en": "Caste lists, formats and validity periods are set by each state and by the Central government separately. Confirm the exact requirement with the authority that asked for the certificate.",
+      "hi": "जाति सूचियाँ, प्रारूप और वैधता अवधि प्रत्येक राज्य तथा केंद्र सरकार अलग-अलग तय करते हैं। जिस संस्था ने प्रमाण पत्र माँगा है, उससे सटीक आवश्यकता की पुष्टि करें।"
+    }
+  },
+  "state_portals": [
+    {
+      "state_id": "up",
+      "state_name": { "en": "Uttar Pradesh", "hi": "उत्तर प्रदेश" },
+      "portal_url": "https://edistrict.up.gov.in/",
+      "note": { "en": "e-District Uttar Pradesh", "hi": "ई-डिस्ट्रिक्ट उत्तर प्रदेश" }
+    },
+    {
+      "state_id": "dl",
+      "state_name": { "en": "Delhi", "hi": "दिल्ली" },
+      "portal_url": "https://edistrict.delhigovt.nic.in/",
+      "note": { "en": "e-District Delhi", "hi": "ई-डिस्ट्रिक्ट दिल्ली" }
+    },
+    {
+      "state_id": "br",
+      "state_name": { "en": "Bihar", "hi": "बिहार" },
+      "portal_url": "https://serviceonline.bihar.gov.in/",
+      "note": { "en": "Bihar RTPS / Service Online", "hi": "बिहार आरटीपीएस / सर्विस ऑनलाइन" }
+    },
+    {
+      "state_id": "mh",
+      "state_name": { "en": "Maharashtra", "hi": "महाराष्ट्र" },
+      "portal_url": "https://aaplesarkar.mahaonline.gov.in/",
+      "note": { "en": "Aaple Sarkar (MAHAONLINE)", "hi": "आपले सरकार (महाऑनलाइन)" }
+    }
+  ],
+  "clarifiers": [
+    {
+      "id": "caste_type",
+      "question": {
+        "en": "Which certificate do you need?",
+        "hi": "आपको कौन सा प्रमाण पत्र चाहिए?"
+      },
+      "options": [
+        { "id": "sc", "label": { "en": "Scheduled Caste (SC)", "hi": "अनुसूचित जाति (एससी)" } },
+        { "id": "st", "label": { "en": "Scheduled Tribe (ST)", "hi": "अनुसूचित जनजाति (एसटी)" } },
+        { "id": "obc", "label": { "en": "OBC / OBC-NCL", "hi": "ओबीसी / ओबीसी-एनसीएल" } },
+        { "id": "unsure", "label": { "en": "I am not sure", "hi": "मुझे पता नहीं" } }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": { "en": "What is Non-Creamy Layer (NCL)?", "hi": "नॉन-क्रीमी लेयर (एनसीएल) क्या है?" },
+      "a": {
+        "en": "It means your family income and status are below the limit set by the government, so you can claim OBC reservation. You usually need an income certificate to prove it.",
+        "hi": "इसका अर्थ है कि आपके परिवार की आय और स्थिति सरकार द्वारा तय सीमा से कम है, इसलिए आप ओबीसी आरक्षण ले सकते हैं। इसे साबित करने के लिए आमतौर पर आय प्रमाण पत्र चाहिए।"
+      }
+    },
+    {
+      "q": { "en": "How long does it take?", "hi": "कितना समय लगता है?" },
+      "a": {
+        "en": "Commonly 15 to 30 days, because caste verification involves local revenue records.",
+        "hi": "आमतौर पर 15 से 30 दिन, क्योंकि जाति सत्यापन में स्थानीय राजस्व रिकॉर्ड देखे जाते हैं।"
+      }
+    }
+  ],
+  "related_service_ids": ["income_certificate", "domicile_certificate"]
+}

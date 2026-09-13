@@ -1,0 +1,76 @@
+{
+  "version": "1.0.0",
+  "last_updated": "2026-09-13",
+  "categories": [
+    {
+      "id": "certificates",
+      "icon": "file-text",
+      "order": 1,
+      "names": { "en": "Certificates", "hi": "प्रमाण पत्र" },
+      "description": {
+        "en": "Income, caste and residence certificates issued by your state revenue office.",
+        "hi": "राज्य राजस्व विभाग द्वारा जारी आय, जाति और निवास प्रमाण पत्र।"
+      }
+    },
+    {
+      "id": "identity",
+      "icon": "id-card",
+      "order": 2,
+      "names": { "en": "Identity Documents", "hi": "पहचान दस्तावेज़" },
+      "description": {
+        "en": "Aadhaar, PAN and Voter ID — the documents most other services ask for.",
+        "hi": "आधार, पैन और मतदाता पहचान पत्र — ज़्यादातर सेवाओं में इन्हीं की ज़रूरत पड़ती है।"
+      }
+    },
+    {
+      "id": "education",
+      "icon": "graduation-cap",
+      "order": 3,
+      "names": { "en": "Education", "hi": "शिक्षा" },
+      "description": {
+        "en": "Scholarships and financial help for school, college and higher studies.",
+        "hi": "स्कूल, कॉलेज और उच्च शिक्षा के लिए छात्रवृत्ति और आर्थिक मदद।"
+      }
+    },
+    {
+      "id": "employment",
+      "icon": "briefcase",
+      "order": 4,
+      "names": { "en": "Employment", "hi": "रोज़गार" },
+      "description": {
+        "en": "Job search, career registration and rural wage employment.",
+        "hi": "नौकरी की खोज, पंजीकरण और ग्रामीण रोज़गार गारंटी।"
+      }
+    },
+    {
+      "id": "health",
+      "icon": "heart-pulse",
+      "order": 5,
+      "names": { "en": "Health", "hi": "स्वास्थ्य" },
+      "description": {
+        "en": "Health cover and cashless treatment schemes.",
+        "hi": "स्वास्थ्य बीमा और नि:शुल्क इलाज योजनाएँ।"
+      }
+    },
+    {
+      "id": "social_welfare",
+      "icon": "hand-heart",
+      "order": 6,
+      "names": { "en": "Social Welfare", "hi": "समाज कल्याण" },
+      "description": {
+        "en": "Pensions and support for senior citizens, widows and persons with disabilities.",
+        "hi": "बुज़ुर्गों, विधवाओं और दिव्यांगजनों के लिए पेंशन और सहायता।"
+      }
+    },
+    {
+      "id": "housing",
+      "icon": "home",
+      "order": 7,
+      "names": { "en": "Housing", "hi": "आवास" },
+      "description": {
+        "en": "Government housing assistance and home ownership schemes.",
+        "hi": "सरकारी आवास सहायता और मकान बनाने की योजनाएँ।"
+      }
+    }
+  ]
+}

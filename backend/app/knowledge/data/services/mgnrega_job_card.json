@@ -1,0 +1,199 @@
+{
+  "id": "mgnrega_job_card",
+  "category_id": "employment",
+  "jurisdiction": "national",
+  "priority": 82,
+  "names": { "en": "MGNREGA Job Card", "hi": "मनरेगा जॉब कार्ड" },
+  "tagline": {
+    "en": "Guaranteed 100 days of wage work in your village.",
+    "hi": "आपके गाँव में 100 दिन के मज़दूरी काम की गारंटी।"
+  },
+  "description": {
+    "en": "The Mahatma Gandhi National Rural Employment Guarantee Act guarantees at least 100 days of wage employment in a financial year to every rural household whose adult members volunteer for unskilled manual work. The Job Card is the document that records your household and all the work and wages you receive.",
+    "hi": "महात्मा गांधी राष्ट्रीय ग्रामीण रोज़गार गारंटी अधिनियम हर ग्रामीण परिवार को एक वित्त वर्ष में कम से कम 100 दिन के मज़दूरी रोज़गार की गारंटी देता है, बशर्ते उसके वयस्क सदस्य अकुशल शारीरिक कार्य के लिए तैयार हों। जॉब कार्ड वह दस्तावेज़ है जिसमें आपके परिवार और मिले सभी कार्य व मज़दूरी का रिकॉर्ड रहता है।"
+  },
+  "aliases": {
+    "en": [
+      "mgnrega", "nrega", "manrega", "job card", "nrega job card", "100 days work",
+      "rural employment", "village work", "wage work", "mnrega card", "gramin rozgar"
+    ],
+    "hi": [
+      "मनरेगा", "मनरेगा जॉब कार्ड", "नरेगा", "जॉब कार्ड", "सौ दिन का काम",
+      "ग्रामीण रोज़गार", "गाँव का काम", "मज़दूरी का काम", "मजदूरी गारंटी",
+      "रोज़गार गारंटी योजना", "मनरेगा कार्ड बनवाना"
+    ]
+  },
+  "keywords": {
+    "en": ["mgnrega", "nrega", "job card", "rural", "village", "wage", "manual work", "100 days", "employment guarantee"],
+    "hi": ["मनरेगा", "नरेगा", "जॉब कार्ड", "ग्रामीण", "गाँव", "मज़दूरी", "मजदूरी", "काम", "गारंटी", "सौ दिन"]
+  },
+  "eligibility": [
+    {
+      "en": "You must be part of a rural household in India.",
+      "hi": "आपको भारत के किसी ग्रामीण परिवार का हिस्सा होना चाहिए।"
+    },
+    {
+      "en": "Adult members (18 years and above) of the household can volunteer for unskilled manual work.",
+      "hi": "परिवार के वयस्क सदस्य (18 वर्ष और अधिक) अकुशल शारीरिक कार्य के लिए तैयार हो सकते हैं।"
+    },
+    {
+      "en": "One job card covers the whole household and can include up to the adult members named on it.",
+      "hi": "एक जॉब कार्ड पूरे परिवार को शामिल करता है और इसमें नामित वयस्क सदस्य शामिल हो सकते हैं।"
+    },
+    {
+      "en": "Work is guaranteed within 5 km of the village; if it is farther, a distance allowance may apply as per rules.",
+      "hi": "काम गाँव से 5 किमी के भीतर सुनिश्चित होता है; अधिक दूरी पर नियमानुसार दूरी भत्ता मिल सकता है।"
+    },
+    {
+      "en": "If work is not provided within 15 days of applying, you are entitled to an unemployment allowance.",
+      "hi": "आवेदन के 15 दिन के भीतर काम नहीं मिला तो आपको बेरोज़गारी भत्ता पाने का अधिकार है।"
+    }
+  ],
+  "documents": [
+    {
+      "id": "household_details",
+      "name": { "en": "Household and member details", "hi": "परिवार और सदस्यों का विवरण" },
+      "detail": {
+        "en": "Names, ages and relationship of all adult members of the household.",
+        "hi": "परिवार के सभी वयस्क सदस्यों के नाम, आयु और संबंध।"
+      },
+      "required": true
+    },
+    {
+      "id": "address_proof",
+      "name": { "en": "Address proof of the village", "hi": "गाँव के पते का प्रमाण" },
+      "detail": {
+        "en": "Aadhaar, ration card or any local document showing your village residence.",
+        "hi": "आधार, राशन कार्ड या गाँव में निवास दिखाने वाला कोई स्थानीय दस्तावेज़।"
+      },
+      "required": true
+    },
+    {
+      "id": "photograph",
+      "name": { "en": "Photograph of adult members", "hi": "वयस्क सदस्यों की फोटो" },
+      "detail": {
+        "en": "A passport-size photo is usually pasted on the job card.",
+        "hi": "आमतौर पर जॉब कार्ड पर पासपोर्ट आकार फोटो चिपकाई जाती है।"
+      },
+      "required": false
+    },
+    {
+      "id": "bank_or_post_account",
+      "name": { "en": "Bank or post office account", "hi": "बैंक या डाकघर खाता" },
+      "detail": {
+        "en": "Wages are paid electronically into the account of the household or individual worker.",
+        "hi": "मज़दूरी परिवार या व्यक्तिगत श्रमिक के खाते में इलेक्ट्रॉनिक रूप से भेजी जाती है।"
+      },
+      "required": true
+    }
+  ],
+  "steps": [
+    {
+      "title": { "en": "Apply to your Gram Panchayat", "hi": "अपनी ग्राम पंचायत में आवेदन करें" },
+      "detail": {
+        "en": "Submit a written application to the Gram Panchayat or the Programme Officer. A plain paper application with household details is enough — no special form or fee is required.",
+        "hi": "ग्राम पंचायत या कार्यक्रम पदाधिकारी को लिखित आवेदन दें। सादे कागज़ पर परिवार का विवरण लिखा आवेदन पर्याप्त है — किसी विशेष फॉर्म या शुल्क की ज़रूरत नहीं।"
+      },
+      "tips": [
+        {
+          "en": "Get a receipt or acknowledgement for your application. Without it, following up is difficult.",
+          "hi": "अपने आवेदन की रसीद या पावती अवश्य लें। इसके बिना आगे पता करना कठिन होता है।"
+        }
+      ]
+    },
+    {
+      "title": { "en": "Job card is issued", "hi": "जॉब कार्ड जारी होता है" },
+      "detail": {
+        "en": "The Gram Panchayat must issue the job card within 15 days of receiving a valid application. It stays valid for five years.",
+        "hi": "वैध आवेदन मिलने के 15 दिन के भीतर ग्राम पंचायत को जॉब कार्ड जारी करना होता है। यह पाँच वर्ष तक मान्य रहता है।"
+      },
+      "tips": []
+    },
+    {
+      "title": { "en": "Apply for work", "hi": "काम के लिए आवेदन करें" },
+      "detail": {
+        "en": "Submit a written application for work at least 14 days in advance, mentioning how many household members want work and for how many days.",
+        "hi": "कम से कम 14 दिन पहले काम के लिए लिखित आवेदन दें, जिसमें लिखें कि परिवार के कितने सदस्यों को और कितने दिनों के लिए काम चाहिए।"
+      },
+      "tips": []
+    },
+    {
+      "title": { "en": "Get a dated receipt", "hi": "तिथि सहित रसीद लें" },
+      "detail": {
+        "en": "The Panchayat must give a dated receipt for your work application. This receipt is what entitles you to the unemployment allowance if work is delayed.",
+        "hi": "पंचायत को आपके कार्य आवेदन की तिथि सहित रसीद देनी होती है। काम में देरी होने पर बेरोज़गारी भत्ता का अधिकार इसी रसीद से मिलता है।"
+      },
+      "tips": []
+    },
+    {
+      "title": { "en": "Work is allotted and wages recorded", "hi": "काम आवंटित होता है और मज़दूरी दर्ज होती है" },
+      "detail": {
+        "en": "You receive a letter or public notice about the work site. All days worked and wages must be entered in your job card.",
+        "hi": "आपको कार्य स्थल के बारे में पत्र या सार्वजनिक सूचना मिलती है। किए गए सभी दिन और मज़दूरी आपके जॉब कार्ड में दर्ज होनी चाहिए।"
+      },
+      "tips": []
+    },
+    {
+      "title": { "en": "Wages paid to your account", "hi": "मज़दूरी आपके खाते में भेजी जाती है" },
+      "detail": {
+        "en": "Wages are credited to your bank or post office account within the statutory time limit. Check your job card entries against your passbook.",
+        "hi": "मज़दूरी नियत समय सीमा में आपके बैंक या डाकघर खाते में भेजी जाती है। जॉब कार्ड के अंक और अपनी पासबुक मिलाकर देखें।"
+      },
+      "tips": [
+        {
+          "en": "You can check all your work and payment details on the official NREGA website using your job card number.",
+          "hi": "आप जॉब कार्ड संख्या से आधिकारिक नरेगा वेबसाइट पर अपना सारा कार्य और भुगतान विवरण देख सकते हैं।"
+        }
+      ]
+    }
+  ],
+  "important_notes": [
+    {
+      "en": "There is no fee for a job card and no agent is needed. Anyone charging for it is committing fraud.",
+      "hi": "जॉब कार्ड का कोई शुल्क नहीं है और किसी एजेंट की ज़रूरत नहीं। इसके लिए पैसे लेने वाला धोखाधड़ी कर रहा है।"
+    },
+    {
+      "en": "The job card must be kept by the household, not by the Panchayat. Ask for it if it is being held.",
+      "hi": "जॉब कार्ड परिवार के पास रहना चाहिए, पंचायत के पास नहीं। यदि वह पंचायत के पास हो तो माँगें।"
+    },
+    {
+      "en": "Wage rates are set per state and revised periodically. Check the current rate on the NREGA website.",
+      "hi": "मज़दूरी दरें राज्य अनुसार तय होती हैं और समय-समय पर बदलती हैं। वर्तमान दर नरेगा वेबसाइट पर देखें।"
+    }
+  ],
+  "official_source": {
+    "en": "Ministry of Rural Development, Government of India",
+    "hi": "ग्रामीण विकास मंत्रालय, भारत सरकार"
+  },
+  "official_url": "https://nrega.nic.in/",
+  "portal_label": { "en": "NREGA Soft — official portal", "hi": "नरेगा सॉफ्ट — आधिकारिक पोर्टल" },
+  "extra_links": [],
+  "helpline": null,
+  "verification": {
+    "level": "verified_official",
+    "last_verified": "2026-09-13",
+    "note": {
+      "en": "The Act's guarantees are national and uniform. Wage rates and some procedural details are state-specific — confirm your state's current rate on nrega.nic.in.",
+      "hi": "अधिनियम की गारंटियाँ राष्ट्रीय और एकसमान हैं। मज़दूरी दरें और कुछ प्रक्रियात्मक विवरण राज्य-विशिष्ट हैं — nrega.nic.in पर अपने राज्य की वर्तमान दर देखें।"
+    }
+  },
+  "state_portals": [],
+  "clarifiers": [],
+  "faq": [
+    {
+      "q": { "en": "What if I do not get work?", "hi": "काम न मिले तो?" },
+      "a": {
+        "en": "If work is not given within 15 days of your dated receipt, you can claim the unemployment allowance from the Panchayat or Programme Officer.",
+        "hi": "तिथि सहित रसीद के 15 दिन के भीतर काम नहीं मिला तो आप पंचायत या कार्यक्रम पदाधिकारी से बेरोज़गारी भत्ता माँग सकते हैं।"
+      }
+    },
+    {
+      "q": { "en": "Can women get equal wages?", "hi": "क्या महिलाओं को समान मज़दूरी मिलती है?" },
+      "a": {
+        "en": "Yes. Wages are equal for men and women for the same work, and at least one-third of workers must be women.",
+        "hi": "हाँ। समान कार्य पर पुरुषों और महिलाओं को समान मज़दूरी मिलती है, और कम से कम एक-तिहाई श्रमिक महिलाएँ होनी चाहिए।"
+      }
+    }
+  ],
+  "related_service_ids": ["job_registration", "aadhaar_enrolment"]
+}

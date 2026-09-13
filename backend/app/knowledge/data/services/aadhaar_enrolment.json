@@ -1,0 +1,211 @@
+{
+  "id": "aadhaar_enrolment",
+  "category_id": "identity",
+  "jurisdiction": "national",
+  "priority": 98,
+  "names": { "en": "Aadhaar — Enrolment & Update", "hi": "आधार — नामांकन और अपडेट" },
+  "tagline": {
+    "en": "India's 12-digit identity number, issued by UIDAI.",
+    "hi": "भारत की 12 अंकों की पहचान संख्या, यूआईडीएआई द्वारा जारी।"
+  },
+  "description": {
+    "en": "Aadhaar is a 12-digit identity number issued by the Unique Identification Authority of India (UIDAI). New enrolment must be done in person at an Aadhaar Enrolment Centre because fingerprints, iris scan and photograph are captured. Demographic updates such as address can be done online.",
+    "hi": "आधार भारत की विशिष्ट पहचान प्राधिकरण (यूआईडीएआई) द्वारा जारी 12 अंकों की पहचान संख्या है। नया नामांकन केवल आधार नामांकन केंद्र पर व्यक्तिगत रूप से होता है, क्योंकि उंगलियों के निशान, आईरिस स्कैन और फोटो लिए जाते हैं। पते जैसे विवरण ऑनलाइन अपडेट किए जा सकते हैं।"
+  },
+  "aliases": {
+    "en": [
+      "aadhaar", "aadhar", "aadhaar card", "aadhar card", "uid", "aadhaar enrolment",
+      "aadhaar update", "new aadhaar", "aadhaar address change", "aadhaar name change",
+      "aadhaar mobile number update", "12 digit number", "aadhaar download", "e aadhaar"
+    ],
+    "hi": [
+      "आधार", "आधार कार्ड", "आधार नंबर", "आधार नामांकन", "आधार अपडेट", "नया आधार",
+      "आधार में पता बदलना", "आधार में नाम सुधार", "आधार मोबाइल नंबर अपडेट",
+      "आधार डाउनलोड", "ई आधार", "बारह अंक का नंबर", "आधार बनवाना"
+    ]
+  },
+  "keywords": {
+    "en": ["aadhaar", "aadhar", "uidai", "biometric", "enrolment", "update", "identity", "12 digit"],
+    "hi": ["आधार", "यूआईडीएआई", "बायोमेट्रिक", "नामांकन", "अपडेट", "पहचान", "बारह"]
+  },
+  "eligibility": [
+    {
+      "en": "Any resident of India, of any age, including newborns, can enrol for Aadhaar. Enrolment is free of cost.",
+      "hi": "भारत का कोई भी निवासी, किसी भी आयु का, नवजात शिशु सहित, आधार के लिए नामांकन करा सकता है। नामांकन नि:शुल्क है।"
+    },
+    {
+      "en": "You must be physically present at an Enrolment Centre for new enrolment, since biometrics are captured there.",
+      "hi": "नए नामांकन के लिए आपको नामांकन केंद्र पर व्यक्तिगत रूप से जाना होगा, क्योंकि बायोमेट्रिक वहीं लिए जाते हैं।"
+    },
+    {
+      "en": "Children below 5 years get a blue Bal Aadhaar; biometrics must be updated after they turn 5 and again after 15.",
+      "hi": "5 वर्ष से कम आयु के बच्चों को नीला बाल आधार मिलता है; 5 वर्ष और फिर 15 वर्ष पूरे होने पर बायोमेट्रिक अपडेट कराना ज़रूरी है।"
+    },
+    {
+      "en": "One free demographic update (address) is allowed per Aadhaar through the online self-service portal, subject to UIDAI limits.",
+      "hi": "यूआईडीएआई की सीमाओं के अनुसार, ऑनलाइन स्व-सेवा पोर्टल से प्रति आधार एक नि:शुल्क विवरण अपडेट (पता) की अनुमति है।"
+    }
+  ],
+  "documents": [
+    {
+      "id": "identity_document",
+      "name": { "en": "One identity document", "hi": "एक पहचान दस्तावेज़" },
+      "detail": {
+        "en": "Passport, PAN, Voter ID, driving licence, ration card or a photo ID issued by a recognised authority.",
+        "hi": "पासपोर्ट, पैन, मतदाता पहचान पत्र, ड्राइविंग लाइसेंस, राशन कार्ड या मान्यता प्राप्त संस्था द्वारा जारी फोटो पहचान पत्र।"
+      },
+      "required": true
+    },
+    {
+      "id": "address_document",
+      "name": { "en": "One address document", "hi": "एक पते का दस्तावेज़" },
+      "detail": {
+        "en": "Passport, bank passbook, electricity or water bill, property tax receipt, or a valid rent agreement.",
+        "hi": "पासपोर्ट, बैंक पासबुक, बिजली या पानी का बिल, संपत्ति कर रसीद, या वैध किराया अनुबंध।"
+      },
+      "required": true
+    },
+    {
+      "id": "dob_document",
+      "name": { "en": "Date of birth proof", "hi": "जन्म तिथि का प्रमाण" },
+      "detail": {
+        "en": "Birth certificate, SSLC book or certificate, passport or PAN.",
+        "hi": "जन्म प्रमाण पत्र, एसएसएलसी पुस्तक या प्रमाण पत्र, पासपोर्ट या पैन।"
+      },
+      "required": false
+    },
+    {
+      "id": "mobile_number",
+      "name": { "en": "Your own mobile number", "hi": "आपका अपना मोबाइल नंबर" },
+      "detail": {
+        "en": "Strongly recommended — OTP verification and most online services depend on it.",
+        "hi": "अत्यंत अनुशंसित — ओटीपी सत्यापन और अधिकांश ऑनलाइन सेवाएँ इसी पर निर्भर हैं।"
+      },
+      "required": false
+    }
+  ],
+  "steps": [
+    {
+      "title": { "en": "Decide: new Aadhaar or an update?", "hi": "तय करें: नया आधार या अपडेट?" },
+      "detail": {
+        "en": "New enrolment and biometric updates need a visit to a centre. Address changes can often be done online.",
+        "hi": "नए नामांकन और बायोमेट्रिक अपडेट के लिए केंद्र जाना पड़ता है। पता बदलना अक्सर ऑनलाइन हो जाता है।"
+      },
+      "tips": []
+    },
+    {
+      "title": { "en": "Book an appointment or locate a centre", "hi": "अपॉइंटमेंट बुक करें या केंद्र खोजें" },
+      "detail": {
+        "en": "On the UIDAI portal use 'Locate an Enrolment Centre' and search by PIN code, state or bank/post office. You can also book an appointment online to avoid waiting.",
+        "hi": "यूआईडीएआई पोर्टल पर 'लोकेट एनरोलमेंट सेंटर' में पिन कोड, राज्य या बैंक/डाकघर से खोजें। लाइन से बचने के लिए ऑनलाइन अपॉइंटमेंट भी बुक कर सकते हैं।"
+      },
+      "tips": [
+        {
+          "en": "Aadhaar enrolment and update charges are fixed and published by UIDAI. Do not pay more than the listed fee.",
+          "hi": "आधार नामांकन और अपडेट शुल्क यूआईडीएआई तय करता है और प्रकाशित करता है। सूचीबद्ध शुल्क से अधिक न दें।"
+        }
+      ]
+    },
+    {
+      "title": { "en": "Fill the enrolment form at the centre", "hi": "केंद्र पर नामांकन फॉर्म भरें" },
+      "detail": {
+        "en": "Give your name, date of birth, gender, address and mobile number. The operator scans your original documents and returns them.",
+        "hi": "अपना नाम, जन्म तिथि, लिंग, पता और मोबाइल नंबर दें। ऑपरेटर आपके मूल दस्तावेज़ स्कैन कर वापस कर देता है।"
+      },
+      "tips": []
+    },
+    {
+      "title": { "en": "Give biometrics", "hi": "बायोमेट्रिक दें" },
+      "detail": {
+        "en": "Ten fingerprints, both iris scans and a photograph are captured. Check the preview carefully before the operator submits.",
+        "hi": "दसों उंगलियों के निशान, दोनों आँखों का आईरिस स्कैन और फोटो लिया जाता है। ऑपरेटर के जमा करने से पहले प्रीव्यू ध्यान से देखें।"
+      },
+      "tips": []
+    },
+    {
+      "title": { "en": "Collect your acknowledgement slip", "hi": "पावती पर्ची लें" },
+      "detail": {
+        "en": "It carries a 14-digit Enrolment ID (EID) with date and time. Keep it safely — you need it to track status or retrieve your Aadhaar.",
+        "hi": "इसमें 14 अंकों की नामांकन आईडी (ईआईडी) तिथि और समय के साथ होती है। इसे संभालकर रखें — स्थिति देखने या आधार पाने के लिए यह ज़रूरी है।"
+      },
+      "tips": []
+    },
+    {
+      "title": { "en": "Aadhaar is generated and sent by post", "hi": "आधार बनता है और डाक से आता है" },
+      "detail": {
+        "en": "It usually takes up to 90 days. You can track status with your EID and download e-Aadhaar once it is generated.",
+        "hi": "आमतौर पर इसमें 90 दिन तक लगते हैं। आप ईआईडी से स्थिति देख सकते हैं और बनने के बाद ई-आधार डाउनलोड कर सकते हैं।"
+      },
+      "tips": []
+    }
+  ],
+  "important_notes": [
+    {
+      "en": "UIDAI never asks for your Aadhaar number or OTP over a phone call to 'activate' or 'block' anything. Such calls are fraud.",
+      "hi": "यूआईडीएआई कभी फोन पर आपका आधार नंबर या ओटीपी लेकर कुछ 'सक्रिय' या 'बंद' करने को नहीं कहता। ऐसे कॉल धोखाधड़ी हैं।"
+    },
+    {
+      "en": "Only uidai.gov.in and myaadhaar.uidai.gov.in are official UIDAI websites. Many look-alike private sites charge extra fees.",
+      "hi": "केवल uidai.gov.in और myaadhaar.uidai.gov.in आधिकारिक यूआईडीएआई वेबसाइट हैं। कई मिलती-जुलती निजी साइटें अतिरिक्त शुल्क लेती हैं।"
+    },
+    {
+      "en": "Share a masked Aadhaar or your 16-digit VID instead of the full number wherever possible.",
+      "hi": "जहाँ संभव हो, पूरा नंबर देने के बजाय मास्क किया हुआ आधार या 16 अंकों का वीआईडी साझा करें।"
+    }
+  ],
+  "official_source": {
+    "en": "Unique Identification Authority of India (UIDAI)",
+    "hi": "भारत का विशिष्ट पहचान प्राधिकरण (यूआईडीएआई)"
+  },
+  "official_url": "https://uidai.gov.in/",
+  "portal_label": { "en": "Visit UIDAI — uidai.gov.in", "hi": "यूआईडीएआई पर जाएँ — uidai.gov.in" },
+  "extra_links": [
+    { "label": { "en": "My Aadhaar (self-service portal)", "hi": "माय आधार (स्व-सेवा पोर्टल)" }, "url": "https://myaadhaar.uidai.gov.in/" },
+    { "label": { "en": "Book an appointment", "hi": "अपॉइंटमेंट बुक करें" }, "url": "https://appointments.uidai.gov.in/" }
+  ],
+  "helpline": {
+    "label": { "en": "UIDAI toll-free helpline", "hi": "यूआईडीएआई टोल-फ्री हेल्पलाइन" },
+    "value": "1947"
+  },
+  "verification": {
+    "level": "verified_official",
+    "last_verified": "2026-09-13",
+    "note": {
+      "en": "Aadhaar is a national service with uniform rules. Specific update charges and document lists are published by UIDAI and can change — always confirm on uidai.gov.in.",
+      "hi": "आधार एक राष्ट्रीय सेवा है जिसके नियम एकसमान हैं। विशिष्ट अपडेट शुल्क और दस्तावेज़ सूची यूआईडीएआई प्रकाशित करता है और बदल सकती है — हमेशा uidai.gov.in पर पुष्टि करें।"
+    }
+  },
+  "state_portals": [],
+  "clarifiers": [
+    {
+      "id": "aadhaar_action",
+      "question": {
+        "en": "What do you want to do with Aadhaar?",
+        "hi": "आप आधार के साथ क्या करना चाहते हैं?"
+      },
+      "options": [
+        { "id": "new", "label": { "en": "Get a new Aadhaar", "hi": "नया आधार बनवाना" } },
+        { "id": "update_address", "label": { "en": "Update my address", "hi": "पता अपडेट करना" } },
+        { "id": "update_mobile", "label": { "en": "Update mobile number", "hi": "मोबाइल नंबर अपडेट करना" } },
+        { "id": "download", "label": { "en": "Download e-Aadhaar", "hi": "ई-आधार डाउनलोड करना" } }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": { "en": "Is Aadhaar mandatory?", "hi": "क्या आधार अनिवार्य है?" },
+      "a": {
+        "en": "Aadhaar is voluntary as identity proof, but many government schemes, subsidies and exams require it to deliver benefits. Check the specific scheme's rules.",
+        "hi": "पहचान प्रमाण के रूप में आधार स्वैच्छिक है, पर कई सरकारी योजनाओं, सब्सिडी और परीक्षाओं में लाभ देने के लिए यह आवश्यक है। संबंधित योजना के नियम देखें।"
+      }
+    },
+    {
+      "q": { "en": "Can I change my address online?", "hi": "क्या मैं पता ऑनलाइन बदल सकता हूँ?" },
+      "a": {
+        "en": "Yes, through the UIDAI self-service portal, if your mobile number is linked and you have a valid address proof or use the address validation letter option.",
+        "hi": "हाँ, यूआईडीएआई के स्व-सेवा पोर्टल से, यदि आपका मोबाइल नंबर जुड़ा है और वैध पता प्रमाण है या आप पता सत्यापन पत्र विकल्प उपयोग करते हैं।"
+      }
+    }
+  ],
+  "related_service_ids": ["pan_card", "voter_id"]
+}

@@ -1,0 +1,307 @@
+{
+  "id": "income_certificate",
+  "category_id": "certificates",
+  "jurisdiction": "state",
+  "priority": 100,
+  "names": { "en": "Income Certificate", "hi": "आय प्रमाण पत्र" },
+  "tagline": {
+    "en": "Official proof of your family's yearly income.",
+    "hi": "आपके परिवार की सालाना आमदनी का सरकारी प्रमाण।"
+  },
+  "description": {
+    "en": "An Income Certificate states your family's annual income. It is issued by the revenue department of your state — usually the Tehsildar, SDM or a designated revenue officer. Many services ask for it: scholarships, EWS reservation, fee concessions, housing schemes and welfare benefits.",
+    "hi": "आय प्रमाण पत्र में आपके परिवार की सालाना आमदनी लिखी होती है। इसे आपके राज्य का राजस्व विभाग जारी करता है — आमतौर पर तहसीलदार, एसडीएम या नियुक्त राजस्व अधिकारी। यह कई कामों में माँगा जाता है: छात्रवृत्ति, ईडब्ल्यूएस आरक्षण, फीस में छूट, आवास योजना और कल्याणकारी लाभ।"
+  },
+  "aliases": {
+    "en": [
+      "income proof", "earning certificate", "salary certificate", "annual income certificate",
+      "family income certificate", "income declaration", "revenue income certificate",
+      "ews income certificate", "low income certificate", "income certificate apply"
+    ],
+    "hi": [
+      "आय प्रमाण पत्र", "आमदनी का प्रमाण पत्र", "आय प्रमाणपत्र", "इनकम सर्टिफिकेट",
+      "आय का प्रमाण", "परिवार की आय का प्रमाण पत्र", "गरीबी प्रमाण पत्र", "आमदनी सर्टिफिकेट",
+      "आय प्रमाण पत्र बनवाना", "आय प्रमाण पत्र कैसे बनाएं"
+    ]
+  },
+  "keywords": {
+    "en": ["income", "certificate", "earning", "annual", "family", "revenue", "tehsildar", "ews", "poor", "salary"],
+    "hi": ["आय", "आमदनी", "प्रमाण", "पत्र", "सर्टिफिकेट", "परिवार", "राजस्व", "तहसीलदार", "गरीब", "इनकम"]
+  },
+  "eligibility": [
+    {
+      "en": "You are a permanent resident of the state you are applying in.",
+      "hi": "आप उस राज्य के स्थायी निवासी हों जिसमें आवेदन कर रहे हैं।"
+    },
+    {
+      "en": "Any Indian citizen can apply — there is no minimum or maximum income limit to get the certificate itself.",
+      "hi": "कोई भी भारतीय नागरिक आवेदन कर सकता है — प्रमाण पत्र पाने के लिए आय की कोई न्यूनतम या अधिकतम सीमा नहीं है।"
+    },
+    {
+      "en": "For EWS reservation, the Government of India income limit is Rs 8 lakh per year from all sources. Your state may apply its own limit for other benefits.",
+      "hi": "ईडब्ल्यूएस आरक्षण के लिए भारत सरकार की आय सीमा सभी स्रोतों से सालाना 8 लाख रुपये है। अन्य लाभों के लिए आपका राज्य अपनी सीमा लागू कर सकता है।"
+    },
+    {
+      "en": "Income is usually counted for the whole family — applicant, parents, spouse and unmarried children living together.",
+      "hi": "आमतौर पर पूरे परिवार की आय जोड़ी जाती है — आवेदक, माता-पिता, पति/पत्नी और साथ रहने वाले अविवाहित बच्चे।"
+    }
+  ],
+  "documents": [
+    {
+      "id": "identity_proof",
+      "name": { "en": "Identity proof", "hi": "पहचान प्रमाण" },
+      "detail": {
+        "en": "Aadhaar card is accepted almost everywhere. Voter ID, PAN or passport also work.",
+        "hi": "आधार कार्ड लगभग हर जगह स्वीकार होता है। मतदाता पहचान पत्र, पैन या पासपोर्ट भी चलते हैं।"
+      },
+      "required": true
+    },
+    {
+      "id": "address_proof",
+      "name": { "en": "Address proof", "hi": "पते का प्रमाण" },
+      "detail": {
+        "en": "Aadhaar, electricity or water bill, ration card, or rent agreement.",
+        "hi": "आधार, बिजली या पानी का बिल, राशन कार्ड, या किराये का अनुबंध।"
+      },
+      "required": true
+    },
+    {
+      "id": "income_support",
+      "name": { "en": "Income supporting documents", "hi": "आय के सहायक दस्तावेज़" },
+      "detail": {
+        "en": "Salary slip or employer certificate for salaried people; a self-declaration or patwari/lekhpal report for farm or daily-wage income.",
+        "hi": "नौकरीपेशा के लिए वेतन पर्ची या नियोक्ता प्रमाण पत्र; खेती या मज़दूरी की आय के लिए स्व-घोषणा या पटवारी/लेखपाल की रिपोर्ट।"
+      },
+      "required": true
+    },
+    {
+      "id": "photograph",
+      "name": { "en": "Passport size photograph", "hi": "पासपोर्ट आकार फोटो" },
+      "detail": {
+        "en": "Needed for offline applications. Online portals often skip it if Aadhaar is linked.",
+        "hi": "ऑफलाइन आवेदन के लिए ज़रूरी। ऑनलाइन पोर्टल पर आधार जुड़ा हो तो अक्सर इसकी ज़रूरत नहीं पड़ती।"
+      },
+      "required": false
+    },
+    {
+      "id": "affidavit",
+      "name": { "en": "Self-declaration / affidavit", "hi": "स्व-घोषणा पत्र / शपथ पत्र" },
+      "detail": {
+        "en": "Some states ask for a notarised affidavit stating total family income. Check your state portal.",
+        "hi": "कुछ राज्यों में कुल पारिवारिक आय बताने वाला नोटरीकृत शपथ पत्र माँगा जाता है। अपने राज्य के पोर्टल पर देख लें।"
+      },
+      "required": false
+    },
+    {
+      "id": "mobile_number",
+      "name": { "en": "Working mobile number", "hi": "चालू मोबाइल नंबर" },
+      "detail": {
+        "en": "You will get OTPs and status updates by SMS.",
+        "hi": "आपको ओटीपी और स्थिति की जानकारी एसएमएस से मिलेगी।"
+      },
+      "required": true
+    }
+  ],
+  "steps": [
+    {
+      "title": { "en": "Find your state's portal", "hi": "अपने राज्य का पोर्टल खोजें" },
+      "detail": {
+        "en": "Income certificates are issued by states, so you apply on your state's e-District or citizen services portal. If you cannot find it, visit the nearest Common Service Centre (CSC) or Tehsildar office.",
+        "hi": "आय प्रमाण पत्र राज्य जारी करते हैं, इसलिए आवेदन अपने राज्य के ई-डिस्ट्रिक्ट या नागरिक सेवा पोर्टल पर होता है। पोर्टल न मिले तो नज़दीकी जन सेवा केंद्र (सीएससी) या तहसील कार्यालय जाएँ।"
+      },
+      "tips": [
+        {
+          "en": "Only use a website that ends in gov.in or nic.in — avoid paid agents and look-alike sites.",
+          "hi": "केवल gov.in या nic.in से खत्म होने वाली वेबसाइट ही इस्तेमाल करें — paid एजेंट और नकली साइटों से बचें।"
+        }
+      ]
+    },
+    {
+      "title": { "en": "Register and log in", "hi": "रजिस्टर करें और लॉगिन करें" },
+      "detail": {
+        "en": "Create an account with your mobile number and verify it with an OTP. Aadhaar-based registration is the fastest.",
+        "hi": "अपने मोबाइल नंबर से खाता बनाएँ और ओटीपी से सत्यापित करें। आधार आधारित पंजीकरण सबसे तेज़ होता है।"
+      },
+      "tips": []
+    },
+    {
+      "title": { "en": "Open the Income Certificate application", "hi": "आय प्रमाण पत्र का आवेदन खोलें" },
+      "detail": {
+        "en": "Look for it under Revenue Department services. Select Income Certificate and choose your district, tehsil and village or ward.",
+        "hi": "इसे राजस्व विभाग की सेवाओं में ढूँढें। आय प्रमाण पत्र चुनें और अपना ज़िला, तहसील तथा गाँव या वार्ड चुनें।"
+      },
+      "tips": []
+    },
+    {
+      "title": { "en": "Fill the form", "hi": "फॉर्म भरें" },
+      "detail": {
+        "en": "Enter your name exactly as on Aadhaar, your address, occupation, and total annual family income. Say clearly why you need the certificate — for example scholarship, EWS or a job.",
+        "hi": "नाम बिल्कुल आधार जैसा लिखें, साथ में पता, व्यवसाय और परिवार की कुल सालाना आय भरें। प्रमाण पत्र किसलिए चाहिए यह स्पष्ट लिखें — जैसे छात्रवृत्ति, ईडब्ल्यूएस या नौकरी।"
+      },
+      "tips": [
+        {
+          "en": "Write income in rupees per year, not per month. A wrong figure is the most common reason for rejection.",
+          "hi": "आय महीने की नहीं, सालाना रुपये में लिखें। गलत आँकड़ा अस्वीकार होने का सबसे आम कारण है।"
+        }
+      ]
+    },
+    {
+      "title": { "en": "Upload documents and pay any fee", "hi": "दस्तावेज़ अपलोड करें और शुल्क भरें" },
+      "detail": {
+        "en": "Upload clear scans or photos of identity proof, address proof and income documents. Many states issue this certificate free; some charge a small fee of about Rs 15 to Rs 40.",
+        "hi": "पहचान, पते और आय के दस्तावेज़ों की साफ स्कैन या फोटो अपलोड करें। कई राज्य यह प्रमाण पत्र मुफ्त देते हैं; कुछ में लगभग 15 से 40 रुपये का छोटा शुल्क लगता है।"
+      },
+      "tips": []
+    },
+    {
+      "title": { "en": "Submit and save the application number", "hi": "आवेदन जमा करें और संख्या सुरक्षित रखें" },
+      "detail": {
+        "en": "After final submit you get an application or receipt number. Write it down or take a screenshot — you need it to track status.",
+        "hi": "अंतिम सबमिट के बाद आपको आवेदन या रसीद संख्या मिलती है। उसे लिख लें या स्क्रीनशॉट रख लें — स्थिति देखने के लिए यह ज़रूरी है।"
+      },
+      "tips": []
+    },
+    {
+      "title": { "en": "Verification by a revenue officer", "hi": "राजस्व अधिकारी द्वारा सत्यापन" },
+      "detail": {
+        "en": "A patwari, lekhpal or revenue inspector may verify your income locally and sometimes visits your address. Keep your original documents ready.",
+        "hi": "पटवारी, लेखपाल या राजस्व निरीक्षक स्थानीय स्तर पर आपकी आय जाँचते हैं और कभी-कभी आपके पते पर भी आते हैं। मूल दस्तावेज़ तैयार रखें।"
+      },
+      "tips": []
+    },
+    {
+      "title": { "en": "Track status and download", "hi": "स्थिति देखें और डाउनलोड करें" },
+      "detail": {
+        "en": "Use 'Track Application' or 'Check Status' on the same portal with your application number. Once approved, download the digitally signed certificate — it is legally valid.",
+        "hi": "उसी पोर्टल पर 'ट्रैक एप्लिकेशन' या 'स्थिति देखें' में आवेदन संख्या डालें। स्वीकृत होने पर डिजिटल हस्ताक्षर वाला प्रमाण पत्र डाउनलोड करें — यह कानूनी रूप से मान्य है।"
+      },
+      "tips": [
+        {
+          "en": "Most states decide within 7 to 21 days. If it is delayed, use the portal's grievance option.",
+          "hi": "ज़्यादातर राज्य 7 से 21 दिन में निर्णय देते हैं। देरी हो तो पोर्टल के शिकायत विकल्प का उपयोग करें।"
+        }
+      ]
+    }
+  ],
+  "important_notes": [
+    {
+      "en": "Rules, fees and processing time differ from state to state. Always confirm on your own state's portal.",
+      "hi": "नियम, शुल्क और समय राज्य अनुसार भिन्न होते हैं। हमेशा अपने राज्य के पोर्टल पर पुष्टि करें।"
+    },
+    {
+      "en": "An income certificate usually has a validity period — commonly one year or a few years. Check the date printed on it before reuse.",
+      "hi": "आय प्रमाण पत्र की आमतौर पर एक वैधता अवधि होती है — प्रायः एक या कुछ वर्ष। दोबारा उपयोग से पहले उस पर छपी तारीख देख लें।"
+    },
+    {
+      "en": "Never pay an agent who promises a 'guaranteed' certificate. Issuing a certificate with false income is an offence.",
+      "hi": "'पक्का' प्रमाण पत्र दिलाने का वादा करने वाले एजेंट को पैसे न दें। गलत आय पर प्रमाण पत्र बनवाना अपराध है।"
+    },
+    {
+      "en": "SAARTHI does not need your Aadhaar number, password or OTP. Never share an OTP with anyone.",
+      "hi": "सारथी को आपका आधार नंबर, पासवर्ड या ओटीपी नहीं चाहिए। ओटीपी किसी को न बताएँ।"
+    }
+  ],
+  "official_source": {
+    "en": "Revenue Department of your State Government (via the state e-District / citizen services portal). National directory: National Portal of India.",
+    "hi": "आपके राज्य सरकार का राजस्व विभाग (राज्य ई-डिस्ट्रिक्ट / नागरिक सेवा पोर्टल के माध्यम से)। राष्ट्रीय निर्देशिका: भारत का राष्ट्रीय पोर्टल।"
+  },
+  "official_url": "https://www.india.gov.in/",
+  "portal_label": {
+    "en": "National Portal of India — find your state portal",
+    "hi": "भारत पोर्टल — अपना राज्य पोर्टल खोजें"
+  },
+  "helpline": null,
+  "verification": {
+    "level": "general_guidance",
+    "last_verified": "2026-09-13",
+    "note": {
+      "en": "The process below reflects the standard state revenue-department procedure. Exact fee, validity, income limits and timelines vary by state — confirm on your own state portal before applying.",
+      "hi": "नीचे दी गई प्रक्रिया राज्य राजस्व विभाग की सामान्य प्रक्रिया है। शुल्क, वैधता, आय सीमा और समय राज्य अनुसार बदलते हैं — आवेदन से पहले अपने राज्य के पोर्टल पर पुष्टि कर लें।"
+    }
+  },
+  "state_portals": [
+    {
+      "state_id": "up",
+      "state_name": { "en": "Uttar Pradesh", "hi": "उत्तर प्रदेश" },
+      "portal_url": "https://edistrict.up.gov.in/",
+      "note": { "en": "e-District Uttar Pradesh", "hi": "ई-डिस्ट्रिक्ट उत्तर प्रदेश" }
+    },
+    {
+      "state_id": "dl",
+      "state_name": { "en": "Delhi", "hi": "दिल्ली" },
+      "portal_url": "https://edistrict.delhigovt.nic.in/",
+      "note": { "en": "e-District Delhi", "hi": "ई-डिस्ट्रिक्ट दिल्ली" }
+    },
+    {
+      "state_id": "br",
+      "state_name": { "en": "Bihar", "hi": "बिहार" },
+      "portal_url": "https://serviceonline.bihar.gov.in/",
+      "note": { "en": "Bihar RTPS / Service Online", "hi": "बिहार आरटीपीएस / सर्विस ऑनलाइन" }
+    },
+    {
+      "state_id": "mp",
+      "state_name": { "en": "Madhya Pradesh", "hi": "मध्य प्रदेश" },
+      "portal_url": "https://mpedistrict.gov.in/",
+      "note": { "en": "MP e-District", "hi": "एमपी ई-डिस्ट्रिक्ट" }
+    },
+    {
+      "state_id": "mh",
+      "state_name": { "en": "Maharashtra", "hi": "महाराष्ट्र" },
+      "portal_url": "https://aaplesarkar.mahaonline.gov.in/",
+      "note": { "en": "Aaple Sarkar (MAHAONLINE)", "hi": "आपले सरकार (महाऑनलाइन)" }
+    },
+    {
+      "state_id": "wb",
+      "state_name": { "en": "West Bengal", "hi": "पश्चिम बंगाल" },
+      "portal_url": "https://edistrict.wb.gov.in/",
+      "note": { "en": "West Bengal e-District", "hi": "पश्चिम बंगाल ई-डिस्ट्रिक्ट" }
+    },
+    {
+      "state_id": "tn",
+      "state_name": { "en": "Tamil Nadu", "hi": "तमिलनाडु" },
+      "portal_url": "https://tnesevai.tn.gov.in/",
+      "note": { "en": "TN e-Sevai", "hi": "टीएन ई-सेवाई" }
+    }
+  ],
+  "clarifiers": [
+    {
+      "id": "state",
+      "question": {
+        "en": "Which state are you applying from? Rules are set by each state.",
+        "hi": "आप किस राज्य से आवेदन कर रहे हैं? नियम हर राज्य तय करता है।"
+      },
+      "options": [
+        { "id": "up", "label": { "en": "Uttar Pradesh", "hi": "उत्तर प्रदेश" } },
+        { "id": "dl", "label": { "en": "Delhi", "hi": "दिल्ली" } },
+        { "id": "br", "label": { "en": "Bihar", "hi": "बिहार" } },
+        { "id": "mp", "label": { "en": "Madhya Pradesh", "hi": "मध्य प्रदेश" } },
+        { "id": "mh", "label": { "en": "Maharashtra", "hi": "महाराष्ट्र" } },
+        { "id": "other", "label": { "en": "Another state", "hi": "कोई और राज्य" } }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": { "en": "How much time does it take?", "hi": "कितना समय लगता है?" },
+      "a": {
+        "en": "Usually 7 to 21 working days, depending on your state and how fast local verification happens.",
+        "hi": "आमतौर पर 7 से 21 कार्य दिवस, यह आपके राज्य और स्थानीय सत्यापन की गति पर निर्भर करता है।"
+      }
+    },
+    {
+      "q": { "en": "Do I have to pay?", "hi": "क्या मुझे पैसे देने होंगे?" },
+      "a": {
+        "en": "Many states issue it free. Some charge a small fee, roughly Rs 15 to Rs 40.",
+        "hi": "कई राज्य इसे मुफ्त जारी करते हैं। कुछ में लगभग 15 से 40 रुपये का छोटा शुल्क लगता है।"
+      }
+    },
+    {
+      "q": { "en": "Can I apply without going to an office?", "hi": "क्या मैं कार्यालय जाए बिना आवेदन कर सकता हूँ?" },
+      "a": {
+        "en": "Yes, apply online on your state portal. If that is difficult, a Common Service Centre (CSC) can fill the form for you for a small service charge.",
+        "hi": "हाँ, अपने राज्य के पोर्टल पर ऑनलाइन आवेदन करें। कठिनाई हो तो जन सेवा केंद्र (सीएससी) छोटे सेवा शुल्क पर फॉर्म भर देता है।"
+      }
+    }
+  ],
+  "related_service_ids": ["caste_certificate", "domicile_certificate", "national_scholarship"]
+}
