@@ -212,14 +212,22 @@ npm install
 npm run dev
 ```
 
-Open http://localhost:5173 — Vite proxies `/api` to the backend, so the browser only ever talks to one origin.
+Open http://localhost:5173 — Vite proxies `/api` to the backend, so the browser only ever talks to one origin. Point it somewhere else with `VITE_API_PROXY=http://host:port npm run dev` (no key or backend hostname is ever baked into client code).
+
+```bash
+npm run build      # type-check, then production bundle into dist/
+npm run preview    # serve the production build
+```
 
 ### 3. Run the tests
 
 ```bash
-cd backend && .venv/bin/python -m pytest -q
-cd frontend && npm run typecheck
+cd backend && .venv/bin/python -m pytest -q     # 134 passed
+cd frontend && npm run typecheck                # strict TypeScript, no emit
+cd frontend && npm run smoke                    # 83 assertions, see below
 ```
+
+`npm run smoke` needs the backend on `:8000` and `npm run dev` on `:5173`. It mounts the real React app in jsdom against the real API and drives it like a citizen: speak the Hindi income-certificate question, confirm the transcript, tick a document, ask the English scholarship question, get guided through a clarification, search the catalogue, open a service, walk two steps of the journey, and change every accessibility setting.
 
 ---
 
@@ -407,7 +415,14 @@ cd backend && .venv/bin/python -m pytest -q
 | `test_safety.py` (14) | PII redaction, injection detection, refusal to invent, secrets never echoed |
 | `test_api.py` (59) | All endpoints end to end, friendly errors, voice degradation, navigator progress, and a check that all 13 services render completely in both languages |
 
-Frontend type-checks with `npm run typecheck`.
+### Frontend
+
+```bash
+cd frontend && npm run typecheck   # strict TS across every page and component
+cd frontend && npm run smoke       # 83 passed
+```
+
+`scripts/smoke.mjs` is an end-to-end smoke test, not a unit test: it boots the app in jsdom with stubbed Web Speech and speech-synthesis APIs, talks to the live FastAPI backend through the Vite proxy, and asserts on real DOM. It covers the three demo scenarios, the block renderers, official-portal links, verification labels, the guided journey (including `aria-valuenow` progress), settings persistence to `localStorage`, the 404 route, and console hygiene. It has already caught two genuine bugs — duplicate ARIA ids from slugging Devanagari labels, and a Listen button wrongly hidden behind the auto-read-aloud setting.
 
 ---
 
@@ -434,17 +449,25 @@ sarthi/
 │   ├── requirements.txt
 │   └── .env.example
 └── frontend/
-    ├── src/
-    │   ├── pages/                # Landing, Assistant, Services, ServiceDetail,
-    │   │   │                     #   Navigator, Settings, NotFound
-    │   ├── components/           # voice, chat, blocks, navigator, a11y, layout
-    │   ├── context/              # SettingsProvider, ChatProvider
-    │   ├── lib/                  # api client, speech, tts, i18n, storage
-    │   ├── hooks/
-    │   └── styles/
-    ├── index.html
-    ├── vite.config.ts
-    └── package.json
+    ├── index.html                # applies saved text size / contrast / motion
+    │                             #   before first paint — no flash on reload
+    ├── vite.config.ts            # /api proxy, tunnel-friendly hosts, chunking
+    ├── scripts/smoke.mjs         # headless end-to-end smoke test
+    └── src/
+        ├── main.tsx              # Router → Settings → Chat providers
+        ├── App.tsx               # the seven routes
+        ├── pages/                # Landing, Assistant, Services, ServiceDetail,
+        │   │                     #   NavigatorIndex, Navigator, Settings, NotFound
+        ├── components/           # AppShell, chat (composer, messages), blocks
+        │   │                     #   (11 typed renderers), VoiceInput (mic +
+        │   │                     #   overlay), AccessibilitySheet,
+        │   │                     #   LanguageSelector, ui primitives
+        ├── context/              # SettingsContext, ChatContext
+        ├── hooks/                # useSpeechRecognition, useTextToSpeech,
+        │   │                     #   useVoiceSupport, useAsync
+        ├── lib/                  # api, types, i18n, speech, tts, journey,
+        │   │                     #   states, storage, cn
+        └── styles/index.css      # design tokens + accessibility layers
 ```
 
 ---

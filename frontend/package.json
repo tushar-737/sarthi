@@ -3,13 +3,14 @@
   "private": true,
   "version": "1.0.0",
   "type": "module",
-  "description": "SAARTHI AI — voice-first multilingual digital public service assistant (frontend)",
+  "description": "SAARTHI AI \u2014 voice-first multilingual digital public service assistant (frontend)",
   "scripts": {
     "dev": "vite",
-    "build": "tsc -b && vite build",
-    "preview": "vite preview",
-    "typecheck": "tsc -b --pretty",
-    "lint": "tsc -b --pretty"
+    "build": "tsc --noEmit -p tsconfig.json && vite build",
+    "preview": "vite preview --host 0.0.0.0",
+    "typecheck": "tsc --noEmit -p tsconfig.json --pretty",
+    "lint": "tsc --noEmit -p tsconfig.json --pretty",
+    "smoke": "node scripts/smoke.mjs"
   },
   "dependencies": {
     "framer-motion": "^13.2.0",
@@ -23,6 +24,7 @@
     "@types/react": "^19.2.0",
     "@types/react-dom": "^19.2.0",
     "@vitejs/plugin-react": "^6.1.1",
+    "jsdom": "^30.0.1",
     "tailwindcss": "^4.1.0",
     "typescript": "~5.9.0",
     "vite": "^8.3.0"
